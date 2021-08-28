@@ -30,7 +30,10 @@ public class GlobalController : MonoBehaviour
 
     [Header("Stats")]
     public GameObject intelligenceMeter;
-    public GameObject publicOpinionMeter; 
+    public GameObject publicOpinionMeter;
+
+    [Header("Map Container")]
+    public GameObject mapContainer;
 
     [Header("Bools")]
     public bool gameEnded = false;

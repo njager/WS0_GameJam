@@ -6,12 +6,26 @@ using TMPro;
 
 public class BuildingSelector : MonoBehaviour
 {
+    private GlobalController global;
+
     void Start()
     {
-        
+        global = GlobalController.instance;
     }
 
-    public void SelectBuilding()
+    public void SelectedBuilding()
+    {
+        global.menuCanvas.SetActive(true);
+    }
+
+    public void ConfirmButton()
+    {
+        global.mapContainer.SetActive(false);
+        global.menuCanvas.SetActive(false);
+        global.testAudio2.Play(); 
+    }
+
+    public void BackButton()
     {
 
     }

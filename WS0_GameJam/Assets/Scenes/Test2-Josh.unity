@@ -4479,36 +4479,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &994920609
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 994920610}
-  m_Layer: 0
-  m_Name: BuildingSelection
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &994920610
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994920609}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &998233101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5328,10 +5298,12 @@ MonoBehaviour:
   UICanvas: {fileID: 1958000823}
   loseCanvas: {fileID: 2010744942}
   winCanvas: {fileID: 1962105378}
+  menuCanvas: {fileID: 1290078032}
   mapCamera: {fileID: 546003193}
   otherCamera: {fileID: 975322479}
   intelligenceMeter: {fileID: 1922409781}
   publicOpinionMeter: {fileID: 1705783925}
+  mapContainer: {fileID: 1037087136}
   gameEnded: 0
   gamePaused: 0
 --- !u!43 &1142245829
