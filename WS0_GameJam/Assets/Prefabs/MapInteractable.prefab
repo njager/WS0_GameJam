@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8255026778282321324}
   - component: {fileID: 3189478201407248219}
   - component: {fileID: 199071792148077772}
-  - component: {fileID: 8529655299325867139}
   m_Layer: 5
   m_Name: MapInteractable
   m_TagString: Button
@@ -121,19 +120,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3189478201407248219}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
---- !u!114 &8529655299325867139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594753796953901498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9affaa0ce235ba54a94c11470d54b548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5318753144677910112
 GameObject:
   m_ObjectHideFlags: 0

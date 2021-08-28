@@ -1480,6 +1480,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 736}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1198194833}
   - {fileID: 540420325}
   - {fileID: 1031936836}
   m_Father: {fileID: 1037087137}
@@ -2216,7 +2217,7 @@ Transform:
   - {fileID: 1586935499}
   - {fileID: 24791936}
   m_Father: {fileID: 388342980}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &545497734
 Mesh:
@@ -4486,6 +4487,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1363156074}
     m_Modifications:
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectedBuilding
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BuildingSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
       value: MapInteractable Row 1 - 2
@@ -4651,7 +4680,7 @@ RectTransform:
   - {fileID: 1829663767}
   - {fileID: 2003892347}
   m_Father: {fileID: 388342980}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5965,6 +5994,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1198194832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1198194833}
+  - component: {fileID: 1198194834}
+  m_Layer: 0
+  m_Name: BuildingSelector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1198194833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198194832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -736}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 388342980}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1198194834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198194832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9affaa0ce235ba54a94c11470d54b548, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1198373239
 GameObject:
   m_ObjectHideFlags: 0
@@ -10774,6 +10846,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1363156074}
     m_Modifications:
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectedBuilding
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BuildingSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
       value: MapInteractable Row 1 - 1

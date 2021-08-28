@@ -15,6 +15,7 @@ public class BuildingSelector : MonoBehaviour
 
     public void SelectedBuilding()
     {
+        Debug.Log("Standard Turret Selected");
         global.menuCanvas.SetActive(true);
     }
 
