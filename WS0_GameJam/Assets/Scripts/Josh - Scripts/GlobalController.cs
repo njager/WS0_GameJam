@@ -23,10 +23,15 @@ public class GlobalController : MonoBehaviour
     public GameObject loseCanvas;
     public GameObject winCanvas;
 
-    [Header("Stats")]
-    public GameObject intelligenceBar;
-    public GameObject publicOpinionBar; 
+    [Header("Cameras")]
+    public GameObject mapCamera;
+    public GameObject otherCamera; 
 
+    [Header("Stats")]
+    public GameObject intelligenceMeter;
+    public GameObject publicOpinionMeter; 
+
+    [Header("Bools")]
     public bool gameEnded = false;
     public bool gamePaused = false;
     void Awake()
@@ -48,6 +53,9 @@ public class GlobalController : MonoBehaviour
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
         winCanvas.SetActive(false);
+
+        otherCamera.SetActive(false); 
+        mapCamera.SetActive(true);
     }
 
     void Update()

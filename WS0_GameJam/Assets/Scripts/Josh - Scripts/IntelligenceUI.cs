@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class IntelligenceUI : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private GlobalController global;
+
     void Start()
     {
-        
+        global = GlobalController.instance;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Ticker(); 
+    }
+
+    public void Ticker()
+    {
+
     }
 }
