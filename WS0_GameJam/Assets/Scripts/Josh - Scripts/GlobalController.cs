@@ -22,6 +22,7 @@ public class GlobalController : MonoBehaviour
     public GameObject UICanvas;
     public GameObject loseCanvas;
     public GameObject winCanvas;
+    public GameObject menuCanvas;
 
     [Header("Cameras")]
     public GameObject mapCamera;
@@ -53,6 +54,7 @@ public class GlobalController : MonoBehaviour
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
         winCanvas.SetActive(false);
+        menuCanvas.SetActive(false); 
 
         otherCamera.SetActive(false); 
         mapCamera.SetActive(true);
