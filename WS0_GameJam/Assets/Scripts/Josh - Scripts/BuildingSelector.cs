@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro; 
 
-public class MapButtons : MonoBehaviour
+public class BuildingSelector : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void SelectBuilding()
     {
-        
+
     }
 
     // Update is called once per frame
