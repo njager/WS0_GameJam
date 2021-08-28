@@ -7126,9 +7126,25 @@ PrefabInstance:
       propertyPath: m_text
       value: Go Back
       objectReference: {fileID: 0}
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2450529296442244406, guid: cf9aeacded737574183e1e71f27c6457, type: 3}
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BuildingSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4928666613134561477, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
       propertyPath: m_Name
-      value: BuildingSelectedButton2
+      value: BuildingSelectedButtonNo
       objectReference: {fileID: 0}
     - target: {fileID: 6761795679016387970, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
       propertyPath: m_Pivot.x
@@ -10995,9 +11011,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1290078033}
     m_Modifications:
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2450529296442244406, guid: cf9aeacded737574183e1e71f27c6457, type: 3}
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ConfirmButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BuildingSelector, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914597974627079714, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4928666613134561477, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
       propertyPath: m_Name
-      value: BuildingSelectedButton
+      value: BuildingSelectedButtonOk
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928666613134561477, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
+      propertyPath: m_TagString
+      value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 6761795679016387970, guid: 3d18aa8b60d258a43947cf5784ae59d6, type: 3}
       propertyPath: m_Pivot.x

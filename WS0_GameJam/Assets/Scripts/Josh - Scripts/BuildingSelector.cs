@@ -15,20 +15,27 @@ public class BuildingSelector : MonoBehaviour
 
     public void SelectedBuilding()
     {
-        Debug.Log("Standard Turret Selected");
+        Debug.Log("Building Selected");
         global.menuCanvas.SetActive(true);
+        global.gamePaused = true;
+        global.PauseGame();
     }
 
     public void ConfirmButton()
     {
+        Debug.Log("Building Confirmed");
         global.mapContainer.SetActive(false);
         global.menuCanvas.SetActive(false);
-        global.testAudio2.Play(); 
+        global.testAudio2.Play();
+        global.gamePaused = false;
+        global.PauseGame();
     }
 
     public void BackButton()
     {
-
+        Debug.Log("Building Not Selected");
+        global.gamePaused = false;
+        global.PauseGame();
     }
 
     // Update is called once per frame
