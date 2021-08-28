@@ -20,6 +20,7 @@ public class GlobalController : MonoBehaviour
 
     void Update()
     {
-        
+        winchecker.WinChecker();  // Checks if the player won
+        losschecker.LoseChecker(); // Checks if the player lost
     }
 }
