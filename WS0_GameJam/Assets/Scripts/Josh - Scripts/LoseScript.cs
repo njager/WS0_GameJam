@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class LoseScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void LoseChecker()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Lose()
     {
-        
+
     }
 }

@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class WinScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void WinChecker()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Win()
     {
-        
+
     }
+
 }
