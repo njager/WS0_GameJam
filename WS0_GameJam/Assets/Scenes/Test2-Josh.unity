@@ -1121,6 +1121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 340807120}
+  - component: {fileID: 340807121}
   m_Layer: 0
   m_Name: Win
   m_TagString: Untagged
@@ -1142,6 +1143,18 @@ Transform:
   m_Father: {fileID: 825215873}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &340807121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340807119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7fc041966b76e048aeecf87d1041d45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &379544559
 Mesh:
   m_ObjectHideFlags: 0
@@ -5059,13 +5072,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   testVar: 50
-  winChecker: {fileID: 0}
-  lossChecker: {fileID: 0}
-  testAudio1: {fileID: 0}
-  testAudio2: {fileID: 0}
-  UICanvas: {fileID: 0}
-  loseCanvas: {fileID: 0}
-  winCanvas: {fileID: 0}
+  winChecker: {fileID: 340807121}
+  lossChecker: {fileID: 1211769282}
+  testAudio1: {fileID: 1180671976}
+  testAudio2: {fileID: 315486350}
+  UICanvas: {fileID: 1958000823}
+  loseCanvas: {fileID: 2010744942}
+  winCanvas: {fileID: 1962105378}
 --- !u!43 &1142245829
 Mesh:
   m_ObjectHideFlags: 0
@@ -5441,7 +5454,7 @@ GameObject:
   - component: {fileID: 1180671975}
   - component: {fileID: 1180671976}
   m_Layer: 0
-  m_Name: TestAudio
+  m_Name: TestAudio1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5843,6 +5856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1211769281}
+  - component: {fileID: 1211769282}
   m_Layer: 0
   m_Name: Lose
   m_TagString: Untagged
@@ -5864,6 +5878,18 @@ Transform:
   m_Father: {fileID: 825215873}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1211769282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211769280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abf62674e75a0cf4d8d97ad8d3367390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1226252803
 Mesh:
   m_ObjectHideFlags: 0
