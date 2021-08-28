@@ -6,6 +6,11 @@ using TMPro;
 
 public class BuildingSelector : MonoBehaviour
 {
+    void Start()
+    {
+        
+    }
+
     public void SelectBuilding()
     {
 

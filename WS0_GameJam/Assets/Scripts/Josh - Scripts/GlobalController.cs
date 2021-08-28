@@ -23,9 +23,21 @@ public class GlobalController : MonoBehaviour
     public GameObject loseCanvas;
     public GameObject winCanvas;
 
+    [Header("Stats")]
+    public GameObject intelligenceBar;
+    public GameObject publicOpinionBar; 
+
     public bool gameEnded = false;
     public bool gamePaused = false;
+    void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogError("Somehow more than one GlobalController in scene!");
+        }
 
+        instance = this;
+    }
 
     void Start()
     {
@@ -43,7 +55,7 @@ public class GlobalController : MonoBehaviour
         winChecker.WinChecker();  // Checks if the player won
         lossChecker.LoseChecker(); // Checks if the player lost
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape)) // Player Pausing Functionality 
         {
             gamePaused = !gamePaused;
         }
