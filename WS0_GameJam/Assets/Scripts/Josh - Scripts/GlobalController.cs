@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
 
-public class MasterController : MonoBehaviour
+public class GlobalController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static GlobalController instance;
+
+    public int testVar = 50; 
+
     void Start()
     {
         
