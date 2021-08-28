@@ -10,17 +10,26 @@ public class GlobalController : MonoBehaviour
 
     public int testVar = 50;
 
-    public WinScript winchecker;
-    public LoseScript losschecker; 
+    public WinScript winChecker;
+    public LoseScript lossChecker;
+
+    [Header("Audio")]
+    public AudioSource testAudio1;
+    public AudioSource testAudio2;
+
+    [Header("Canvases")]
+    public GameObject UICanvas;
+    public GameObject loseCanvas;
+    public GameObject winCanvas; 
 
     void Start()
     {
-        
+       
     }
 
     void Update()
     {
-        winchecker.WinChecker();  // Checks if the player won
-        losschecker.LoseChecker(); // Checks if the player lost
+        winChecker.WinChecker();  // Checks if the player won
+        lossChecker.LoseChecker(); // Checks if the player lost
     }
 }
