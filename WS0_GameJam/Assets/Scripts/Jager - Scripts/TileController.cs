@@ -11,19 +11,19 @@ public class TileController : MonoBehaviour
     //public variables
     public bool isSearching;
     public float opinion;
-    public float intelligence;
+    public float intel;
 
     // Start is called before the first frame update
     void Start()
     {
         opinion = 50f;
-        intelligence = 0f;
+        intel = 0f;
     }
 
     // Update is called last every frame
     void Update()
     {
-        intelligence += 1 * Time.deltaTime;
+        intel += 1 * Time.deltaTime;
         
         //check if left mouse button clicked
         if (Input.GetMouseButtonDown(0))
@@ -45,5 +45,10 @@ public class TileController : MonoBehaviour
                 }
             }
         }
+    }
+
+    IEnumerator TileBot()
+    {
+        yield return null;
     }
 }   
