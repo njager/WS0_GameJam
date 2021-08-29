@@ -6,7 +6,7 @@ public class TileController : MonoBehaviour
 {
     //member variable
     private int freeTiles;
-
+    WaitForSeconds delay = new WaitForSeconds(1);
 
     //public variables
     public bool isSearching;
@@ -43,10 +43,12 @@ public class TileController : MonoBehaviour
                 if(hit.collider.gameObject.tag == "Tile")
                 {
                     Destroy(hit.collider.gameObject);
+                    StartCoroutine(TileBot());
                 }
             }
         }
 
+        //debug to check current intel and opinion in console
         if (Input.GetKeyDown(KeyCode.R))
         {
             print("Intelligence = " + intel + " Opinion = " + opinion);
@@ -55,6 +57,8 @@ public class TileController : MonoBehaviour
 
     IEnumerator TileBot()
     {
+        freeTiles--;
+
         while (freeTiles > 0)
         {
             yield return null;
@@ -62,6 +66,7 @@ public class TileController : MonoBehaviour
         if(freeTiles < 1)
         {
             opinion -= 5;
+            yield return delay;
         }
         yield return null;
     }
