@@ -56,14 +56,16 @@ public class TileController : MonoBehaviour
         }
     }
 
+    //coroutine for tiles once clicked
     IEnumerator TileBot()
     {
-       
+        //if there's free tiles left, reduce the number and nothing else
         if (freeTiles > 0)
         {
             freeTiles--;
             yield return null;
         }
+        //if there's no more free tiles, reduce public opinion every tile
         if(freeTiles == 0)
         {
             opinion -= 5;
