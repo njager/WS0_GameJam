@@ -11,25 +11,25 @@ public class TileController : MonoBehaviour
     }
 
     // Update is called last every frame
-    void FixedUpdate()
+    void Update()
     {
-        //detect mouse input
+
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("mouse clicked!");
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
 
-            //send out a raycast to detect collisions
-            Ray interactionRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit interactionInfo;
-            if (Physics.Raycast(interactionRay, out interactionInfo, Mathf.Infinity))
+            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+            if (hit.collider != null)
             {
-                //check the object interacted with, if object is a tile turn it over
-                GameObject interactedObject = interactionInfo.collider.gameObject;
-                if (interactedObject.tag == "Tile")
+                Debug.Log("Something was clicked!");
+                Debug.Log(hit.collider.gameObject.name);
+                if(hit.collider.gameObject.tag == "Tile")
                 {
-
+                    Destroy(hit.collider.gameObject);
                 }
             }
         }
     }
-}
+}   
