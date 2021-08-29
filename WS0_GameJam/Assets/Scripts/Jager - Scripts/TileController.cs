@@ -10,14 +10,15 @@ public class TileController : MonoBehaviour
 
     //public variables
     public bool isSearching;
-    public float opinion;
+    public int opinion;
     public float intel;
 
     // Start is called before the first frame update
     void Start()
     {
-        opinion = 50f;
+        opinion = 50;
         intel = 0f;
+        freeTiles = 3;
     }
 
     // Update is called last every frame
@@ -49,6 +50,14 @@ public class TileController : MonoBehaviour
 
     IEnumerator TileBot()
     {
+        while (freeTiles > 0)
+        {
+            yield return null;
+        }
+        if(freeTiles < 1)
+        {
+            opinion -= 5;
+        }
         yield return null;
     }
 }   
