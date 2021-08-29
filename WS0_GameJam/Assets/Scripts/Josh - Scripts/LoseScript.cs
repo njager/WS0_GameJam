@@ -17,7 +17,7 @@ public class LoseScript : MonoBehaviour
 
     public void Lose()
     {
-        if (1 == 1)
+        if (global.gameEnded == true)
         {
             global.gameEnded = false; // Change to true later
         }

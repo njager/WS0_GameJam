@@ -32,12 +32,13 @@ public class GlobalController : MonoBehaviour
     public GameObject intelligenceMeter;
     public GameObject publicOpinionMeter;
 
-    [Header("Map Container")]
+    [Header("Map")]
     public GameObject mapContainer;
 
     [Header("Bools")]
     public bool gameEnded = false;
     public bool gamePaused = false;
+
     void Awake()
     {
         if (instance != null)
@@ -71,6 +72,7 @@ public class GlobalController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape)) // Player Pausing Functionality 
         {
             gamePaused = !gamePaused;
+            Debug.Log("Escape");
         }
         PauseGame(); 
     }

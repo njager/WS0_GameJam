@@ -34,13 +34,9 @@ public class BuildingSelector : MonoBehaviour
     public void BackButton()
     {
         Debug.Log("Building Not Selected");
+        global.menuCanvas.SetActive(false);
         global.gamePaused = false;
         global.PauseGame();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
