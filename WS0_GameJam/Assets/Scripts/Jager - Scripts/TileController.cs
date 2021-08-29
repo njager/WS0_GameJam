@@ -13,6 +13,7 @@ public class TileController : MonoBehaviour
     public bool isSearching;
     public int opinion;
     public float intel;
+    public GameObject tileBox1;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class TileController : MonoBehaviour
         opinion = 50;
         intel = 0f;
         freeTiles = 4;
+        tileBox1.SetActive(false);
     }
 
     // Update is called last every frame
@@ -46,7 +48,12 @@ public class TileController : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                     StartCoroutine(TileBot());
                 }
+                if(hit.collider.gameObject.tag == "TileBox1")
+                {
+                    tileBox1.SetActive(true);
+                }
             }
+           
         }
 
         //debug to check current intel and opinion in console

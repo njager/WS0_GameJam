@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Button
   - Tile
+  - TileBox1
   layers:
   - Default
   - TransparentFX
