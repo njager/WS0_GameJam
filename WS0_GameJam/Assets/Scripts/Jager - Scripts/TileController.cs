@@ -5,10 +5,11 @@ using UnityEngine;
 public class TileController : MonoBehaviour
 {
     //member variable
-    private int freeTiles;
+    
     WaitForSeconds delay = new WaitForSeconds(1);
 
     //public variables
+    public int freeTiles;
     public bool isSearching;
     public int opinion;
     public float intel;
@@ -18,7 +19,7 @@ public class TileController : MonoBehaviour
     {
         opinion = 50;
         intel = 0f;
-        freeTiles = 3;
+        freeTiles = 4;
     }
 
     // Update is called last every frame
@@ -57,16 +58,16 @@ public class TileController : MonoBehaviour
 
     IEnumerator TileBot()
     {
-        freeTiles--;
-
-        while (freeTiles > 0)
+       
+        if (freeTiles > 0)
         {
+            freeTiles--;
             yield return null;
         }
-        if(freeTiles < 1)
+        if(freeTiles == 0)
         {
             opinion -= 5;
-            yield return delay;
+            yield return null;
         }
         yield return null;
     }
