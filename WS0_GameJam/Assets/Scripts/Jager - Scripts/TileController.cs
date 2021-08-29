@@ -46,6 +46,11 @@ public class TileController : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            print("Intelligence = " + intel + "Opinion = " + opinion);
+        }
     }
 
     IEnumerator TileBot()
