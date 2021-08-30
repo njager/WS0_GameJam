@@ -35,6 +35,14 @@ public class GlobalController : MonoBehaviour
     [Header("Map")]
     public GameObject mapContainer;
 
+    [Header("Jager's Variables")]
+    public int freeTiles;
+    public bool isSearching;
+    public int opinion;
+    public float intel;
+    public GameObject tileBox1;
+
+
     [Header("Bools")]
     public bool gameEnded = false;
     public bool gamePaused = false;
