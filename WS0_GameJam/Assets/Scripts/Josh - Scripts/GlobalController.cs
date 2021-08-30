@@ -36,10 +36,10 @@ public class GlobalController : MonoBehaviour
     public GameObject mapContainer;
 
     [Header("Jager's Variables")]
-    public int freeTiles;
+    public int freeTiles = 3;
     public bool isSearching;
-    public int opinion;
-    public float intel;
+    public int opinion = 50;
+    public float intelligenceStat = 0f;
     public GameObject tileBox1;
 
 
@@ -62,11 +62,15 @@ public class GlobalController : MonoBehaviour
         gameEnded = false; // In case of restart or other shenaningans, stating base values.
         gamePaused = true;
         Time.timeScale = 1f;
+        opinion = 50;
+        intelligenceStat = 0f;
+        freeTiles = 3;
 
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
         winCanvas.SetActive(false);
-        menuCanvas.SetActive(false); 
+        menuCanvas.SetActive(false);
+        tileBox1.SetActive(false);
 
         otherCamera.SetActive(false); 
         mapCamera.SetActive(true);
