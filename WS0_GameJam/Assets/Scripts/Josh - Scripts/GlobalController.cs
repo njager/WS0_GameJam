@@ -23,10 +23,11 @@ public class GlobalController : MonoBehaviour
     public GameObject loseCanvas;
     public GameObject winCanvas;
     public GameObject menuCanvas;
+    public GameObject dialogueCanvas;
 
     [Header("Cameras")]
     public GameObject mapCamera;
-    public GameObject otherCamera; 
+    public GameObject otherCamera;
 
     [Header("Stats")]
     public GameObject intelligenceMeter;
@@ -72,7 +73,7 @@ public class GlobalController : MonoBehaviour
         menuCanvas.SetActive(false);
         tileBox1.SetActive(false);
 
-        otherCamera.SetActive(false); 
+        otherCamera.SetActive(false);
         mapCamera.SetActive(true);
     }
 
@@ -86,7 +87,13 @@ public class GlobalController : MonoBehaviour
             gamePaused = !gamePaused;
             Debug.Log("Escape");
         }
-        PauseGame(); 
+        PauseGame();
+
+        //debug to check current intel and opinion in console, made by Jager
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            print("Intelligence = " + intelligenceStat + " Opinion = " + opinion);
+        }
     }
 
     public void PauseGame()
@@ -99,7 +106,24 @@ public class GlobalController : MonoBehaviour
         if (gamePaused == true)
         {
             Time.timeScale = 0f;
-            return; 
+            return;
         }
+    }
+
+    IEnumerator TileBot() // Made by Jager 
+    {
+        //if there's free tiles left, reduce the number and nothing else
+        if (freeTiles > 0)
+        {
+            freeTiles--;
+            yield return null;
+        }
+        //if there's no more free tiles, reduce public opinion every tile
+        if (freeTiles == 0)
+        {
+            opinion -= 5;
+            yield return null;
+        }
+        yield return null;
     }
 }
