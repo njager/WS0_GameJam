@@ -57,6 +57,11 @@ public class GlobalController : MonoBehaviour
     public GameObject freeTile2;
     public GameObject freeTile3;
 
+    [Header("TextBoxes")]
+    public GameObject textBox1;
+    public GameObject textBox2;
+    public int textCounter; 
+
 
 
     //Private Variables, Jager Creator
@@ -84,6 +89,7 @@ public class GlobalController : MonoBehaviour
         intelligenceStat = 0f;
         freeTiles = 3;
         freeTileCount = 3;
+        textCounter = 0; 
 
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
@@ -211,5 +217,34 @@ public class GlobalController : MonoBehaviour
             yield return null;
         }
         yield return null;
+    }
+
+    public void TextBoxForwards()
+    {
+        textCounter++;
+        TextChanger();
+    }
+
+    public void TextBoxBackwards()
+    {
+        textCounter--;
+        TextChanger();
+    }
+
+    IEnumerator TextChanger()
+    {
+        if(textCounter == 1)
+        {
+            textBox1.SetActive(true);
+        }
+        if (textCounter == 2)
+        {
+            textBox1.SetActive(false);
+        }
+        else 
+        { 
+           yield return null; 
+        }
+
     }
 }
