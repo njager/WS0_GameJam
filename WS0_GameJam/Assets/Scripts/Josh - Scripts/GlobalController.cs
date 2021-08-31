@@ -58,10 +58,11 @@ public class GlobalController : MonoBehaviour
 
 
 
-    //Private Variables
+    //Private Variables, Jager Creator
     private int tileBoxIndex = 0;
     private GameObject currentTileBox;
     private bool hasBook;
+    WaitForSeconds delay = new WaitForSeconds(1);
 
     void Awake()
     {

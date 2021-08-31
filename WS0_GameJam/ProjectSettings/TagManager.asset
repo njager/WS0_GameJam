@@ -9,6 +9,7 @@ TagManager:
   - TileBox1
   - Leave
   - Burn
+  - Global
   layers:
   - Default
   - TransparentFX
