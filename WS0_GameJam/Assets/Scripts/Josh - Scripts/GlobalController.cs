@@ -13,6 +13,7 @@ public class GlobalController : MonoBehaviour
     [Header("Checkers")]
     public WinScript winChecker;
     public LoseScript lossChecker;
+    public int freeTileCount; 
 
     [Header("Audio")]
     public AudioSource testAudio1;
@@ -50,6 +51,13 @@ public class GlobalController : MonoBehaviour
     public bool gameEnded = false;
     public bool gamePaused = false;
 
+    [Header("FreeTiles")]
+    public GameObject FreeTile1;
+    public GameObject FreeTile2;
+    public GameObject FreeTile3;
+
+
+
     //Private Variables
     private int tileBoxIndex = 0;
     private GameObject currentTileBox;
@@ -73,6 +81,7 @@ public class GlobalController : MonoBehaviour
         opinion = 50;
         intelligenceStat = 0f;
         freeTiles = 3;
+        freeTileCount = 3;
 
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
@@ -141,6 +150,25 @@ public class GlobalController : MonoBehaviour
                     }
                     currentTileBox.SetActive(false);
                 }
+            }
+
+            if (freeTileCount == 3)
+            {
+                FreeTile1.SetActive(true);
+                FreeTile2.SetActive(true);
+                FreeTile3.SetActive(true);
+            }
+            if (freeTileCount == 2)
+            {
+                FreeTile1.SetActive(false);
+                FreeTile2.SetActive(true);
+                FreeTile3.SetActive(true);
+            }
+            if (freeTileCount == 1)
+            {
+                FreeTile1.SetActive(false);
+                FreeTile2.SetActive(false);
+                FreeTile3.SetActive(true);
             }
 
         }
