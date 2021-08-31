@@ -477,6 +477,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50337396}
   m_CullTransparentMesh: 1
+--- !u!1 &97668777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2141298839115856502, guid: fea012ff73c38d547b4635e4df74c209, type: 3}
+  m_PrefabInstance: {fileID: 284861127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &139501079
 GameObject:
   m_ObjectHideFlags: 0
@@ -5123,7 +5128,7 @@ RectTransform:
   m_GameObject: {fileID: 986523058}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 1.25, z: 1}
+  m_LocalScale: {x: 0.25, y: 1.75, z: 1}
   m_Children: []
   m_Father: {fileID: 15239177}
   m_RootOrder: 0
@@ -5153,7 +5158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5180,8 +5185,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5216,7 +5221,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -165.72038, w: -22.147114}
+  m_margin: {x: 0, y: 7.1831074, z: -130.22679, w: -9.377144}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6450,7 +6455,7 @@ MonoBehaviour:
   loseCanvas: {fileID: 2010744942}
   winCanvas: {fileID: 1962105378}
   menuCanvas: {fileID: 1290078032}
-  dialogueCanvas: {fileID: 0}
+  dialogueCanvas: {fileID: 581285503}
   mapCamera: {fileID: 546003193}
   otherCamera: {fileID: 975322479}
   intelligenceMeter: {fileID: 1922409781}
@@ -6460,7 +6465,7 @@ MonoBehaviour:
   isSearching: 0
   opinion: 50
   intelligenceStat: 0
-  tileBox1: {fileID: 0}
+  tileBox1: {fileID: 97668777}
   tileBoxList: []
   gameEnded: 0
   gamePaused: 0
