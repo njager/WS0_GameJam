@@ -7,6 +7,8 @@ TagManager:
   - Button
   - Tile
   - TileBox1
+  - Leave
+  - Burn
   layers:
   - Default
   - TransparentFX
