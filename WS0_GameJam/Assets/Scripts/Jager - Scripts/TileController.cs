@@ -7,6 +7,7 @@ public class TileController : MonoBehaviour
     //member variable
     private int tileBoxIndex = 0;
     private GameObject currentTileBox;
+    private bool hasBook;
 
     WaitForSeconds delay = new WaitForSeconds(1);
 
@@ -61,7 +62,17 @@ public class TileController : MonoBehaviour
                 }
                 if (hit.collider.gameObject.tag == "Burn")
                 {
-
+                    Debug.Log("You burned the building!");
+                    if (hasBook == true)
+                    {
+                        opinion += 25;
+                        intel -= 50;
+                    }
+                    if (hasBook == false)
+                    {
+                        opinion -= 25;
+                    }
+                    currentTileBox.SetActive(false);
                 }
             }
            
