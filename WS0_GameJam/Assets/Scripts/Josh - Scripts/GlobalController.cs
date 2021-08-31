@@ -52,9 +52,10 @@ public class GlobalController : MonoBehaviour
     public bool gamePaused = false;
 
     [Header("FreeTiles")]
-    public GameObject FreeTile1;
-    public GameObject FreeTile2;
-    public GameObject FreeTile3;
+    public GameObject freeTileUI;
+    public GameObject freeTile1;
+    public GameObject freeTile2;
+    public GameObject freeTile3;
 
 
 
@@ -155,21 +156,21 @@ public class GlobalController : MonoBehaviour
 
             if (freeTileCount == 3)
             {
-                FreeTile1.SetActive(true);
-                FreeTile2.SetActive(true);
-                FreeTile3.SetActive(true);
+                freeTile1.SetActive(true);
+                freeTile2.SetActive(true);
+                freeTile3.SetActive(true);
             }
             if (freeTileCount == 2)
             {
-                FreeTile1.SetActive(false);
-                FreeTile2.SetActive(true);
-                FreeTile3.SetActive(true);
+                freeTile1.SetActive(false);
+                freeTile2.SetActive(true);
+                freeTile3.SetActive(true);
             }
             if (freeTileCount == 1)
             {
-                FreeTile1.SetActive(false);
-                FreeTile2.SetActive(false);
-                FreeTile3.SetActive(true);
+                freeTile1.SetActive(false);
+                freeTile2.SetActive(false);
+                freeTile3.SetActive(true);
             }
 
         }

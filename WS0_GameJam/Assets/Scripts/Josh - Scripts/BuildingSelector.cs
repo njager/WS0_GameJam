@@ -39,4 +39,16 @@ public class BuildingSelector : MonoBehaviour
         global.PauseGame();
     }
 
+
+    public void ActivateTilebox()
+    {
+        global.transparentCanvas.SetActive(true);
+        global.tileBox1.SetActive(true);
+        global.freeTileUI.SetActive(true); 
+    }
+
+    public void DeactivateTilebox()
+    {
+
+    }
 }
