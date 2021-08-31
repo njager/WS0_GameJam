@@ -12,7 +12,7 @@ public class WinScript : MonoBehaviour
 
     public void WinChecker()
     {
-
+        
     }
 
     public void Win()

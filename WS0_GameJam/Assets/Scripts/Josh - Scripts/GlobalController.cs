@@ -48,7 +48,8 @@ public class GlobalController : MonoBehaviour
     public List<GameObject> tileBoxList;
 
     [Header("Bools")]
-    public bool gameEnded = false;
+    public bool gameEndedWin = false;
+    public bool gameEndedLoss = false; 
     public bool gamePaused = false;
 
     [Header("FreeTiles")]
@@ -60,9 +61,13 @@ public class GlobalController : MonoBehaviour
     [Header("TextBoxes")]
     public GameObject textBox1;
     public GameObject textBox2;
-    public int textCounter; 
+    public int textCounter;
 
+    [Header("Character")]
+    public GameObject characterUI;
 
+    // Script References
+    private BuildingSelector buildingSelector; 
 
     //Private Variables, Jager Creator
     private int tileBoxIndex = 0;
@@ -82,7 +87,10 @@ public class GlobalController : MonoBehaviour
 
     void Start()
     {
-        gameEnded = false; // In case of restart or other shenaningans, stating base values.
+        buildingSelector.DeactivateTilebox();
+
+        gameEndedWin = false; // In case of restart or other shenaningans, stating base values.
+        gameEndedLose = false;
         gamePaused = true;
         Time.timeScale = 1f;
         opinion = 50;
@@ -96,6 +104,7 @@ public class GlobalController : MonoBehaviour
         winCanvas.SetActive(false);
         menuCanvas.SetActive(false);
         tileBox1.SetActive(false);
+
 
         otherCamera.SetActive(false);
         mapCamera.SetActive(true);
