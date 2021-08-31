@@ -29,7 +29,7 @@ public class GlobalController : MonoBehaviour
     public GameObject mapCamera;
     public GameObject otherCamera;
 
-    [Header("Stats")]
+    [Header("Stats GameObjects")]
     public GameObject intelligenceMeter;
     public GameObject publicOpinionMeter;
 
@@ -81,6 +81,8 @@ public class GlobalController : MonoBehaviour
     {
         winChecker.WinChecker();  // Checks if the player won
         lossChecker.LoseChecker(); // Checks if the player lost
+
+        intelligenceStat += 1 * Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.Escape)) // Player Pausing Functionality 
         {

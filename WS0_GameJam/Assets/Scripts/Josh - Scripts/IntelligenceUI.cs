@@ -13,11 +13,7 @@ public class IntelligenceUI : MonoBehaviour
 
     void Update()
     {
-        Ticker(); 
+       
     }
 
-    public void Ticker()
-    {
-
-    }
 }
