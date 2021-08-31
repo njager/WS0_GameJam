@@ -17,9 +17,9 @@ public class WinScript : MonoBehaviour
 
     public void Win()
     {
-        if (global.gameEnded == true)
+        if (global.gameEndedWin == true)
         {
-            global.gameEnded = false; // Change to true later
+            global.gameEndedWin = false; // Change to true later
         }
         else
         {

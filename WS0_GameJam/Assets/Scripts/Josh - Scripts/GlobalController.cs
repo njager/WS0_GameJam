@@ -41,7 +41,7 @@ public class GlobalController : MonoBehaviour
     [Header("Jager's Variables")]
     public int freeTiles = 3;
     public bool isSearching;
-    public int opinion = 50;
+    public int opinionStat = 50;
     public float intelligenceStat = 0f;
     public GameObject tileBox1;
 
@@ -66,8 +66,8 @@ public class GlobalController : MonoBehaviour
     [Header("Character")]
     public GameObject characterUI;
 
-    // Script References
-    private BuildingSelector buildingSelector; 
+    [Header("Script References")]
+    public BuildingSelector buildingSelector; 
 
     //Private Variables, Jager Creator
     private int tileBoxIndex = 0;
@@ -90,10 +90,10 @@ public class GlobalController : MonoBehaviour
         buildingSelector.DeactivateTilebox();
 
         gameEndedWin = false; // In case of restart or other shenaningans, stating base values.
-        gameEndedLose = false;
+        gameEndedLoss = false;
         gamePaused = true;
         Time.timeScale = 1f;
-        opinion = 50;
+        opinionStat = 50;
         intelligenceStat = 0f;
         freeTiles = 3;
         freeTileCount = 3;
@@ -158,12 +158,12 @@ public class GlobalController : MonoBehaviour
                     Debug.Log("You burned the building!");
                     if (hasBook == true)
                     {
-                        opinion += 25;
+                        opinionStat += 25;
                         intelligenceStat -= 50;
                     }
                     if (hasBook == false)
                     {
-                        opinion -= 25;
+                        opinionStat -= 25;
                     }
                     currentTileBox.SetActive(false);
                 }
@@ -193,7 +193,7 @@ public class GlobalController : MonoBehaviour
         //debug to check current intel and opinion in console, made by Jager
         if (Input.GetKeyDown(KeyCode.R))
         {
-            print("Intelligence = " + intelligenceStat + " Opinion = " + opinion);
+            print("Intelligence = " + intelligenceStat + " Opinion = " + opinionStat);
         }
     }
 
@@ -222,7 +222,7 @@ public class GlobalController : MonoBehaviour
         //if there's no more free tiles, reduce public opinion every tile
         if (freeTiles == 0)
         {
-            opinion -= 5;
+            opinionStat -= 5;
             yield return null;
         }
         yield return null;
@@ -245,10 +245,12 @@ public class GlobalController : MonoBehaviour
         if(textCounter == 1)
         {
             textBox1.SetActive(true);
+            yield return null; 
         }
         if (textCounter == 2)
         {
             textBox1.SetActive(false);
+            yield return null;
         }
         else 
         { 

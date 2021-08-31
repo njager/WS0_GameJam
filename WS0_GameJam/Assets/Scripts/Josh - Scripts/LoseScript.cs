@@ -14,17 +14,17 @@ public class LoseScript : MonoBehaviour
     {
         if (global.intelligenceStat <= 100f)
         {
-            global.gameEnded = true; 
+            global.gameEndedLoss = true; 
         }
-        if (global.publicOpinion >= 0)
+        if (global.opinionStat >= 0)
         {
-            global.gameEnded = true;
+            global.gameEndedLoss = true;
         }
     }
 
     public void Lose()
     {
-        if (global.gameEnded == true)
+        if (global.gameEndedLoss == true)
         {
             global.gamePaused = true; // Change to true late
         }
