@@ -13,7 +13,7 @@ public class GlobalController : MonoBehaviour
     [Header("Checkers")]
     public WinScript winChecker;
     public LoseScript lossChecker;
-    public int freeTileCount; 
+    public int freeTileCount;
 
     [Header("Audio")]
     public AudioSource testAudio1;
@@ -49,7 +49,7 @@ public class GlobalController : MonoBehaviour
 
     [Header("Bools")]
     public bool gameEndedWin = false;
-    public bool gameEndedLoss = false; 
+    public bool gameEndedLoss = false;
     public bool gamePaused = false;
 
     [Header("FreeTiles")]
@@ -67,7 +67,7 @@ public class GlobalController : MonoBehaviour
     public GameObject characterUI;
 
     [Header("Script References")]
-    public BuildingSelector buildingSelector; 
+    public BuildingSelector buildingSelector;
 
     //Private Variables, Jager Creator
     private int tileBoxIndex = 0;
@@ -87,7 +87,7 @@ public class GlobalController : MonoBehaviour
 
     void Start()
     {
-        buildingSelector.DeactivateTilebox();
+        DeactivateTilebox();
 
         gameEndedWin = false; // In case of restart or other shenaningans, stating base values.
         gameEndedLoss = false;
@@ -97,7 +97,7 @@ public class GlobalController : MonoBehaviour
         intelligenceStat = 0f;
         freeTiles = 3;
         freeTileCount = 3;
-        textCounter = 0; 
+        textCounter = 0;
 
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
@@ -242,20 +242,40 @@ public class GlobalController : MonoBehaviour
 
     IEnumerator TextChanger()
     {
-        if(textCounter == 1)
+        if (textCounter == 1)
         {
             textBox1.SetActive(true);
-            yield return null; 
+            yield return null;
         }
         if (textCounter == 2)
         {
             textBox1.SetActive(false);
             yield return null;
         }
-        else 
-        { 
-           yield return null; 
+        else
+        {
+            yield return null;
         }
 
+    }
+
+    public void ActivateTilebox()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void DeactivateTilebox()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
     }
 }

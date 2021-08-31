@@ -29,7 +29,7 @@ public class BuildingSelector : MonoBehaviour
         global.testAudio2.Play();
         global.gamePaused = false;
         global.PauseGame();
-        ActivateTilebox(); 
+        global.ActivateTilebox(); 
     }
 
     public void BackButton()
@@ -40,24 +40,4 @@ public class BuildingSelector : MonoBehaviour
         global.PauseGame();
     }
 
-
-    public void ActivateTilebox()
-    {
-        global.mapContainer.SetActive(false);
-        global.transparentCanvas.SetActive(true);
-        global.tileBox1.SetActive(true);
-        global.freeTileUI.SetActive(true);
-        global.characterUI.SetActive(true);
-        global.dialogueCanvas.SetActive(true);
-    }
-
-    public void DeactivateTilebox()
-    {
-        global.mapContainer.SetActive(true);
-        global.transparentCanvas.SetActive(false);
-        global.tileBox1.SetActive(false);
-        global.freeTileUI.SetActive(false);
-        global.characterUI.SetActive(false);
-        global.dialogueCanvas.SetActive(false);
-    }
 }
