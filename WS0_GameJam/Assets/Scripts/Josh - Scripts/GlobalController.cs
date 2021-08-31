@@ -24,6 +24,7 @@ public class GlobalController : MonoBehaviour
     public GameObject winCanvas;
     public GameObject menuCanvas;
     public GameObject dialogueCanvas;
+    public GameObject transparentCanvas;
 
     [Header("Cameras")]
     public GameObject mapCamera;
