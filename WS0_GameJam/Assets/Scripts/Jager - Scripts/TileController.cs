@@ -5,7 +5,9 @@ using UnityEngine;
 public class TileController : MonoBehaviour
 {
     //member variable
-    [SerializeField] 
+    private int tileBoxIndex = 0;
+    private GameObject currentTileBox;
+
     WaitForSeconds delay = new WaitForSeconds(1);
 
     //public variables
@@ -13,6 +15,7 @@ public class TileController : MonoBehaviour
     public bool isSearching;
     public int opinion;
     public float intel;
+    public List<GameObject> tileBoxList;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +23,6 @@ public class TileController : MonoBehaviour
         opinion = 50;
         intel = 0f;
         freeTiles = 4;
-        tileBox1.SetActive(false);
     }
 
     // Update is called last every frame
@@ -49,7 +51,17 @@ public class TileController : MonoBehaviour
                 }
                 if(hit.collider.gameObject.tag == "TileBox1")
                 {
-                    tileBox1.SetActive(true);
+                    tileBoxIndex = 0;
+                    currentTileBox = tileBoxList[tileBoxIndex];
+                    currentTileBox.SetActive(true);
+                }
+                if (hit.collider.gameObject.tag == "Leave")
+                {
+                    currentTileBox.SetActive(false);
+                }
+                if (hit.collider.gameObject.tag == "Burn")
+                {
+
                 }
             }
            
