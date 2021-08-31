@@ -5,7 +5,7 @@ using UnityEngine;
 public class TileController : MonoBehaviour
 {
     //member variable
-    
+    [SerializeField] 
     WaitForSeconds delay = new WaitForSeconds(1);
 
     //public variables
@@ -13,7 +13,6 @@ public class TileController : MonoBehaviour
     public bool isSearching;
     public int opinion;
     public float intel;
-    public GameObject tileBox1;
 
     // Start is called before the first frame update
     void Start()
