@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6740608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1722536694}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &15239176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,6 +1054,11 @@ Transform:
   m_Father: {fileID: 1958000824}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &212352763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1230298414}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &213236443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,14 +1153,14 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox8
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1930,6 +1940,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2141298839115856500, guid: fea012ff73c38d547b4635e4df74c209, type: 3}
   m_PrefabInstance: {fileID: 284861127}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &291977145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 808829134}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &292423173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1940,14 +1955,14 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox4
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2962,9 +2977,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5257f9c33eb6a48a297466b7f60c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalColor: {fileID: 2100000, guid: 42a44afae572b9a4baf159afe2ff5e09, type: 2}
-  differentColor: {fileID: 2100000, guid: 6286545e5f509494faef6944ebed8135, type: 2}
+  originalColor: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+  differentColor: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
   self: {fileID: 502253570}
+--- !u!114 &502253572 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 502253568}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502253570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5257f9c33eb6a48a297466b7f60c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &510873445
 GameObject:
   m_ObjectHideFlags: 0
@@ -3963,6 +3989,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &616777476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1288721463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &669444328
 GameObject:
   m_ObjectHideFlags: 0
@@ -4055,14 +4086,14 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox6
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4335,6 +4366,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &683736086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1361476736}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &692978504
 GameObject:
   m_ObjectHideFlags: 0
@@ -4494,6 +4530,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 717350574}
   m_CullTransparentMesh: 1
+--- !u!1 &757502347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1406096520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &766519787
 GameObject:
   m_ObjectHideFlags: 0
@@ -5183,6 +5224,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1159018219}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 291977145}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &808829135 stripped
@@ -5360,14 +5413,14 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox7
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5475,6 +5528,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8056141779942743635, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
   m_PrefabInstance: {fileID: 853421590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &854482479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1358673261}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &868247075
 GameObject:
@@ -6020,18 +6078,18 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox10
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -7530,14 +7588,14 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox5
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8120,6 +8178,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 379544559}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 212352763}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1230298415 stripped
@@ -8158,6 +8228,11 @@ Transform:
   m_Father: {fileID: 917680348}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1239669586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1325802811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1248074709
 GameObject:
   m_ObjectHideFlags: 0
@@ -8362,6 +8437,11 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1273196446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 1979440348}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1285153449
 Mesh:
   m_ObjectHideFlags: 0
@@ -8605,6 +8685,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1359421974}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 616777476}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1288721464 stripped
@@ -8726,14 +8818,14 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox2
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -8956,6 +9048,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1142245829}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 1239669586}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1325802812 stripped
@@ -9236,6 +9340,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 545497734}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 854482479}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1358673262 stripped
@@ -9565,6 +9681,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 679726910}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 683736086}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1361476737 stripped
@@ -9931,6 +10059,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1988129043}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 757502347}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1406096521 stripped
@@ -10265,19 +10405,47 @@ PrefabInstance:
     m_TransformParent: {fileID: 1197538839}
     m_Modifications:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 502253572}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ChangeburnStatus1
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: BuildingScript, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
@@ -11344,14 +11512,14 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox3
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -11701,6 +11869,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1271458317}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 6740608}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1722536695 stripped
@@ -12644,6 +12824,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1588115745}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 1273196446}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: originalColor
+      value: 
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
+    - target: {fileID: 7292181661539685215, guid: 7479814a24085a84882eb6366077538a, type: 3}
+      propertyPath: differentColor
+      value: 
+      objectReference: {fileID: 2100000, guid: b8e7145eb02dc544682a435266539a02, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7479814a24085a84882eb6366077538a, type: 3}
 --- !u!4 &1979440349 stripped
@@ -13902,18 +14094,18 @@ PrefabInstance:
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1023163864}
+      objectReference: {fileID: 1140995822}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SelectedBuilding
+      value: ActivateTilebox9
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BuildingSelector, Assembly-CSharp
+      value: GlobalController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 199071792148077772, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
