@@ -2689,6 +2689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   originalColor: {fileID: 2100000, guid: 42a44afae572b9a4baf159afe2ff5e09, type: 2}
   differentColor: {fileID: 2100000, guid: 6286545e5f509494faef6944ebed8135, type: 2}
+  self: {fileID: 502253570}
 --- !u!1 &510873445
 GameObject:
   m_ObjectHideFlags: 0
@@ -6410,8 +6411,18 @@ MonoBehaviour:
   gameEndedWin: 0
   gameEndedLoss: 0
   gamePaused: 0
-  isBurned: 1
   hasBook: 0
+  isBurned: 0
+  building1Burned: 0
+  building2Burned: 0
+  building3Burned: 0
+  building4Burned: 0
+  building5Burned: 0
+  building6Burned: 0
+  building7Burned: 0
+  building8Burned: 0
+  building9Burned: 0
+  building10Burned: 0
   freeTiles: 3
   freeTileUI: {fileID: 40349989}
   freeTile1: {fileID: 2011971451}
@@ -6422,6 +6433,7 @@ MonoBehaviour:
   textCounter: 0
   characterUI: {fileID: 1232197197}
   buildingSelector: {fileID: 1023163864}
+  building: {fileID: 0}
 --- !u!43 &1142245829
 Mesh:
   m_ObjectHideFlags: 0

@@ -7,7 +7,6 @@ public class BuildingScript : MonoBehaviour
 {
     private GlobalController global;
     private Renderer selfRenderer;
-    public BuildingScript selfReference;
     public Material originalColor; 
     public Material differentColor;
     public GameObject self; 
@@ -18,8 +17,6 @@ public class BuildingScript : MonoBehaviour
 
         //Grabbing Renderer to change color
         selfRenderer = self.GetComponent<Renderer>();
-        //Trying to grab tag 
-        GlobalController.instance.building = selfReference; 
     }
 
     
@@ -75,12 +72,12 @@ public class BuildingScript : MonoBehaviour
 
     public void Building3BurnedStatus()
     {
-        if (global.building1Burned == true)
+        if (global.building3Burned == true)
         {
             selfRenderer.material = differentColor;
         }
 
-        if (global.building1Burned == false)
+        if (global.building3Burned == false)
         { 
             selfRenderer.material = originalColor;
         }
@@ -93,12 +90,12 @@ public class BuildingScript : MonoBehaviour
 
     public void Building4BurnedStatus()
     {
-        if(global.building1Burned == true)
+        if(global.building4Burned == true)
         {
             selfRenderer.material = differentColor;
         }
 
-        if (global.building1Burned == false)
+        if (global.building4Burned == false)
         {
             selfRenderer.material = originalColor;
         }
@@ -111,12 +108,12 @@ public class BuildingScript : MonoBehaviour
 
     public void Building5BurnedStatus()
     {
-        if(global.building1Burned == true)
+        if(global.building5Burned == true)
         {
             selfRenderer.material = differentColor;
         }
 
-        if (global.building1Burned == false)
+        if (global.building5Burned == false)
         {
             selfRenderer.material = originalColor;
         }
@@ -129,12 +126,12 @@ public class BuildingScript : MonoBehaviour
 
     public void Building6BurnedStatus()
     {
-        if(global.building1Burned == true)
+        if(global.building6Burned == true)
         {
             selfRenderer.material = differentColor;
         }
 
-        if (global.building1Burned == false)
+        if (global.building6Burned == false)
         {
             selfRenderer.material = originalColor;
         }
@@ -164,12 +161,12 @@ public class BuildingScript : MonoBehaviour
 
     public void Building8BurnedStatus()
     {
-        if (global.building1Burned == true)
+        if (global.building8Burned == true)
         {
              selfRenderer.material = differentColor;
         }
 
-        if (global.building1Burned == false)
+        if (global.building8Burned == false)
         {
              selfRenderer.material = originalColor;
         }
@@ -183,12 +180,12 @@ public class BuildingScript : MonoBehaviour
 
     public void Building9BurnedStatus()
     {
-        if(global.building1Burned == true)
+        if(global.building9Burned == true)
         {
             selfRenderer.material = differentColor;
         }
 
-        if (global.building1Burned == false)
+        if (global.building9Burned == false)
         {
             selfRenderer.material = originalColor;
         }
@@ -201,12 +198,12 @@ public class BuildingScript : MonoBehaviour
 
     public void Building10BurnedStatus()
     {
-        if(global.building1Burned == true)
+        if(global.building10Burned == true)
         {
             selfRenderer.material = differentColor;
         }
-
-        if (global.building1Burned == false)
+     
+        if (global.building10Burned == false)
         {
             selfRenderer.material = originalColor;
         }

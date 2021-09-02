@@ -13,11 +13,11 @@ public class GlobalController : MonoBehaviour
     [Header("Checkers")]
     public WinScript winChecker;
     public LoseScript lossChecker;
-    
+    public FreeTileChecker tileCheck;
+
     [Header("Numeric Variables")]
     public int opinionStat = 50;
     public float intelligenceStat = 0f;
-    public int freeTileCount;
 
 
     [Header("Music")]
@@ -26,6 +26,7 @@ public class GlobalController : MonoBehaviour
     public AudioSource suspenseMusic;
 
     [Header("Sound Effects")]
+
     public AudioSource cardFlip;
     public AudioSource buttonPress; 
     public AudioSource angryMobPublicOpinion;
@@ -35,6 +36,7 @@ public class GlobalController : MonoBehaviour
     public AudioSource loseSound; 
 
     [Header("Canvases")]
+
     public GameObject UICanvas;
     public GameObject loseCanvas;
     public GameObject winCanvas;
@@ -43,17 +45,21 @@ public class GlobalController : MonoBehaviour
     public GameObject transparentCanvas;
 
     [Header("Cameras")]
+
     public GameObject mapCamera;
     public GameObject otherCamera;
 
     [Header("The Stats GameObjects")]
+
     public GameObject intelligenceMeter;
     public GameObject publicOpinionMeter;
 
     [Header("Map")]
+
     public GameObject mapContainer;
 
     [Header("TileBoxes")]
+
     public GameObject tileBox1;
     public GameObject tileBox2;
     public GameObject tileBox3;
@@ -69,6 +75,7 @@ public class GlobalController : MonoBehaviour
 
 
     [Header("Bools")]
+
     public bool gameEndedWin = false;
     public bool gameEndedLoss = false;
     public bool gamePaused = false;
@@ -76,6 +83,7 @@ public class GlobalController : MonoBehaviour
     public bool isBurned = false;
 
     [Header("BurnedBools")]
+
     public bool building1Burned = false;
     public bool building2Burned = false;
     public bool building3Burned = false;
@@ -88,23 +96,50 @@ public class GlobalController : MonoBehaviour
     public bool building10Burned = false;
 
     [Header("FreeTiles")]
-    public int freeTiles = 3;
+
     public GameObject freeTileUI;
     public GameObject freeTile1;
     public GameObject freeTile2;
     public GameObject freeTile3;
 
+    [Header("Building Freetiles")]
+
+    public int freeTiles1 = 3;
+    public int freeTiles2 = 3;
+    public int freeTiles3 = 3;
+    public int freeTiles4 = 3;
+    public int freeTiles5 = 3;
+    public int freeTiles6 = 3;
+    public int freeTiles7 = 3;
+    public int freeTiles8 = 3;
+    public int freeTiles9 = 3;
+    public int freeTiles10 = 3;
+
     [Header("TextBoxes")]
+
     public GameObject textBox1;
     public GameObject textBox2;
     public int textCounter;
 
     [Header("Character")]
+
     public GameObject characterUI;
+    public GameObject characterFile1;
+    public GameObject characterFile2;
+    public GameObject characterFile3;
+    public GameObject characterFile4;
+    public GameObject characterFile5;
+    public GameObject characterFile6;
+    public GameObject characterFile7;
+    public GameObject characterFile8;
+    public GameObject characterFile9;
+    public GameObject characterFile10;
 
     [Header("Script References")]
+
     public BuildingSelector buildingSelector;
-    public BuildingScript building; 
+    public BuildingScript building;
+    
  
     WaitForSeconds delay = new WaitForSeconds(1);
 
@@ -137,16 +172,23 @@ public class GlobalController : MonoBehaviour
         Time.timeScale = 1f;
         opinionStat = 50;
         intelligenceStat = 0f;
-        freeTiles = 3;
-        freeTileCount = 3;
+        freeTiles1 = 3;
+
+        freeTiles2 = 3;
+        freeTiles3 = 3;
+        freeTiles4 = 3;
+        freeTiles5 = 3;
+        freeTiles6 = 3;
+        freeTiles7 = 3;
+        freeTiles8 = 3;
+        freeTiles9 = 3;
+        freeTiles10 = 3;
         textCounter = 0;
 
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
         winCanvas.SetActive(false);
         menuCanvas.SetActive(false);
-        tileBox1.SetActive(false);
-
 
         otherCamera.SetActive(false);
         mapCamera.SetActive(true);
@@ -166,26 +208,7 @@ public class GlobalController : MonoBehaviour
         }
         PauseGame();
 
-        if (freeTileCount == 3)
-        {
-            freeTile1.SetActive(true);
-            freeTile2.SetActive(true);
-            freeTile3.SetActive(true);
-        }
-        if (freeTileCount == 2)
-        {
-            freeTile1.SetActive(false);
-            freeTile2.SetActive(true);
-            freeTile3.SetActive(true);
-        }
-        if (freeTileCount == 1)
-        {
-            freeTile1.SetActive(false);
-            freeTile2.SetActive(false);
-            freeTile3.SetActive(true);
-        }
-
-       
+        tileCheck.FreeTileCheck();
 
         //debug to check current intel and opinion in console, made by Jager
         if (Input.GetKeyDown(KeyCode.R))
@@ -208,7 +231,7 @@ public class GlobalController : MonoBehaviour
         }
     }
 
-    IEnumerator TileBot() // Made by Jager 
+   /* IEnumerator TileBot() // Made by Jager 
     {
         //if there's free tiles left, reduce the number and nothing else
         if (freeTiles > 0)
@@ -223,8 +246,9 @@ public class GlobalController : MonoBehaviour
             yield return null;
         }
         yield return null;
-    }
+    } */
 
+    
     public void TextBoxForwards()
     {
         textCounter++;
@@ -289,7 +313,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         tileBox1.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile1.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -297,9 +321,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox2.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile2.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -307,9 +331,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox3.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile3.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -317,9 +341,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox4.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile4.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -327,18 +351,18 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox5.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile5.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
     public void ActivateTilebox6()
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox6.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile6.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -346,9 +370,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox7.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile7.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -356,9 +380,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox8.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile8.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -366,9 +390,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox9.SetActive(true);
         freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
+        characterFile9.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
@@ -376,7 +400,7 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
+        tileBox10.SetActive(true);
         freeTileUI.SetActive(true);
         characterUI.SetActive(true);
         dialogueCanvas.SetActive(true);
@@ -390,7 +414,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         tileBox1.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile1.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -398,9 +422,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox2.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile2.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -408,9 +432,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox3.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile3.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -418,9 +442,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox4.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile4.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -428,9 +452,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox5.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile5.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -438,9 +462,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox6.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile6.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -448,9 +472,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox7.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile7.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -458,9 +482,9 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox8.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile8.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
@@ -468,18 +492,19 @@ public class GlobalController : MonoBehaviour
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox9.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile9.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
     public void DeactivateTilebox10()
     {
         mapContainer.SetActive(true);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
+        tileBox10.SetActive(false);
         freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
+        characterFile10.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
+
 }
