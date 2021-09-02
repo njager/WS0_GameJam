@@ -3285,6 +3285,7 @@ GameObject:
   - component: {fileID: 546003195}
   - component: {fileID: 546003194}
   - component: {fileID: 546003197}
+  - component: {fileID: 546003198}
   m_Layer: 0
   m_Name: MapCamera
   m_TagString: Untagged
@@ -3321,13 +3322,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2
-    height: 2
+    width: 200
+    height: 100
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 3.4964242
   orthographic: 1
-  orthographic size: 20
+  orthographic size: 52.246113
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -3351,7 +3352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546003193}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -857}
+  m_LocalPosition: {x: 0, y: -4, z: -857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 475921249}
@@ -3367,6 +3368,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4eb9c0005f53b743ab388201dbfa3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &546003198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546003193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b4561f02c4e0548babe90cce0f0ffa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &550839757
@@ -6395,7 +6408,7 @@ Transform:
   m_GameObject: {fileID: 1037087136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 50}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_Children:
   - {fileID: 1003308212}
   - {fileID: 388342980}
