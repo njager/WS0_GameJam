@@ -57,7 +57,7 @@ public class TileController : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                     StartCoroutine(TileBot());
                 }
-                if (hit.collider.gameObject.tag == "Tile2")
+                else if (hit.collider.gameObject.tag == "Tile2")
                 {
                     Destroy(hit.collider.gameObject);
                     StartCoroutine(TileBot2());
@@ -74,11 +74,13 @@ public class TileController : MonoBehaviour
                     currentTileBox = tileBoxList[tileBoxIndex];
                     currentTileBox.SetActive(true);
                 }
+
+                //check leave and burn buttons
                 if (hit.collider.gameObject.tag == "Leave")
                 {
                     currentTileBox.SetActive(false);
                 }
-                if (hit.collider.gameObject.tag == "Burn")
+                else if (hit.collider.gameObject.tag == "Burn")
                 {
                     Debug.Log("You burned the building!");
                     /*if (hasBook == true)
@@ -103,7 +105,11 @@ public class TileController : MonoBehaviour
 
                 }
             }
-           
+           //reset intel i fit falls below 0
+            if(intel < 0f)
+            {
+                intel = 0f;
+            }
         }
 
         //debug to check current intel and opinion in console

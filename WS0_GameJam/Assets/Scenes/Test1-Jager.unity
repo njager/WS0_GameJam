@@ -976,6 +976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oBar: {fileID: 158728293}
+  iBar: {fileID: 720676139}
   freeTiles: 0
   isSearching: 0
   opinion: 0
