@@ -26,10 +26,9 @@ public class BuildingSelector : MonoBehaviour
         Debug.Log("Building Confirmed");
         global.mapContainer.SetActive(false);
         global.menuCanvas.SetActive(false);
-        global.testAudio2.Play();
         global.gamePaused = false;
         global.PauseGame();
-        global.ActivateTilebox(); 
+        global.ActivateTilebox1(); //Come back to this 
     }
 
     public void BackButton()
