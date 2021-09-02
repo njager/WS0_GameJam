@@ -2929,7 +2929,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder
@@ -5117,7 +5117,7 @@ PrefabInstance:
       objectReference: {fileID: 1159018219}
     - target: {fileID: 6437824695597299995, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6437824695597299995, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_LocalScale.x
@@ -5174,7 +5174,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (4)
@@ -5811,7 +5811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975322479}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.39598, y: 0.46293908, z: -400}
+  m_LocalPosition: {x: 0, y: 0, z: -857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 475921249}
@@ -5852,7 +5852,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 98.326805
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -8111,7 +8111,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (8)
@@ -8596,7 +8596,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (1)
@@ -8947,7 +8947,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (5)
@@ -9227,7 +9227,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (7)
@@ -9556,7 +9556,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (3)
@@ -9922,7 +9922,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (9)
@@ -11692,7 +11692,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (2)
@@ -12635,7 +12635,7 @@ PrefabInstance:
     - target: {fileID: 6437824695597300005, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d1b4ace1fa80cb5499f5a1c37250797a, type: 2}
+      objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
       value: BuildingPlaceholder (6)
