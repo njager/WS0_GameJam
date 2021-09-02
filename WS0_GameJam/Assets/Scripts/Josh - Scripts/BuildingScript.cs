@@ -30,5 +30,10 @@ public class BuildingScript : MonoBehaviour
         {
             selfRenderer.material = originalColor; 
         }
+
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
     }
 }

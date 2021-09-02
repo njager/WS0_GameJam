@@ -72,7 +72,7 @@ public class GlobalController : MonoBehaviour
     public bool gameEndedWin = false;
     public bool gameEndedLoss = false;
     public bool gamePaused = false;
-    public bool isBurned = false; 
+    public bool isBurned = false;
     public bool hasBook = false; 
 
     [Header("FreeTiles")]
