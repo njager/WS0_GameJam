@@ -12,6 +12,7 @@ public class TileController : MonoBehaviour
     private int freeTiles1;
     private int freeTiles2;
     [SerializeField] Image oBar;
+    [SerializeField] Image iBar;
 
     //public variables
     public int freeTiles;
@@ -33,8 +34,9 @@ public class TileController : MonoBehaviour
     // Update is called last every frame
     void Update()
     {
-        intel += 1 * Time.deltaTime;
+        intel += 0.01f * Time.deltaTime;
         oBar.fillAmount = opinion;
+        iBar.fillAmount = intel;
 
         //check if left mouse button clicked
         if (Input.GetMouseButtonDown(0))
@@ -92,7 +94,7 @@ public class TileController : MonoBehaviour
                     if(tileBoxIndex == 0)
                     {
                         opinion += 0.25f;
-                        intel -= 50;
+                        intel -= 0.5f;
                     }
                     if (tileBoxIndex == 1)
                     {
