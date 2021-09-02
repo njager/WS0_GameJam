@@ -28,11 +28,13 @@ public class BuildingScript : MonoBehaviour
         {
             if (global.isBurned == true)
             {
+                Debug.Log("Specifically Building1");
                 selfRenderer.material = differentColor;
             }
 
             if (global.isBurned == false)
             {
+                Debug.Log("Specifically Building1");
                 selfRenderer.material = originalColor;
             }
 
@@ -46,11 +48,13 @@ public class BuildingScript : MonoBehaviour
         {
             if (global.isBurned == true)
             {
+                Debug.Log("Specifically Building2");
                 selfRenderer.material = differentColor;
             }
 
             if (global.isBurned == false)
             {
+                Debug.Log("Specifically Building2");
                 selfRenderer.material = originalColor;
             }
 
