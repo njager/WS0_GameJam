@@ -9,14 +9,15 @@ public class BuildingScript : MonoBehaviour
     private Renderer selfRenderer;
     public BuildingScript selfReference;
     public Material originalColor; 
-    public Material differentColor; 
+    public Material differentColor;
+    public GameObject self; 
 
     void Start()
     {
         global = GlobalController.instance;
 
         //Grabbing Renderer to change color
-        selfRenderer = gameObject.GetComponent<Renderer>();
+        selfRenderer = self.GetComponent<Renderer>();
         //Trying to grab tag 
         GlobalController.instance.building = selfReference; 
     }
@@ -24,20 +25,27 @@ public class BuildingScript : MonoBehaviour
     
     void Update()
     {
-   
+        Building1BurnedStatus();
+        Building2BurnedStatus();
+        Building3BurnedStatus();
+        Building4BurnedStatus();
+        Building5BurnedStatus();
+        Building6BurnedStatus();
+        Building7BurnedStatus();
+        Building8BurnedStatus();
+        Building9BurnedStatus();
+        Building10BurnedStatus();
     }
 
     public void Building1BurnedStatus()
     {
         if(global.building1Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = originalColor;
         }
 
@@ -51,13 +59,11 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building2Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building2Burned == false)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = originalColor;
         }
 
@@ -69,15 +75,13 @@ public class BuildingScript : MonoBehaviour
 
     public void Building3BurnedStatus()
     {
-        if(global.building1Burned == true)
+        if (global.building1Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
-        {
-            Debug.Log("Specifically Building1");
+        { 
             selfRenderer.material = originalColor;
         }
 
@@ -91,13 +95,11 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building1Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = originalColor;
         }
 
@@ -111,13 +113,11 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building1Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = originalColor;
         }
 
@@ -127,17 +127,32 @@ public class BuildingScript : MonoBehaviour
         }
     }
 
-    public void Building6Burned()
+    public void Building6BurnedStatus()
     {
         if(global.building1Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
         {
-            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
+    public void Building7BurnedStatus()
+    {
+        if (global.building7Burned == true)
+        {
+            selfRenderer.material = differentColor;
+        }
+
+        if (global.building7Burned == false)
+        {
             selfRenderer.material = originalColor;
         }
 
@@ -151,13 +166,11 @@ public class BuildingScript : MonoBehaviour
     {
         if (global.building1Burned == true)
         {
-             Debug.Log("Specifically Building1");
              selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
         {
-             Debug.Log("Specifically Building1");
              selfRenderer.material = originalColor;
         }
 
@@ -172,13 +185,11 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building1Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = originalColor;
         }
 
@@ -188,17 +199,15 @@ public class BuildingScript : MonoBehaviour
         }
     }
 
-    public void Build10BurnedStatus()
+    public void Building10BurnedStatus()
     {
         if(global.building1Burned == true)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = differentColor;
         }
 
         if (global.building1Burned == false)
         {
-            Debug.Log("Specifically Building1");
             selfRenderer.material = originalColor;
         }
 
@@ -206,5 +215,55 @@ public class BuildingScript : MonoBehaviour
         {
             return;
         }
+    }
+
+    public void ChangeburnStatus1()
+    {
+        global.building1Burned = true;
+    }
+
+    public void ChangeburnStatus2()
+    {
+        global.building2Burned = true;
+    }
+
+    public void ChangeburnStatus3()
+    {
+        global.building3Burned = true;
+    }
+
+    public void ChangeburnStatus4()
+    {
+        global.building4Burned = true;
+    }
+
+    public void ChangeburnStatus5()
+    {
+        global.building5Burned = true;
+    }
+
+    public void ChangeburnStatus6()
+    {
+        global.building6Burned = true;
+    }
+
+    public void ChangeburnStatus7()
+    {
+        global.building7Burned = true;
+    }
+
+    public void ChangeburnStatus8()
+    {
+        global.building8Burned = true;
+    }
+
+    public void ChangeburnStatus9()
+    {
+        global.building9Burned = true;
+    }
+
+    public void ChangeburnStatus10()
+    {
+        global.building10Burned = true;
     }
 }
