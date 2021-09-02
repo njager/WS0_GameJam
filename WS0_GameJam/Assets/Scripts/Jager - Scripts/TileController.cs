@@ -105,7 +105,7 @@ public class TileController : MonoBehaviour
 
                 }
             }
-           //reset intel i fit falls below 0
+           //reset intel if it falls below 0
             if(intel < 0f)
             {
                 intel = 0f;
