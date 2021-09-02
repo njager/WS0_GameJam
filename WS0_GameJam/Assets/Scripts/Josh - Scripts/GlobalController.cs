@@ -16,9 +16,12 @@ public class GlobalController : MonoBehaviour
     public FreeTileChecker tileCheck;
 
     [Header("Numeric Variables")]
-    public int opinionStat = 50;
+    public float opinionStat = 50f;
     public float intelligenceStat = 0f;
 
+    [Header("UI Meters")]
+    [SerializeField] Image oBar; // Public Opinion Meter
+    [SerializeField] Image iBar; // Intelligence Bar
 
     [Header("Music")]
 
@@ -199,7 +202,14 @@ public class GlobalController : MonoBehaviour
         winChecker.WinChecker();  // Checks if the player won
         lossChecker.LoseChecker(); // Checks if the player lost
 
-        intelligenceStat += 1 * Time.deltaTime; // Intelligence Meter Stat change
+        intelligenceStat += 0.01f * Time.deltaTime; // Intelligence Meter Stat change
+        oBar.fillAmount = opinionStat;
+        iBar.fillAmount = intelligenceStat;
+
+        if (intelligenceStat < 0f) // Resets the intelligence bar if it were to go below zero 
+        {
+            intelligenceStat = 0f;
+        }
 
         if (Input.GetKeyDown(KeyCode.Escape)) // Player Pausing Functionality 
         {
