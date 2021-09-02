@@ -3189,8 +3189,8 @@ Camera:
   m_GameObject: {fileID: 546003193}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.29559746, g: 0.40518138, b: 0.4433962, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.06686838, g: 0.17747778, b: 0.21698111, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -5781,8 +5781,16 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1318634303}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2578905084303698924, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -524
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578905084303698924, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 456
+      objectReference: {fileID: 0}
     - target: {fileID: 2578905085162935259, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5793,7 +5801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2578905085162935259, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2578905085162935259, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5871,13 +5879,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2578905085441904070, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 527
+      objectReference: {fileID: 0}
+    - target: {fileID: 2578905085441904070, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 455
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
---- !u!224 &997266146 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 2578905085162935259, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
-  m_PrefabInstance: {fileID: 997266145}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &998233101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6303,7 +6314,7 @@ Transform:
   - {fileID: 1003308212}
   - {fileID: 388342980}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1044941468
 GameObject:
@@ -6754,6 +6765,8 @@ MonoBehaviour:
   tileCheck: {fileID: 940315659}
   opinionStat: 50
   intelligenceStat: 0
+  oBar: {fileID: 0}
+  iBar: {fileID: 0}
   backgroundMusic: {fileID: 1180671976}
   suspenseMusic: {fileID: 92829819}
   cardFlip: {fileID: 595279569}
@@ -8595,7 +8608,6 @@ Transform:
   m_Children:
   - {fileID: 1638244176}
   - {fileID: 1290078033}
-  - {fileID: 997266146}
   - {fileID: 2010744943}
   - {fileID: 1962105379}
   m_Father: {fileID: 1044941469}
@@ -11842,7 +11854,7 @@ RectTransform:
   m_Children:
   - {fileID: 2014805959}
   m_Father: {fileID: 1318634303}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12376,7 +12388,7 @@ RectTransform:
   m_Children:
   - {fileID: 1360806135}
   m_Father: {fileID: 1318634303}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -13076,7 +13088,7 @@ Transform:
   - {fileID: 1044941469}
   - {fileID: 1832830797}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2076255539
 PrefabInstance:
