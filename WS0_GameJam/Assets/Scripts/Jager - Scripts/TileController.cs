@@ -8,6 +8,8 @@ public class TileController : MonoBehaviour
     private int tileBoxIndex = 0;
     private GameObject currentTileBox;
     private bool hasBook;
+    private int freeTiles1;
+    private int freeTiles2;
 
     WaitForSeconds delay = new WaitForSeconds(1);
 
@@ -24,6 +26,8 @@ public class TileController : MonoBehaviour
         opinion = 50;
         intel = 0f;
         freeTiles = 4;
+        freeTiles1 = 4;
+        freeTiles2 = 4;
     }
 
     // Update is called last every frame
@@ -50,9 +54,20 @@ public class TileController : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                     StartCoroutine(TileBot());
                 }
-                if(hit.collider.gameObject.tag == "TileBox1")
+                if (hit.collider.gameObject.tag == "Tile2")
+                {
+                    Destroy(hit.collider.gameObject);
+                    StartCoroutine(TileBot2());
+                }
+                else if(hit.collider.gameObject.tag == "TileBox1")
                 {
                     tileBoxIndex = 0;
+                    currentTileBox = tileBoxList[tileBoxIndex];
+                    currentTileBox.SetActive(true);
+                }
+                else if(hit.collider.gameObject.tag == "TileBox2")
+                {
+                    tileBoxIndex = 1;
                     currentTileBox = tileBoxList[tileBoxIndex];
                     currentTileBox.SetActive(true);
                 }
@@ -63,7 +78,7 @@ public class TileController : MonoBehaviour
                 if (hit.collider.gameObject.tag == "Burn")
                 {
                     Debug.Log("You burned the building!");
-                    if (hasBook == true)
+                    /*if (hasBook == true)
                     {
                         opinion += 25;
                         intel -= 50;
@@ -71,8 +86,18 @@ public class TileController : MonoBehaviour
                     if (hasBook == false)
                     {
                         opinion -= 25;
-                    }
+                    }*/
                     currentTileBox.SetActive(false);
+                    if(tileBoxIndex == 0)
+                    {
+                        opinion += 25;
+                        intel -= 50;
+                    }
+                    if (tileBoxIndex == 1)
+                    {
+                        opinion -= 25;
+                    }
+
                 }
             }
            
@@ -85,7 +110,6 @@ public class TileController : MonoBehaviour
         }
     }
 
-    //coroutine for tiles once clicked
     IEnumerator TileBot()
     {
         //if there's free tiles left, reduce the number and nothing else
@@ -95,7 +119,41 @@ public class TileController : MonoBehaviour
             yield return null;
         }
         //if there's no more free tiles, reduce public opinion every tile
-        if(freeTiles == 0)
+        if (freeTiles == 0)
+        {
+            opinion -= 5;
+            yield return null;
+        }
+        yield return null;
+    }
+    //coroutine for tiles once clicked
+    IEnumerator TileBot1()
+    {
+        //if there's free tiles left, reduce the number and nothing else
+        if (freeTiles1 > 0)
+        {
+            freeTiles--;
+            yield return null;
+        }
+        //if there's no more free tiles, reduce public opinion every tile
+        if(freeTiles1 == 0)
+        {
+            opinion -= 5;
+            yield return null;
+        }
+        yield return null;
+    }
+    //coroutine for tiles once clicked
+    IEnumerator TileBot2()
+    {
+        //if there's free tiles left, reduce the number and nothing else
+        if (freeTiles2 > 0)
+        {
+            freeTiles2--;
+            yield return null;
+        }
+        //if there's no more free tiles, reduce public opinion every tile
+        if (freeTiles2 == 0)
         {
             opinion -= 5;
             yield return null;
