@@ -5,20 +5,64 @@ using UnityEngine.UI;
 
 public class ScreenShake : MonoBehaviour
 {
-    private Transform camTransform;
-    private float screenShakeDuration;
-    private float shakeMagnitude;
-    private float speedConstraint; 
-    Vector3 intitalPosition; 
+    // Transform of the GameObject you want to shake
+    private Transform transform;
 
-    void Start()
+    // Desired duration of the shake effect
+    private float shakeDuration = 0f;
+
+    // A measure of magnitude for the shake. Tweak based on your preference
+    private float shakeMagnitude = 0.7f;
+
+    // A measure of how quickly the shake effect should evaporate
+    private float dampingSpeed = 1.0f;
+
+    // The initial position of the GameObject
+    Vector3 initialPosition;
+
+
+    void Awake()
     {
-        screenShakeDuration = 0f;
-        shakeMagnitude = 0.7f;
-}
+        if (transform == null)
+        {
+            transform = GetComponent(typeof(Transform)) as Transform;
+        }
+    }
 
+    void OnEnable()
+    {
+        initialPosition = transform.localPosition;
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        
+        if (shakeDuration > 0)
+        {
+            transform.localPosition = initialPosition + Random.insideUnitSphere * shakeMagnitude;
+
+            shakeDuration -= Time.deltaTime * dampingSpeed;
+        }
+        else
+        {
+            shakeDuration = 0f;
+            transform.localPosition = initialPosition;
+        }
+
+        if (Input.GetKey(KeyCode.K))
+        {
+            Debug.Log("testing shake");
+            TriggerShake(0.5f);
+        }
+        if (Input.GetKey(KeyCode.L))
+        {
+            Debug.Log("testing shake");
+            TriggerShake(2.0f);
+        }
+    }
+
+    public void TriggerShake(float timeShake)
+    {
+        shakeDuration = timeShake;
     }
 }
