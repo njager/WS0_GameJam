@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TileController : MonoBehaviour
 {
@@ -10,20 +11,19 @@ public class TileController : MonoBehaviour
     private bool hasBook;
     private int freeTiles1;
     private int freeTiles2;
-
-    WaitForSeconds delay = new WaitForSeconds(1);
+    [SerializeField] Image oBar;
 
     //public variables
     public int freeTiles;
     public bool isSearching;
-    public int opinion;
+    public float opinion;
     public float intel;
     public List<GameObject> tileBoxList;
 
     // Start is called before the first frame update
     void Start()
     {
-        opinion = 50;
+        opinion = 0.5f;
         intel = 0f;
         freeTiles = 4;
         freeTiles1 = 4;
@@ -34,7 +34,8 @@ public class TileController : MonoBehaviour
     void Update()
     {
         intel += 1 * Time.deltaTime;
-        
+        oBar.fillAmount = opinion;
+
         //check if left mouse button clicked
         if (Input.GetMouseButtonDown(0))
         {
@@ -90,12 +91,12 @@ public class TileController : MonoBehaviour
                     currentTileBox.SetActive(false);
                     if(tileBoxIndex == 0)
                     {
-                        opinion += 25;
+                        opinion += 0.25f;
                         intel -= 50;
                     }
                     if (tileBoxIndex == 1)
                     {
-                        opinion -= 25;
+                        opinion -= 0.25f;
                     }
 
                 }
@@ -121,7 +122,7 @@ public class TileController : MonoBehaviour
         //if there's no more free tiles, reduce public opinion every tile
         if (freeTiles == 0)
         {
-            opinion -= 5;
+            opinion -= 0.05f;
             yield return null;
         }
         yield return null;
@@ -138,7 +139,7 @@ public class TileController : MonoBehaviour
         //if there's no more free tiles, reduce public opinion every tile
         if(freeTiles1 == 0)
         {
-            opinion -= 5;
+            opinion -= 0.05f;
             yield return null;
         }
         yield return null;
@@ -155,7 +156,7 @@ public class TileController : MonoBehaviour
         //if there's no more free tiles, reduce public opinion every tile
         if (freeTiles2 == 0)
         {
-            opinion -= 5;
+            opinion -= 0.05f;
             yield return null;
         }
         yield return null;
