@@ -7,6 +7,7 @@ public class BuildingScript : MonoBehaviour
 {
     private GlobalController global;
     private Renderer selfRenderer;
+    public BuildingScript selfReference;
     public Material originalColor; 
     public Material differentColor; 
 
@@ -15,25 +16,84 @@ public class BuildingScript : MonoBehaviour
         global = GlobalController.instance;
 
         //Grabbing Renderer to change color
-        selfRenderer = gameObject.GetComponent<Renderer>(); 
+        selfRenderer = gameObject.GetComponent<Renderer>();
+        //Trying to grab tag 
+        GlobalController.instance.building = selfReference; 
     }
 
     
     void Update()
     {
-        if (global.isBurned == true)
+        if (selfReference.tag == "Building1")
         {
-            selfRenderer.material = differentColor;
+            if (global.isBurned == true)
+            {
+                selfRenderer.material = differentColor;
+            }
+
+            if (global.isBurned == false)
+            {
+                selfRenderer.material = originalColor;
+            }
+
+            if (global.opinionStat == 15)
+            {
+                return;
+            }
         }
 
-        if (global.isBurned == false)
+        if (selfReference.tag == "Building2")
         {
-            selfRenderer.material = originalColor; 
+            if (global.isBurned == true)
+            {
+                selfRenderer.material = differentColor;
+            }
+
+            if (global.isBurned == false)
+            {
+                selfRenderer.material = originalColor;
+            }
+
+            if (global.opinionStat == 15)
+            {
+                return;
+            }
+        }
+        
+        if (selfReference.tag == "Building3")
+        {
+            if (global.isBurned == true)
+            {
+                selfRenderer.material = differentColor;
+            }
+
+            if (global.isBurned == false)
+            {
+                selfRenderer.material = originalColor;
+            }
+
+            if (global.opinionStat == 15)
+            {
+                return;
+            }
         }
 
-        if (global.opinionStat == 15)
+        if (selfReference.tag == "Building4")
         {
-            return;
+            if (global.isBurned == true)
+            {
+                selfRenderer.material = differentColor;
+            }
+
+            if (global.isBurned == false)
+            {
+                selfRenderer.material = originalColor;
+            }
+
+            if (global.opinionStat == 15)
+            {
+                return;
+            }
         }
     }
 }

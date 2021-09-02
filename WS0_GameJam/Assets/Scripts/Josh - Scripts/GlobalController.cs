@@ -72,8 +72,20 @@ public class GlobalController : MonoBehaviour
     public bool gameEndedWin = false;
     public bool gameEndedLoss = false;
     public bool gamePaused = false;
+    public bool hasBook = false;
     public bool isBurned = false;
-    public bool hasBook = false; 
+
+    [Header("BurnedBools")]
+    public bool building1Burned = false;
+    public bool building2Burned = false;
+    public bool building3Burned = false;
+    public bool building4Burned = false;
+    public bool building5Burned = false;
+    public bool building6Burned = false;
+    public bool building7Burned = false;
+    public bool building8Burned = false;
+    public bool building9Burned = false;
+    public bool building10Burned = false;
 
     [Header("FreeTiles")]
     public int freeTiles = 3;
@@ -92,6 +104,7 @@ public class GlobalController : MonoBehaviour
 
     [Header("Script References")]
     public BuildingSelector buildingSelector;
+    public BuildingScript building; 
  
     WaitForSeconds delay = new WaitForSeconds(1);
 
