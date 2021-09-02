@@ -235,7 +235,7 @@ public class GlobalController : MonoBehaviour
     }
 
     public void ActivateTilebox()
-    {
+    { 
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
         tileBox1.SetActive(true);
