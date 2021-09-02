@@ -302,7 +302,7 @@ public class GlobalController : MonoBehaviour
     public void TileClicked()
     {
         Destroy(gameObject);
-        StartCoroutine(TileBot());
+       // StartCoroutine(TileBot());
     }
 
 

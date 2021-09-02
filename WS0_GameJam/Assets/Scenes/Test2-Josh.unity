@@ -1799,7 +1799,7 @@ GameObject:
   - component: {fileID: 314646711}
   - component: {fileID: 314646712}
   m_Layer: 0
-  m_Name: FreeTileMarker (2)
+  m_Name: FreeTileMarker - 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2106,7 +2106,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 825215873}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &340807121
 MonoBehaviour:
@@ -4766,7 +4766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 825215873}
   m_Layer: 0
-  m_Name: ConditonHolder
+  m_Name: ScriptHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4783,6 +4783,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 940315660}
   - {fileID: 340807120}
   - {fileID: 1211769281}
   m_Father: {fileID: 0}
@@ -5215,6 +5216,49 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2141298839115856502, guid: fea012ff73c38d547b4635e4df74c209, type: 3}
   m_PrefabInstance: {fileID: 921042651}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &940315658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940315660}
+  - component: {fileID: 940315659}
+  m_Layer: 0
+  m_Name: FreeTileChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &940315659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940315658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d475d091d419ab4a9635a5034098b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &940315660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940315658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 825215873}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &975322479
 GameObject:
   m_ObjectHideFlags: 0
@@ -6098,7 +6142,7 @@ GameObject:
   - component: {fileID: 1072173298}
   - component: {fileID: 1072173299}
   m_Layer: 0
-  m_Name: FreeTileMarker (1)
+  m_Name: FreeTileMarker - 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6374,9 +6418,9 @@ MonoBehaviour:
   testVar: 50
   winChecker: {fileID: 340807121}
   lossChecker: {fileID: 1211769282}
+  tileCheck: {fileID: 940315659}
   opinionStat: 50
   intelligenceStat: 0
-  freeTileCount: 0
   backgroundMusic: {fileID: 1180671976}
   suspenseMusic: {fileID: 92829819}
   cardFlip: {fileID: 595279569}
@@ -6423,15 +6467,34 @@ MonoBehaviour:
   building8Burned: 0
   building9Burned: 0
   building10Burned: 0
-  freeTiles: 3
   freeTileUI: {fileID: 40349989}
   freeTile1: {fileID: 2011971451}
   freeTile2: {fileID: 1072173297}
   freeTile3: {fileID: 314646710}
+  freeTiles1: 3
+  freeTiles2: 3
+  freeTiles3: 3
+  freeTiles4: 3
+  freeTiles5: 3
+  freeTiles6: 3
+  freeTiles7: 3
+  freeTiles8: 3
+  freeTiles9: 3
+  freeTiles10: 3
   textBox1: {fileID: 986523058}
   textBox2: {fileID: 1932345202}
   textCounter: 0
   characterUI: {fileID: 1232197197}
+  characterFile1: {fileID: 0}
+  characterFile2: {fileID: 0}
+  characterFile3: {fileID: 0}
+  characterFile4: {fileID: 0}
+  characterFile5: {fileID: 0}
+  characterFile6: {fileID: 0}
+  characterFile7: {fileID: 0}
+  characterFile8: {fileID: 0}
+  characterFile9: {fileID: 0}
+  characterFile10: {fileID: 0}
   buildingSelector: {fileID: 1023163864}
   building: {fileID: 0}
 --- !u!43 &1142245829
@@ -7247,7 +7310,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 825215873}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1211769282
 MonoBehaviour:
@@ -12342,7 +12405,7 @@ GameObject:
   - component: {fileID: 2011971452}
   - component: {fileID: 2011971453}
   m_Layer: 0
-  m_Name: FreeTileMarker
+  m_Name: FreeTileMarker - 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
