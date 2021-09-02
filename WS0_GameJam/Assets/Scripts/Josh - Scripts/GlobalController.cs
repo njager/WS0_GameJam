@@ -107,7 +107,16 @@ public class GlobalController : MonoBehaviour
 
     void Start()
     {
-        DeactivateTilebox();
+        DeactivateTilebox1();
+        DeactivateTilebox2();
+        DeactivateTilebox3();
+        DeactivateTilebox4();
+        DeactivateTilebox5();
+        DeactivateTilebox6();
+        DeactivateTilebox7();
+        DeactivateTilebox8();
+        DeactivateTilebox9();
+        DeactivateTilebox10();
 
         gameEndedWin = false; // In case of restart or other shenaningans, stating base values.
         gameEndedLoss = false;
@@ -234,26 +243,6 @@ public class GlobalController : MonoBehaviour
 
     }
 
-    public void ActivateTilebox()
-    { 
-        mapContainer.SetActive(false);
-        transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
-        freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
-    }
-
-    public void DeactivateTilebox()
-    {
-        mapContainer.SetActive(true);
-        transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
-        freeTileUI.SetActive(false);
-        characterUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
-    }
-
     public void BurnBuildingButton()
     {
         if (hasBook == true)
@@ -277,5 +266,207 @@ public class GlobalController : MonoBehaviour
     {
         Destroy(gameObject);
         StartCoroutine(TileBot());
+    }
+
+
+    //Doesn't feelsmart, but easiest way to do for multiple unity buttons 
+    public void ActivateTilebox1()
+    { 
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox2()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox3()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox4()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox5()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+    public void ActivateTilebox6()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox7()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox8()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox9()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+    public void ActivateTilebox10()
+    {
+        mapContainer.SetActive(false);
+        transparentCanvas.SetActive(true);
+        tileBox1.SetActive(true);
+        freeTileUI.SetActive(true);
+        characterUI.SetActive(true);
+        dialogueCanvas.SetActive(true);
+    }
+
+
+    //Same for deactivation 
+    public void DeactivateTilebox1()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox2()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox3()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox4()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox5()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox6()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox7()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox8()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+
+    public void DeactivateTilebox9()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
+    }
+    public void DeactivateTilebox10()
+    {
+        mapContainer.SetActive(true);
+        transparentCanvas.SetActive(false);
+        tileBox1.SetActive(false);
+        freeTileUI.SetActive(false);
+        characterUI.SetActive(false);
+        dialogueCanvas.SetActive(false);
     }
 }

@@ -2670,6 +2670,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6437824695597299995, guid: 7479814a24085a84882eb6366077538a, type: 3}
   m_PrefabInstance: {fileID: 502253568}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &502253570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
+  m_PrefabInstance: {fileID: 502253568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &502253571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502253570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5257f9c33eb6a48a297466b7f60c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalColor: {fileID: 2100000, guid: 42a44afae572b9a4baf159afe2ff5e09, type: 2}
+  differentColor: {fileID: 2100000, guid: 6286545e5f509494faef6944ebed8135, type: 2}
 --- !u!1 &510873445
 GameObject:
   m_ObjectHideFlags: 0
@@ -6391,7 +6410,7 @@ MonoBehaviour:
   gameEndedWin: 0
   gameEndedLoss: 0
   gamePaused: 0
-  isSearching: 0
+  isBurned: 1
   hasBook: 0
   freeTiles: 3
   freeTileUI: {fileID: 40349989}

@@ -28,7 +28,7 @@ public class BuildingSelector : MonoBehaviour
         global.menuCanvas.SetActive(false);
         global.gamePaused = false;
         global.PauseGame();
-        global.ActivateTilebox(); 
+        global.ActivateTilebox1(); //Come back to this 
     }
 
     public void BackButton()

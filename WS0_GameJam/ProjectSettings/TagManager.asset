@@ -10,6 +10,25 @@ TagManager:
   - Leave
   - Burn
   - Global
+  - TileBox2
+  - TileBox3
+  - TileBox4
+  - TileBox5
+  - TileBox6
+  - TileBox7
+  - TileBox9
+  - TileBox10
+  - Avatar1
+  - Avatar2
+  - Avatar3
+  - Avatar4
+  - TileBox8
+  - Avatar5
+  - Avatar6
+  - Avatar7
+  - Avatar8
+  - Avatar9
+  - Avatar10
   layers:
   - Default
   - TransparentFX
