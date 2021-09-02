@@ -15,9 +15,19 @@ public class GlobalController : MonoBehaviour
     public LoseScript lossChecker;
     public int freeTileCount;
 
-    [Header("Audio")]
-    public AudioSource testAudio1;
-    public AudioSource testAudio2;
+    [Header("Music")]
+
+    public AudioSource backgroundMusic;
+    public AudioSource suspenseMusic;
+
+    [Header("Sound Effects")]
+    public AudioSource cardFlip;
+    public AudioSource buttonPress; 
+    public AudioSource angryMobPublicOpinion;
+    public AudioSource bookUncovered;
+    public AudioSource bookBurningSound;
+    public AudioSource winSound;
+    public AudioSource loseSound; 
 
     [Header("Canvases")]
     public GameObject UICanvas;
