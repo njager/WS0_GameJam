@@ -46,7 +46,7 @@ public class GlobalController : MonoBehaviour
     public GameObject mapCamera;
     public GameObject otherCamera;
 
-    [Header("Stats GameObjects")]
+    [Header("The Stats GameObjects")]
     public GameObject intelligenceMeter;
     public GameObject publicOpinionMeter;
 
@@ -72,7 +72,7 @@ public class GlobalController : MonoBehaviour
     public bool gameEndedWin = false;
     public bool gameEndedLoss = false;
     public bool gamePaused = false;
-    public bool isSearching;
+    public bool isBurned = false; 
     public bool hasBook = false; 
 
     [Header("FreeTiles")]
