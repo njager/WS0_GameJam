@@ -24,80 +24,187 @@ public class BuildingScript : MonoBehaviour
     
     void Update()
     {
-        if (selfReference.tag == "Building1")
+   
+    }
+
+    public void Building1BurnedStatus()
+    {
+        if(global.building1Burned == true)
         {
-            if (global.isBurned == true)
-            {
-                Debug.Log("Specifically Building1");
-                selfRenderer.material = differentColor;
-            }
-
-            if (global.isBurned == false)
-            {
-                Debug.Log("Specifically Building1");
-                selfRenderer.material = originalColor;
-            }
-
-            if (global.opinionStat == 15)
-            {
-                return;
-            }
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
         }
 
-        if (selfReference.tag == "Building2")
+        if (global.building1Burned == false)
         {
-            if (global.isBurned == true)
-            {
-                Debug.Log("Specifically Building2");
-                selfRenderer.material = differentColor;
-            }
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
 
-            if (global.isBurned == false)
-            {
-                Debug.Log("Specifically Building2");
-                selfRenderer.material = originalColor;
-            }
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
 
-            if (global.opinionStat == 15)
-            {
-                return;
-            }
+    public void Building2BurnedStatus()
+    {
+        if(global.building2Burned == true)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
+        }
+
+        if (global.building2Burned == false)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
+
+    public void Building3BurnedStatus()
+    {
+        if(global.building1Burned == true)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
+        }
+
+        if (global.building1Burned == false)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
+
+    public void Building4BurnedStatus()
+    {
+        if(global.building1Burned == true)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
+        }
+
+        if (global.building1Burned == false)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
+
+    public void Building5BurnedStatus()
+    {
+        if(global.building1Burned == true)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
+        }
+
+        if (global.building1Burned == false)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
+
+    public void Building6Burned()
+    {
+        if(global.building1Burned == true)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
+        }
+
+        if (global.building1Burned == false)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
+
+    public void Building8BurnedStatus()
+    {
+        if (global.building1Burned == true)
+        {
+             Debug.Log("Specifically Building1");
+             selfRenderer.material = differentColor;
+        }
+
+        if (global.building1Burned == false)
+        {
+             Debug.Log("Specifically Building1");
+             selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+             return;
         }
         
-        if (selfReference.tag == "Building3")
+    }
+
+    public void Building9BurnedStatus()
+    {
+        if(global.building1Burned == true)
         {
-            if (global.isBurned == true)
-            {
-                selfRenderer.material = differentColor;
-            }
-
-            if (global.isBurned == false)
-            {
-                selfRenderer.material = originalColor;
-            }
-
-            if (global.opinionStat == 15)
-            {
-                return;
-            }
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
         }
 
-        if (selfReference.tag == "Building4")
+        if (global.building1Burned == false)
         {
-            if (global.isBurned == true)
-            {
-                selfRenderer.material = differentColor;
-            }
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
 
-            if (global.isBurned == false)
-            {
-                selfRenderer.material = originalColor;
-            }
+        if (global.opinionStat == 15)
+        {
+            return;
+        }
+    }
 
-            if (global.opinionStat == 15)
-            {
-                return;
-            }
+    public void Build10BurnedStatus()
+    {
+        if(global.building1Burned == true)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = differentColor;
+        }
+
+        if (global.building1Burned == false)
+        {
+            Debug.Log("Specifically Building1");
+            selfRenderer.material = originalColor;
+        }
+
+        if (global.opinionStat == 15)
+        {
+            return;
         }
     }
 }
