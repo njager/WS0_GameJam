@@ -125,7 +125,7 @@ public class GlobalController : MonoBehaviour
         winChecker.WinChecker();  // Checks if the player won
         lossChecker.LoseChecker(); // Checks if the player lost
 
-        intelligenceStat += 1 * Time.deltaTime;
+        intelligenceStat += 1 * Time.deltaTime; // Intelligence Meter Stat change
 
         if (Input.GetKeyDown(KeyCode.Escape)) // Player Pausing Functionality 
         {
@@ -134,71 +134,26 @@ public class GlobalController : MonoBehaviour
         }
         PauseGame();
 
-        //check if left mouse button clicked
-        if (Input.GetMouseButtonDown(0))
+        if (freeTileCount == 3)
         {
-            Debug.Log("mouse clicked!");
-            //send out a raycast at mouse location
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
-            //register raycast hits
-            RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-            if (hit.collider != null)
-            {
-                //if raycast hit a tile, destroy it
-                Debug.Log("Something was clicked!");
-                Debug.Log(hit.collider.gameObject.name);
-                if (hit.collider.gameObject.tag == "Tile")
-                {
-                    Destroy(hit.collider.gameObject);
-                    StartCoroutine(TileBot());
-                }
-                if (hit.collider.gameObject.tag == "TileBox1")
-                {
-                    tileBoxIndex = 0;
-                    currentTileBox = tileBoxList[tileBoxIndex];
-                    currentTileBox.SetActive(true);
-                }
-                if (hit.collider.gameObject.tag == "Leave")
-                {
-                    currentTileBox.SetActive(false);
-                }
-                if (hit.collider.gameObject.tag == "Burn")
-                {
-                    Debug.Log("You burned the building!");
-                    if (hasBook == true)
-                    {
-                        opinionStat += 25;
-                        intelligenceStat -= 50;
-                    }
-                    if (hasBook == false)
-                    {
-                        opinionStat -= 25;
-                    }
-                    currentTileBox.SetActive(false);
-                }
-            }
-
-            if (freeTileCount == 3)
-            {
-                freeTile1.SetActive(true);
-                freeTile2.SetActive(true);
-                freeTile3.SetActive(true);
-            }
-            if (freeTileCount == 2)
-            {
-                freeTile1.SetActive(false);
-                freeTile2.SetActive(true);
-                freeTile3.SetActive(true);
-            }
-            if (freeTileCount == 1)
-            {
-                freeTile1.SetActive(false);
-                freeTile2.SetActive(false);
-                freeTile3.SetActive(true);
-            }
-
+            freeTile1.SetActive(true);
+            freeTile2.SetActive(true);
+            freeTile3.SetActive(true);
         }
+        if (freeTileCount == 2)
+        {
+            freeTile1.SetActive(false);
+            freeTile2.SetActive(true);
+            freeTile3.SetActive(true);
+        }
+        if (freeTileCount == 1)
+        {
+            freeTile1.SetActive(false);
+            freeTile2.SetActive(false);
+            freeTile3.SetActive(true);
+        }
+
+       
 
         //debug to check current intel and opinion in console, made by Jager
         if (Input.GetKeyDown(KeyCode.R))
@@ -287,5 +242,30 @@ public class GlobalController : MonoBehaviour
         freeTileUI.SetActive(false);
         characterUI.SetActive(false);
         dialogueCanvas.SetActive(false);
+    }
+
+    public void BurnBuildingButton()
+    {
+        if (hasBook == true)
+        {
+            opinionStat += 25;
+            intelligenceStat -= 50;
+        }
+        if (hasBook == false)
+        {
+            opinionStat -= 25;
+        }
+        currentTileBox.SetActive(false);
+    }
+
+    public void LeaveBuilding()
+    {
+        currentTileBox.SetActive(false);
+    }
+
+    public void TileClicked()
+    {
+        Destroy(gameObject);
+        StartCoroutine(TileBot());
     }
 }
