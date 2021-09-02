@@ -51,12 +51,17 @@ public class ShakeBehavior : MonoBehaviour
         if (Input.GetKey(KeyCode.K))
         {
             Debug.Log("testing shake");
-            TriggerShake();
+            TriggerShake(0.5f);
+        }
+        if (Input.GetKey(KeyCode.L))
+        {
+            Debug.Log("testing shake");
+            TriggerShake(2.0f);
         }
     }
 
-    public void TriggerShake()
+    public void TriggerShake(float timeShake)
     {
-        shakeDuration = 0.5f;
+        shakeDuration = timeShake;
     }
 }
