@@ -13,7 +13,12 @@ public class GlobalController : MonoBehaviour
     [Header("Checkers")]
     public WinScript winChecker;
     public LoseScript lossChecker;
+    
+    [Header("Numeric Variables")]
+    public int opinionStat = 50;
+    public float intelligenceStat = 0f;
     public int freeTileCount;
+
 
     [Header("Music")]
 
@@ -48,21 +53,30 @@ public class GlobalController : MonoBehaviour
     [Header("Map")]
     public GameObject mapContainer;
 
-    [Header("Jager's Variables")]
-    public int freeTiles = 3;
-    public bool isSearching;
-    public int opinionStat = 50;
-    public float intelligenceStat = 0f;
+    [Header("TileBoxes")]
     public GameObject tileBox1;
+    public GameObject tileBox2;
+    public GameObject tileBox3;
+    public GameObject tileBox4;
+    public GameObject tileBox5;
+    public GameObject tileBox6;
+    public GameObject tileBox7;
+    public GameObject tileBox8;
+    public GameObject tileBox9;
+    public GameObject tileBox10; 
 
-    public List<GameObject> tileBoxList;
+    public GameObject currentTileBox; 
+
 
     [Header("Bools")]
     public bool gameEndedWin = false;
     public bool gameEndedLoss = false;
     public bool gamePaused = false;
+    public bool isSearching;
+    public bool hasBook = false; 
 
     [Header("FreeTiles")]
+    public int freeTiles = 3;
     public GameObject freeTileUI;
     public GameObject freeTile1;
     public GameObject freeTile2;
@@ -78,11 +92,7 @@ public class GlobalController : MonoBehaviour
 
     [Header("Script References")]
     public BuildingSelector buildingSelector;
-
-    //Private Variables, Jager Creator
-    private int tileBoxIndex = 0;
-    private GameObject currentTileBox;
-    private bool hasBook;
+ 
     WaitForSeconds delay = new WaitForSeconds(1);
 
     void Awake()
