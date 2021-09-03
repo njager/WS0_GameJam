@@ -5874,6 +5874,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+--- !u!1 &997266146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2578905085441904071, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+  m_PrefabInstance: {fileID: 997266145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &997266147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2578905084303698925, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+  m_PrefabInstance: {fileID: 997266145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &997266148 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2578905085273894198, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+  m_PrefabInstance: {fileID: 997266145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &997266149 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2578905084762015864, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+  m_PrefabInstance: {fileID: 997266145}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &997266150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2578905085162935263, guid: 78adc45c2c991874b93485ebabef5d93, type: 3}
+  m_PrefabInstance: {fileID: 997266145}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &998233101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6750,8 +6787,8 @@ MonoBehaviour:
   tileCheck: {fileID: 940315659}
   opinionStat: 50
   intelligenceStat: 0
-  oBar: {fileID: 0}
-  iBar: {fileID: 0}
+  oBar: {fileID: 997266149}
+  iBar: {fileID: 997266148}
   backgroundMusic: {fileID: 1180671976}
   suspenseMusic: {fileID: 92829819}
   cardFlip: {fileID: 595279569}
@@ -6761,7 +6798,7 @@ MonoBehaviour:
   bookBurningSound: {fileID: 572107603}
   winSound: {fileID: 1125457236}
   loseSound: {fileID: 2010992693}
-  UICanvas: {fileID: 0}
+  UICanvas: {fileID: 997266150}
   loseCanvas: {fileID: 2010744942}
   winCanvas: {fileID: 1962105378}
   menuCanvas: {fileID: 1290078032}
@@ -6769,8 +6806,8 @@ MonoBehaviour:
   transparentCanvas: {fileID: 1638244175}
   mapCamera: {fileID: 546003193}
   otherCamera: {fileID: 975322479}
-  intelligenceMeter: {fileID: 0}
-  publicOpinionMeter: {fileID: 0}
+  intelligenceMeter: {fileID: 997266147}
+  publicOpinionMeter: {fileID: 997266146}
   mapContainer: {fileID: 1037087136}
   tileBox1: {fileID: 97668777}
   tileBox2: {fileID: 126982858}
