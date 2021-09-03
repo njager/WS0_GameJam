@@ -183,6 +183,7 @@ public class BuildingScript : MonoBehaviour
         global.opinionStat -= 0.2f;
         global.building1Burned = true;
         global.DeactivateTilebox1();
+        global.Camera.TriggerShake(1f);
         global.bookBurningSound.Play();
     }
 
@@ -191,6 +192,7 @@ public class BuildingScript : MonoBehaviour
         global.opinionStat += 0.2f;
         global.building2Burned = true;
         global.DeactivateTilebox2();
+        global.Camera.TriggerShake(0.4f);
         global.bookBurningSound.Play();
     }
 
@@ -199,6 +201,7 @@ public class BuildingScript : MonoBehaviour
         global.opinionStat += 0.2f;
         global.building3Burned = true;
         global.DeactivateTilebox3();
+        global.Camera.TriggerShake(0.4f);
         global.bookBurningSound.Play();
     }
 
@@ -207,6 +210,7 @@ public class BuildingScript : MonoBehaviour
         global.opinionStat -= 0.2f;
         global.building4Burned = true;
         global.DeactivateTilebox4();
+        global.Camera.TriggerShake(1f);
         global.bookBurningSound.Play();
     }
 
@@ -215,6 +219,7 @@ public class BuildingScript : MonoBehaviour
         global.opinionStat += 0.2f;
         global.building5Burned = true;
         global.DeactivateTilebox5();
+        global.Camera.TriggerShake(0.4f);
         global.bookBurningSound.Play();
     }
 
@@ -223,6 +228,7 @@ public class BuildingScript : MonoBehaviour
         global.opinionStat -= 0.2f;
         global.building6Burned = true;
         global.DeactivateTilebox6();
+        global.Camera.TriggerShake(1f);
         global.bookBurningSound.Play();
     }
 
@@ -231,6 +237,7 @@ public class BuildingScript : MonoBehaviour
         global.opinionStat -= 0.2f;
         global.building7Burned = true;
         global.DeactivateTilebox7();
+        global.Camera.TriggerShake(1f);
         global.bookBurningSound.Play();
     }
 }
