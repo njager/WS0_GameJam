@@ -59,7 +59,7 @@ public class GlobalController : MonoBehaviour
     [Header("Map")]
 
     public GameObject mapContainer;
-    public GameObject mapIcons;
+    public GameObject mapButtons;
     public GameObject menuContainer; 
 
     [Header("TileBoxes")]
@@ -318,6 +318,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox1()
     {
         menuContainer.SetActive(true);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
