@@ -141,8 +141,6 @@ public class GlobalController : MonoBehaviour
     [Header("Script References")]
 
     public BuildingSelector buildingSelector;
-    public BuildingScript building;
-    
  
     WaitForSeconds delay = new WaitForSeconds(1);
 
@@ -386,71 +384,64 @@ public class GlobalController : MonoBehaviour
     //Same for deactivation 
     public void DeactivateTilebox1()
     {
-        mapContainer.SetActive(true);
+        menuContainer.SetActive(false);
         transparentCanvas.SetActive(false);
-        tileBox1.SetActive(false);
-        freeTileUI.SetActive(false);
         characterFile1.SetActive(false);
+        freeTileUI.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
     public void DeactivateTilebox2()
     {
-        mapContainer.SetActive(true);
+        menuContainer.SetActive(false);
         transparentCanvas.SetActive(false);
-        tileBox2.SetActive(false);
-        freeTileUI.SetActive(false);
         characterFile2.SetActive(false);
+        freeTileUI.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
     public void DeactivateTilebox3()
     {
-        mapContainer.SetActive(true);
+        menuContainer.SetActive(false);
         transparentCanvas.SetActive(false);
-        tileBox3.SetActive(false);
-        freeTileUI.SetActive(false);
         characterFile3.SetActive(false);
+        freeTileUI.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
     public void DeactivateTilebox4()
     {
-        mapContainer.SetActive(true);
+        menuContainer.SetActive(false);
         transparentCanvas.SetActive(false);
-        tileBox4.SetActive(false);
-        freeTileUI.SetActive(false);
         characterFile4.SetActive(false);
+        freeTileUI.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
     public void DeactivateTilebox5()
     {
-        mapContainer.SetActive(true);
+        menuContainer.SetActive(false);
         transparentCanvas.SetActive(false);
-        tileBox5.SetActive(false);
-        freeTileUI.SetActive(false);
         characterFile5.SetActive(false);
+        freeTileUI.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
     public void DeactivateTilebox6()
     {
-        mapContainer.SetActive(true);
+        menuContainer.SetActive(false);
         transparentCanvas.SetActive(false);
-        tileBox6.SetActive(false);
-        freeTileUI.SetActive(false);
         characterFile6.SetActive(false);
+        freeTileUI.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
     public void DeactivateTilebox7()
     {
-        mapContainer.SetActive(true);
+        menuContainer.SetActive(false);
         transparentCanvas.SetActive(false);
-        tileBox7.SetActive(false);
-        freeTileUI.SetActive(false);
         characterFile7.SetActive(false);
+        freeTileUI.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
