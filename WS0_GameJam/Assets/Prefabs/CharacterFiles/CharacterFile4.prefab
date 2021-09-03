@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 8927212130767042311}
   - component: {fileID: 8927212130767042308}
   m_Layer: 0
-  m_Name: FolderInterface
+  m_Name: CharacterFile4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
