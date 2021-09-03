@@ -34,46 +34,55 @@ public class CharacterFileScript : MonoBehaviour
 
     public void tileFlip1()
     {
+        global.freeTiles1--;
         tileCover1.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip2()
     {
+        global.freeTiles1--;
         tileCover2.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip3()
     {
+        global.freeTiles1--;
         tileCover3.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip4()
     {
+        global.freeTiles1--;
         tileCover4.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip5()
     {
+        global.freeTiles1--;
         tileCover5.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip6()
     {
+        global.freeTiles1--;
         tileCover6.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip7()
     {
+        global.freeTiles1--;
         tileCover7.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip8()
     {
+        global.freeTiles1--;
         tileCover8.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip9()
     {
+        global.freeTiles1--;
         tileCover9.SetActive(false);
         global.cardFlip.Play();
     }

@@ -210,7 +210,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 13995468}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &13995468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,7 +945,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 68234661}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &68234661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2923,7 +2947,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 312069630}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &312069630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3949,7 +3985,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 422378302}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &422378302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5092,7 +5140,7 @@ RectTransform:
   m_Children:
   - {fileID: 1921882682}
   m_Father: {fileID: 1933104316856014311}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5142,7 +5190,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 590528516}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &590528516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5263,7 +5323,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 590973481}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &590973481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7947,7 +8019,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 981326287}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &981326287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12375,7 +12459,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1370183894}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip9
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1370183894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17531,7 +17627,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2098409537}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8927212129364003263}
+        m_TargetAssemblyTypeName: CharacterFileScript, Assembly-CSharp
+        m_MethodName: tileFlip7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2098409537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18637,7 +18745,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1933104315536988428
 Transform:
   m_ObjectHideFlags: 0
@@ -18732,7 +18840,7 @@ Transform:
   m_LocalScale: {x: 0.55, y: 0.55, z: 1}
   m_Children: []
   m_Father: {fileID: 1933104316856014311}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1933104315544223205
 GameObject:
@@ -18877,7 +18985,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1933104315745243166
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19420,8 +19528,8 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0.3, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1933104315544223204}
   - {fileID: 590528514}
+  - {fileID: 1933104315544223204}
   m_Father: {fileID: 8863865243285279562}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19647,7 +19755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1933104317351446626
 GameObject:
   m_ObjectHideFlags: 0
@@ -19664,7 +19772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1933104317351446628
 BoxCollider2D:
   m_ObjectHideFlags: 0
