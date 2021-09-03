@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class LoseScript : MonoBehaviour
 {
@@ -12,13 +13,13 @@ public class LoseScript : MonoBehaviour
 
     public void LoseChecker()
     {
-        if (global.intelligenceStat <= 100f)
+        if (global.intelligenceStat > 0.99f)
         {
-            global.gameEndedLoss = true; 
+            SceneManager.LoadScene(3);
         }
-        if (global.opinionStat >= 0)
+        if (global.opinionStat < 0.01f)
         {
-            global.gameEndedLoss = true;
+            SceneManager.LoadScene(2);
         }
     }
 

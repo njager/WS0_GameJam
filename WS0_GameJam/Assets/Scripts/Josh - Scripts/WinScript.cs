@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class WinScript : MonoBehaviour
 {
@@ -12,7 +13,10 @@ public class WinScript : MonoBehaviour
 
     public void WinChecker()
     {
-        
+        if (global.booksBurned == 3)
+        {
+            SceneManager.LoadScene(4);
+        }
     }
 
     public void Win()

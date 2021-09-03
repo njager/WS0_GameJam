@@ -121,27 +121,27 @@ public class CharacterFileScript : MonoBehaviour
     {
         if (global.freeTiles1 == -1)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles1 == -2)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles1 == -3)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles1 == -4)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles1 == -5)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles1 == -6)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
     }
 
