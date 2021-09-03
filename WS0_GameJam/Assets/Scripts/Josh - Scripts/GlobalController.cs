@@ -50,7 +50,6 @@ public class GlobalController : MonoBehaviour
     [Header("Cameras")]
 
     public GameObject mapCamera;
-    public GameObject otherCamera;
 
     [Header("The Stats GameObjects")]
 
@@ -60,6 +59,7 @@ public class GlobalController : MonoBehaviour
     [Header("Map")]
 
     public GameObject mapContainer;
+    public GameObject menuContainer; 
 
     [Header("TileBoxes")]
 
@@ -192,8 +192,6 @@ public class GlobalController : MonoBehaviour
         loseCanvas.SetActive(false);
         winCanvas.SetActive(false);
         menuCanvas.SetActive(false);
-
-        otherCamera.SetActive(false);
         mapCamera.SetActive(true);
     }
 
@@ -318,8 +316,8 @@ public class GlobalController : MonoBehaviour
 
     //Doesn't feelsmart, but easiest way to do for multiple unity buttons 
     public void ActivateTilebox1()
-    { 
-        mapContainer.SetActive(false);
+    {
+        menuContainer.SetActive(true);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
