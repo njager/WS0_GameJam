@@ -30553,6 +30553,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1121687309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121687310}
+  m_Layer: 0
+  m_Name: BurnedIcons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1121687310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121687309}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1121913330
 GameObject:
   m_ObjectHideFlags: 0
@@ -31590,8 +31620,6 @@ MonoBehaviour:
   gameEndedWin: 0
   gameEndedLoss: 0
   gamePaused: 0
-  hasBook: 0
-  isBurned: 0
   building1Burned: 0
   building2Burned: 0
   building3Burned: 0
@@ -31648,6 +31676,27 @@ MonoBehaviour:
   freeTiles5: 3
   freeTiles6: 3
   freeTiles7: 3
+  buildingButton1: {fileID: 0}
+  buildingButton2: {fileID: 0}
+  buildingButton3: {fileID: 0}
+  buildingButton4: {fileID: 0}
+  buildingButton5: {fileID: 0}
+  buildingButton6: {fileID: 0}
+  buildingButton7: {fileID: 0}
+  buildingOldIcon1: {fileID: 0}
+  buildingOldIcon2: {fileID: 0}
+  buildingOldIcon3: {fileID: 0}
+  buildingOldIcon4: {fileID: 0}
+  buildingOldIcon5: {fileID: 0}
+  buildingOldIcon6: {fileID: 0}
+  buildingOldIcon7: {fileID: 0}
+  buildingNewIcon1: {fileID: 0}
+  buildingNewIcon2: {fileID: 0}
+  buildingNewIcon3: {fileID: 0}
+  buildingNewIcon4: {fileID: 0}
+  buildingNewIcon5: {fileID: 0}
+  buildingNewIcon6: {fileID: 0}
+  buildingNewIcon7: {fileID: 0}
   characterUI: {fileID: 1124303933}
   characterFile1: {fileID: 8927212129364003260}
   characterFile2: {fileID: 8927212129556203304}
@@ -59872,7 +59921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2058737426
 Transform:
   m_ObjectHideFlags: 0

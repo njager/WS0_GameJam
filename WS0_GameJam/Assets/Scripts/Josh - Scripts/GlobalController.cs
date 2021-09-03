@@ -158,7 +158,36 @@ public class GlobalController : MonoBehaviour
     public int freeTiles6 = 3;
     public int freeTiles7 = 3;
 
-    
+    [Header("Building Buttons")]
+
+    public GameObject buildingButton1;
+    public GameObject buildingButton2;
+    public GameObject buildingButton3;
+    public GameObject buildingButton4;
+    public GameObject buildingButton5;
+    public GameObject buildingButton6;
+    public GameObject buildingButton7;
+
+    [Header("Building Clean Icons")]
+
+    public GameObject buildingOldIcon1;
+    public GameObject buildingOldIcon2;
+    public GameObject buildingOldIcon3;
+    public GameObject buildingOldIcon4;
+    public GameObject buildingOldIcon5;
+    public GameObject buildingOldIcon6;
+    public GameObject buildingOldIcon7;
+
+    [Header("Building Burned Icons")]
+
+    public GameObject buildingNewIcon1;
+    public GameObject buildingNewIcon2;
+    public GameObject buildingNewIcon3;
+    public GameObject buildingNewIcon4;
+    public GameObject buildingNewIcon5;
+    public GameObject buildingNewIcon6;
+    public GameObject buildingNewIcon7;
+
     [Header("Character")]
 
     public GameObject characterUI;
@@ -169,9 +198,6 @@ public class GlobalController : MonoBehaviour
     public GameObject characterFile5;
     public GameObject characterFile6;
     public GameObject characterFile7;
-    //  public GameObject characterFile8;
-    //  public GameObject characterFile9;
-    //  public GameObject characterFile10;
 
     [Header("Script References")]
 
