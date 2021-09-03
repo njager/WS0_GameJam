@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScreenShake.unity
     guid: 00b27721b125429408e009f2a45a6ab7
+  - enabled: 1
+    path: Assets/Scenes/LoseSceneO.unity
+    guid: fc1bda0927d28714c9ba43b42ca3fc3f
+  - enabled: 1
+    path: Assets/Scenes/LoseSceneI.unity
+    guid: 7927f77c4547ba142aacabe71cafb8c2
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 0b7ca7a4a64493641bd9d3e886e79bdd
   m_configObjects: {}
