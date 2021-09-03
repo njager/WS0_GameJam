@@ -102,43 +102,49 @@ public class GlobalController : MonoBehaviour
 
     [Header("Tile Box 1 FreeTiles")]
 
-    public GameObject freeTileUI;
+    public GameObject freeTileSet1;
     public GameObject tile1FreeTile1;
     public GameObject tile1FreeTile2;
     public GameObject tile1FreeTile3;
 
     [Header("Tile Box 2 FreeTiles")]
 
+    public GameObject freeTileSet2;
     public GameObject tile2FreeTile1;
     public GameObject tile2FreeTile2;
     public GameObject tile2FreeTile3;
 
     [Header("Tile Box 3 FreeTiles")]
 
+    public GameObject freeTileSet3;
     public GameObject tile3FreeTile1;
     public GameObject tile3FreeTile2;
     public GameObject tile3FreeTile3;
 
     [Header("Tile Box 4 FreeTiles")]
 
+    public GameObject freeTileSet4;
     public GameObject tile4FreeTile1;
     public GameObject tile4FreeTile2;
     public GameObject tile4FreeTile3;
 
     [Header("Tile Box 5 FreeTiles")]
 
+    public GameObject freeTileSet5;
     public GameObject tile5FreeTile1;
     public GameObject tile5FreeTile2;
     public GameObject tile5FreeTile3;
 
     [Header("Tile Box 6 FreeTiles")]
 
+    public GameObject freeTileSet6;
     public GameObject tile6FreeTile1;
     public GameObject tile6FreeTile2;
     public GameObject tile6FreeTile3;
 
     [Header("Tile Box 7 FreeTiles")]
 
+    public GameObject freeTileSet7;
     public GameObject tile7FreeTile1;
     public GameObject tile7FreeTile2;
     public GameObject tile7FreeTile3;
@@ -329,7 +335,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
-        freeTileUI.SetActive(true);
+        freeTileSet1.SetActive(true);
         burnNLeave1.SetActive(true);
         dialogueFrame1.SetActive(true);
     }
@@ -340,7 +346,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
-        freeTileUI.SetActive(true);
+        freeTileSet2.SetActive(true);
         burnNLeave2.SetActive(true);
         dialogueFrame2.SetActive(true);
     }
@@ -351,7 +357,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
-        freeTileUI.SetActive(true);
+        freeTileSet3.SetActive(true);
         burnNLeave3.SetActive(true);
         dialogueFrame3.SetActive(true);
     }
@@ -362,7 +368,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
-        freeTileUI.SetActive(true);
+        freeTileSet4.SetActive(true);
         burnNLeave4.SetActive(true);
         dialogueFrame4.SetActive(true);
     }
@@ -373,7 +379,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
-        freeTileUI.SetActive(true);
+        freeTileSet5.SetActive(true);
         burnNLeave5.SetActive(true);
         dialogueFrame5.SetActive(true);
     }
@@ -383,7 +389,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
-        freeTileUI.SetActive(true);
+        freeTileSet6.SetActive(true);
         burnNLeave6.SetActive(true);
         dialogueFrame6.SetActive(true);
     }
@@ -394,7 +400,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
-        freeTileUI.SetActive(true);
+        freeTileSet7.SetActive(true);
         burnNLeave7.SetActive(true);
         dialogueFrame7.SetActive(true);
     }
@@ -406,7 +412,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile1.SetActive(false);
-        freeTileUI.SetActive(false);
+        freeTileSet1.SetActive(false);
         burnNLeave1.SetActive(false);
         dialogueFrame1.SetActive(false);
     }
@@ -417,7 +423,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile2.SetActive(false);
-        freeTileUI.SetActive(false);
+        freeTileSet2.SetActive(false);
         burnNLeave2.SetActive(false);
         dialogueFrame2.SetActive(false);
     }
@@ -428,7 +434,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile3.SetActive(false);
-        freeTileUI.SetActive(false);
+        freeTileSet3.SetActive(false);
         burnNLeave3.SetActive(false);
         dialogueFrame3.SetActive(false);
     }
@@ -439,7 +445,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile4.SetActive(false);
-        freeTileUI.SetActive(false);
+        freeTileSet4.SetActive(false);
         burnNLeave4.SetActive(false);
         dialogueFrame4.SetActive(false);
     }
@@ -450,7 +456,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile5.SetActive(false);
-        freeTileUI.SetActive(false);
+        freeTileSet5.SetActive(false);
         burnNLeave5.SetActive(false);
         dialogueFrame5.SetActive(false);
     }
@@ -461,7 +467,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile6.SetActive(false);
-        freeTileUI.SetActive(false);
+        freeTileSet6.SetActive(false);
         burnNLeave6.SetActive(false);
         dialogueFrame6.SetActive(false);
     }
@@ -472,7 +478,7 @@ public class GlobalController : MonoBehaviour
         mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile7.SetActive(false);
-        freeTileUI.SetActive(false);
+        freeTileSet7.SetActive(false);
         burnNLeave7.SetActive(false);
         dialogueFrame7.SetActive(false);
     }
