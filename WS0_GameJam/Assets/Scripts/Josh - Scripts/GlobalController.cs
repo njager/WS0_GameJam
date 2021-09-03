@@ -78,6 +78,8 @@ public class GlobalController : MonoBehaviour
     public bool building6Burned = false;
     public bool building7Burned = false;
 
+    public int booksBurned = 0;
+
     [Header("BurnNLeaveUIs")]
 
     public GameObject burnNLeave1;
@@ -250,6 +252,7 @@ public class GlobalController : MonoBehaviour
     {
         winChecker.WinChecker();  // Checks if the player won
         lossChecker.LoseChecker(); // Checks if the player lost
+
 
         intelligenceStat += 0.01f * Time.deltaTime; // Intelligence Meter Stat change
         oBar.fillAmount = opinionStat;

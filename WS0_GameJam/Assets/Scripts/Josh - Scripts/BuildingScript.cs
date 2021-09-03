@@ -53,7 +53,7 @@ public class BuildingScript : MonoBehaviour
         }
     }
 
-    public void Building2BurnedStatus()
+    public void Building2BurnedStatus() // Book
     {
         if(global.building2Burned == true)
         {
@@ -74,7 +74,7 @@ public class BuildingScript : MonoBehaviour
         }
     }
 
-    public void Building3BurnedStatus()
+    public void Building3BurnedStatus() // Book
     {
         if (global.building3Burned == true)
         {
@@ -118,7 +118,7 @@ public class BuildingScript : MonoBehaviour
 
     public void Building5BurnedStatus()
     {
-        if(global.building5Burned == true)
+        if(global.building5Burned == true) // Book
         {
             global.buildingSprite5.SetActive(false);
             global.buildingNewIcon5.SetActive(true);
@@ -190,6 +190,7 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus2() // Good
     {
         global.opinionStat += 0.2f;
+        global.booksBurned += 1;
         global.building2Burned = true;
         global.DeactivateTilebox2();
         global.Camera.TriggerShake(0.4f);
@@ -199,6 +200,7 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus3() // Good
     {
         global.opinionStat += 0.2f;
+        global.booksBurned += 1;
         global.building3Burned = true;
         global.DeactivateTilebox3();
         global.Camera.TriggerShake(0.4f);
@@ -217,6 +219,7 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus5() // Good
     {
         global.opinionStat += 0.2f;
+        global.booksBurned += 1;
         global.building5Burned = true;
         global.DeactivateTilebox5();
         global.Camera.TriggerShake(0.4f);

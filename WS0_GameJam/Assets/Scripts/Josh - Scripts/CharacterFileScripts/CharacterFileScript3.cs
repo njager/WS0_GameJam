@@ -44,13 +44,11 @@ public class CharacterFileScript3 : MonoBehaviour
         global = GlobalController.instance;
     }
 
-    public void Update()
-    {
-        PushingLuck3();
-    }
+    
     public void tileFlip1()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover1.SetActive(false);
         tileButton1.SetActive(false);
         global.cardFlip.Play();
@@ -58,13 +56,15 @@ public class CharacterFileScript3 : MonoBehaviour
     public void tileFlip2()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover2.SetActive(false);
         tileButton2.SetActive(false);
         global.cardFlip.Play();
     }
     public void tileFlip3() //book
     {
-        global.freeTiles3--; 
+        global.freeTiles3--;
+        PushingLuck3();
         tileCover3.SetActive(false);
         tileButton3.SetActive(false);
         global.bookUncovered.Play();
@@ -73,6 +73,7 @@ public class CharacterFileScript3 : MonoBehaviour
     public void tileFlip4()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover4.SetActive(false);
         tileButton4.SetActive(false);
         global.cardFlip.Play();
@@ -80,6 +81,7 @@ public class CharacterFileScript3 : MonoBehaviour
     public void tileFlip5()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover5.SetActive(false);
         tileButton5.SetActive(false);
         global.cardFlip.Play();
@@ -87,6 +89,7 @@ public class CharacterFileScript3 : MonoBehaviour
     public void tileFlip6()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover6.SetActive(false);
         tileButton6.SetActive(false);
         global.cardFlip.Play();
@@ -94,6 +97,7 @@ public class CharacterFileScript3 : MonoBehaviour
     public void tileFlip7()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover7.SetActive(false);
         tileButton7.SetActive(false);
         global.cardFlip.Play();
@@ -101,6 +105,7 @@ public class CharacterFileScript3 : MonoBehaviour
     public void tileFlip8()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover8.SetActive(false);
         tileButton8.SetActive(false);
         global.cardFlip.Play();
@@ -108,6 +113,7 @@ public class CharacterFileScript3 : MonoBehaviour
     public void tileFlip9()
     {
         global.freeTiles3--;
+        PushingLuck3();
         tileCover9.SetActive(false);
         tileButton9.SetActive(false);
         global.cardFlip.Play();
@@ -117,27 +123,27 @@ public class CharacterFileScript3 : MonoBehaviour
     {
         if (global.freeTiles3 == -1)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles3 == -2)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles3 == -3)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles3 == -4)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles3 == -5)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
         if (global.freeTiles3 == -6)
         {
-            global.opinionStat -= 0.05f;
+            global.opinionStat -= 0.07f;
         }
     }
 
