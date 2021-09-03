@@ -386,37 +386,6 @@ public class GlobalController : MonoBehaviour
         dialogueCanvas.SetActive(true);
     }
 
-    public void ActivateTilebox8()
-    {
-        mapContainer.SetActive(false);
-        transparentCanvas.SetActive(true);
-        tileBox8.SetActive(true);
-        freeTileUI.SetActive(true);
-        characterFile8.SetActive(true);
-        dialogueCanvas.SetActive(true);
-    }
-
-    public void ActivateTilebox9()
-    {
-        mapContainer.SetActive(false);
-        transparentCanvas.SetActive(true);
-        tileBox9.SetActive(true);
-        freeTileUI.SetActive(true);
-        characterFile9.SetActive(true);
-        dialogueCanvas.SetActive(true);
-    }
-
-    public void ActivateTilebox10()
-    {
-        mapContainer.SetActive(false);
-        transparentCanvas.SetActive(true);
-        tileBox10.SetActive(true);
-        freeTileUI.SetActive(true);
-        characterUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
-    }
-
-
     //Same for deactivation 
     public void DeactivateTilebox1()
     {
@@ -485,35 +454,6 @@ public class GlobalController : MonoBehaviour
         tileBox7.SetActive(false);
         freeTileUI.SetActive(false);
         characterFile7.SetActive(false);
-        dialogueCanvas.SetActive(false);
-    }
-
-    public void DeactivateTilebox8()
-    {
-        mapContainer.SetActive(true);
-        transparentCanvas.SetActive(false);
-        tileBox8.SetActive(false);
-        freeTileUI.SetActive(false);
-        characterFile8.SetActive(false);
-        dialogueCanvas.SetActive(false);
-    }
-
-    public void DeactivateTilebox9()
-    {
-        mapContainer.SetActive(true);
-        transparentCanvas.SetActive(false);
-        tileBox9.SetActive(false);
-        freeTileUI.SetActive(false);
-        characterFile9.SetActive(false);
-        dialogueCanvas.SetActive(false);
-    }
-    public void DeactivateTilebox10()
-    {
-        mapContainer.SetActive(true);
-        transparentCanvas.SetActive(false);
-        tileBox10.SetActive(false);
-        freeTileUI.SetActive(false);
-        characterFile10.SetActive(false);
         dialogueCanvas.SetActive(false);
     }
 
