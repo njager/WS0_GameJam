@@ -190,6 +190,7 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus2() // Good
     {
         global.opinionStat += 0.2f;
+        global.intelligenceStat -= .20f;
         global.booksBurned += 1;
         global.building2Burned = true;
         global.DeactivateTilebox2();
@@ -200,6 +201,7 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus3() // Good
     {
         global.opinionStat += 0.2f;
+        global.intelligenceStat -= .20f;
         global.booksBurned += 1;
         global.building3Burned = true;
         global.DeactivateTilebox3();
@@ -219,6 +221,7 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus5() // Good
     {
         global.opinionStat += 0.2f;
+        global.intelligenceStat -= .20f;
         global.booksBurned += 1;
         global.building5Burned = true;
         global.DeactivateTilebox5();
