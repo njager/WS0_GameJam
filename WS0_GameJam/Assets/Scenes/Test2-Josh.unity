@@ -1014,7 +1014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
-      value: 'MapInteractable Row 3 - 1 '
+      value: BuildingButton5
       objectReference: {fileID: 0}
     - target: {fileID: 8056141779942743635, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Pivot.x
@@ -1544,6 +1544,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &276867495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276867496}
+  m_Layer: 0
+  m_Name: DepreciatedAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &276867496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276867495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.330849, y: 3.3065066, z: -200.22035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1290078033}
+  - {fileID: 1378922010}
+  - {fileID: 871638753}
+  - {fileID: 692978505}
+  - {fileID: 1832830797}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &284861127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1780,7 +1815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
-      value: MapInteractable Row 1 - 4
+      value: BuildingBackground4
       objectReference: {fileID: 0}
     - target: {fileID: 8056141779942743635, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Pivot.x
@@ -2757,7 +2792,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
-      value: BuildingPlaceholder
+      value: BuildingBackground3
       objectReference: {fileID: 0}
     - target: {fileID: 6437824695597300007, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Mesh
@@ -3172,7 +3207,7 @@ GameObject:
   - component: {fileID: 550839758}
   - component: {fileID: 550839759}
   m_Layer: 0
-  m_Name: Building - 10
+  m_Name: Building - 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3192,7 +3227,7 @@ Transform:
   - {fileID: 998233102}
   - {fileID: 1358673262}
   m_Father: {fileID: 1248074710}
-  m_RootOrder: 9
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &550839759
 SpriteRenderer:
@@ -4076,7 +4111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &692978505
 Transform:
   m_ObjectHideFlags: 0
@@ -4085,13 +4120,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692978504}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29, y: 9, z: 0}
-  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_LocalPosition: {x: -15.569153, y: 6.593494, z: 200.22035}
+  m_LocalScale: {x: 8.8, y: 8.25, z: 1}
   m_Children:
   - {fileID: 1306159811}
   - {fileID: 1361476737}
-  m_Father: {fileID: 1248074710}
-  m_RootOrder: 1
+  m_Father: {fileID: 276867496}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &692978506
 SpriteRenderer:
@@ -4832,7 +4867,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
-      value: BuildingPlaceholder (4)
+      value: BuildingBackground4
       objectReference: {fileID: 0}
     - target: {fileID: 6437824695597300007, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Mesh
@@ -5202,7 +5237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &871638753
 Transform:
   m_ObjectHideFlags: 0
@@ -5211,12 +5246,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871638752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22, y: 10, z: 0}
-  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_LocalPosition: {x: 40.53085, y: 7.6934934, z: 200.22035}
+  m_LocalScale: {x: 8.8, y: 8.25, z: 1}
   m_Children:
   - {fileID: 1700495410}
   - {fileID: 1722536695}
-  m_Father: {fileID: 1248074710}
+  m_Father: {fileID: 276867496}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &871638754
@@ -5931,7 +5966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
-      value: MapInteractable Row 1 - 2
+      value: BuildingButton1
       objectReference: {fileID: 0}
     - target: {fileID: 8056141779942743635, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Pivot.x
@@ -6351,7 +6386,7 @@ Transform:
   - {fileID: 917680348}
   - {fileID: 1318634303}
   m_Father: {fileID: 2058737426}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1052119080
 GameObject:
@@ -7500,7 +7535,7 @@ GameObject:
   - component: {fileID: 1197538839}
   - component: {fileID: 1197538840}
   m_Layer: 0
-  m_Name: Building - 1
+  m_Name: Building - 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7520,7 +7555,7 @@ Transform:
   - {fileID: 502253569}
   - {fileID: 1480773528}
   m_Father: {fileID: 1248074710}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1197538840
 SpriteRenderer:
@@ -7910,16 +7945,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 3, z: -50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 550839758}
+  - {fileID: 1606956475}
   - {fileID: 1197538839}
-  - {fileID: 692978505}
-  - {fileID: 871638753}
   - {fileID: 41496900}
-  - {fileID: 1378922010}
+  - {fileID: 2133148187}
   - {fileID: 270138321}
   - {fileID: 213236444}
-  - {fileID: 2133148187}
-  - {fileID: 1606956475}
-  - {fileID: 550839758}
   m_Father: {fileID: 1031936836}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8381,7 +8413,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290078032}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 200.22035}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1670997007}
@@ -8389,12 +8421,12 @@ RectTransform:
   - {fileID: 50337397}
   - {fileID: 6479856571288720345}
   - {fileID: 1331818823}
-  m_Father: {fileID: 1318634303}
-  m_RootOrder: 1
+  m_Father: {fileID: 276867496}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 16.330849, y: -3.3065066}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1290078034
@@ -8483,7 +8515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
-      value: MapInteractable Row 2 - 2
+      value: BuildingBackground2
       objectReference: {fileID: 0}
     - target: {fileID: 8056141779942743635, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Pivot.x
@@ -8612,7 +8644,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1638244176}
-  - {fileID: 1290078033}
   - {fileID: 2010744943}
   - {fileID: 1962105379}
   m_Father: {fileID: 1044941469}
@@ -8983,7 +9014,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
-      value: BuildingPlaceholder (7)
+      value: BuildingBackground1
       objectReference: {fileID: 0}
     - target: {fileID: 6437824695597300007, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Mesh
@@ -9324,7 +9355,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
-      value: BuildingPlaceholder (3)
+      value: BuildingButton2
       objectReference: {fileID: 0}
     - target: {fileID: 6437824695597300007, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Mesh
@@ -9529,7 +9560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1378922010
 Transform:
   m_ObjectHideFlags: 0
@@ -9538,13 +9569,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378922009}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 76, y: -2, z: 0}
-  m_LocalScale: {x: 8, y: 7.5, z: 1}
+  m_LocalPosition: {x: 99.93085, y: -5.506507, z: 200.22035}
+  m_LocalScale: {x: 8.8, y: 8.25, z: 1}
   m_Children:
   - {fileID: 1288721464}
   - {fileID: 1186355889}
-  m_Father: {fileID: 1248074710}
-  m_RootOrder: 4
+  m_Father: {fileID: 276867496}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1378922011
 SpriteRenderer:
@@ -9702,7 +9733,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 08733214dcaf42f48b7cc0aae83b41dd, type: 2}
     - target: {fileID: 6437824695597300006, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Name
-      value: BuildingPlaceholder (9)
+      value: BuildingBackground2
       objectReference: {fileID: 0}
     - target: {fileID: 6437824695597300007, guid: 7479814a24085a84882eb6366077538a, type: 3}
       propertyPath: m_Mesh
@@ -9983,7 +10014,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
-      value: 'MapInteractable Row 2 - 1 '
+      value: BuildingButton3
       objectReference: {fileID: 0}
     - target: {fileID: 8056141779942743635, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Pivot.x
@@ -10580,7 +10611,7 @@ GameObject:
   - component: {fileID: 1606956475}
   - component: {fileID: 1606956476}
   m_Layer: 0
-  m_Name: 'Building - 9 '
+  m_Name: Building - 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10600,7 +10631,7 @@ Transform:
   - {fileID: 4549403776067302150}
   - {fileID: 1406096521}
   m_Father: {fileID: 1248074710}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1606956476
 SpriteRenderer:
@@ -11569,7 +11600,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1832830796}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12, y: 8, z: 0}
+  m_LocalPosition: {x: 4.3308487, y: 4.6934934, z: 200.22035}
   m_LocalScale: {x: 6.5, y: 6.5, z: 0}
   m_Children:
   - {fileID: 284861128}
@@ -11582,8 +11613,8 @@ Transform:
   - {fileID: 2076255540}
   - {fileID: 35313765}
   - {fileID: 1802546701}
-  m_Father: {fileID: 2058737426}
-  m_RootOrder: 0
+  m_Father: {fileID: 276867496}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1834573040
 GameObject:
@@ -12200,7 +12231,7 @@ RectTransform:
   m_Children:
   - {fileID: 2014805959}
   m_Father: {fileID: 1318634303}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12734,7 +12765,7 @@ RectTransform:
   m_Children:
   - {fileID: 1360806135}
   m_Father: {fileID: 1318634303}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -13489,7 +13520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2058737426
 Transform:
   m_ObjectHideFlags: 0
@@ -13501,7 +13532,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1832830797}
   - {fileID: 1044941469}
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -13591,7 +13621,7 @@ GameObject:
   - component: {fileID: 2133148187}
   - component: {fileID: 2133148188}
   m_Layer: 0
-  m_Name: Building - 8
+  m_Name: Building - 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13611,7 +13641,7 @@ Transform:
   - {fileID: 231808711}
   - {fileID: 1979440349}
   m_Father: {fileID: 1248074710}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2133148188
 SpriteRenderer:
@@ -13701,7 +13731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 594753796953901498, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Name
-      value: MapInteractable Row 1 - 1
+      value: BuildingButton2
       objectReference: {fileID: 0}
     - target: {fileID: 8056141779942743635, guid: 36f8b929a33ec124aa906f7e97d575e9, type: 3}
       propertyPath: m_Pivot.x
