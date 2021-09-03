@@ -180,7 +180,7 @@ public class BuildingScript : MonoBehaviour
 
     public void ChangeburnStatus1() // Bad
     {
-        global.opinionStat -= 0.2f;
+        global.opinionStat -= 0.3f;
         global.building1Burned = true;
         global.DeactivateTilebox1();
         global.Camera.TriggerShake(1f);
@@ -209,7 +209,7 @@ public class BuildingScript : MonoBehaviour
 
     public void ChangeburnStatus4() // Bad
     {
-        global.opinionStat -= 0.2f;
+        global.opinionStat -= 0.3f;
         global.building4Burned = true;
         global.DeactivateTilebox4();
         global.Camera.TriggerShake(1f);
@@ -228,7 +228,7 @@ public class BuildingScript : MonoBehaviour
 
     public void ChangeburnStatus6() // Bad
     {
-        global.opinionStat -= 0.2f;
+        global.opinionStat -= 0.3f;
         global.building6Burned = true;
         global.DeactivateTilebox6();
         global.Camera.TriggerShake(1f);
@@ -237,7 +237,7 @@ public class BuildingScript : MonoBehaviour
 
     public void ChangeburnStatus7() // Bad
     {
-        global.opinionStat -= 0.2f;
+        global.opinionStat -= 0.3f;
         global.building7Burned = true;
         global.DeactivateTilebox7();
         global.Camera.TriggerShake(1f);
