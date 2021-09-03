@@ -303,7 +303,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
+        dialogueFrame1.SetActive(true);
     }
 
     public void ActivateTilebox2()
@@ -313,7 +313,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
+        dialogueFrame2.SetActive(true);
     }
 
     public void ActivateTilebox3()
@@ -323,7 +323,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
+        dialogueFrame3.SetActive(true);
     }
 
     public void ActivateTilebox4()
@@ -333,7 +333,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
+        dialogueFrame4.SetActive(true);
     }
 
     public void ActivateTilebox5()
@@ -343,7 +343,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
+        dialogueFrame5.SetActive(true);
     }
     public void ActivateTilebox6()
     {
@@ -352,7 +352,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
+        dialogueFrame6.SetActive(true);
     }
 
     public void ActivateTilebox7()
@@ -362,7 +362,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        dialogueCanvas.SetActive(true);
+        dialogueFrame7.SetActive(true);
     }
 
     //Same for deactivation 
@@ -372,7 +372,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         characterFile1.SetActive(false);
         freeTileUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        dialogueFrame1.SetActive(false);
     }
 
     public void DeactivateTilebox2()
@@ -381,7 +381,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         characterFile2.SetActive(false);
         freeTileUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        dialogueFrame2.SetActive(false);
     }
 
     public void DeactivateTilebox3()
@@ -390,7 +390,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         characterFile3.SetActive(false);
         freeTileUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        dialogueFrame3.SetActive(false);
     }
 
     public void DeactivateTilebox4()
@@ -399,7 +399,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         characterFile4.SetActive(false);
         freeTileUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        dialogueFrame4.SetActive(false);
     }
 
     public void DeactivateTilebox5()
@@ -408,7 +408,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         characterFile5.SetActive(false);
         freeTileUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        dialogueFrame5.SetActive(false);
     }
 
     public void DeactivateTilebox6()
@@ -417,7 +417,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         characterFile6.SetActive(false);
         freeTileUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        dialogueFrame6.SetActive(false);
     }
 
     public void DeactivateTilebox7()
@@ -426,7 +426,7 @@ public class GlobalController : MonoBehaviour
         transparentCanvas.SetActive(false);
         characterFile7.SetActive(false);
         freeTileUI.SetActive(false);
-        dialogueCanvas.SetActive(false);
+        dialogueFrame7.SetActive(false);
     }
 
 }
