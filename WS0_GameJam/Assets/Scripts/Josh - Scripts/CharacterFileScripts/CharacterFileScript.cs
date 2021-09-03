@@ -44,6 +44,11 @@ public class CharacterFileScript : MonoBehaviour
         global = GlobalController.instance;
     }
 
+    public void Update()
+    {
+        PushingLuck();
+    }
+
     public void tileFlip1()
     {
         global.freeTiles1--;
@@ -108,6 +113,32 @@ public class CharacterFileScript : MonoBehaviour
         global.cardFlip.Play();
     }
 
-
+    public void PushingLuck()
+    {
+        if (global.freeTiles1 == -1)
+        {
+            global.opinionStat -= 0.05f;
+        }
+        if (global.freeTiles1 == -2)
+        {
+            global.opinionStat -= 0.05f;
+        }
+        if (global.freeTiles1 == -3)
+        {
+            global.opinionStat -= 0.05f;
+        }
+        if (global.freeTiles1 == -4)
+        {
+            global.opinionStat -= 0.05f;
+        }
+        if (global.freeTiles1 == -5)
+        {
+            global.opinionStat -= 0.05f;
+        }
+        if (global.freeTiles1 == -6)
+        {
+            global.opinionStat -= 0.05f;
+        }
+    }
 
 }

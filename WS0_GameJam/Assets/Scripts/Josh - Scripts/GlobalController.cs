@@ -202,6 +202,7 @@ public class GlobalController : MonoBehaviour
     [Header("Script References")]
 
     public BuildingSelector buildingSelector;
+    public ScreenShake Camera; 
  
     WaitForSeconds delay = new WaitForSeconds(1);
 
@@ -227,10 +228,10 @@ public class GlobalController : MonoBehaviour
 
         gameEndedWin = false; // In case of restart or other shenaningans, stating base values.
         gameEndedLoss = false;
-        gamePaused = true;
+        gamePaused = false;
         Time.timeScale = 1f;
-        opinionStat = 50;
-        intelligenceStat = 0f;
+        opinionStat = 0.5f;
+        intelligenceStat = 0.01f;
         freeTiles1 = 3;
         freeTiles2 = 3;
         freeTiles3 = 3;
