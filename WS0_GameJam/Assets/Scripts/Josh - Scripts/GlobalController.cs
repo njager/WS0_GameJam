@@ -62,22 +62,6 @@ public class GlobalController : MonoBehaviour
     public GameObject mapButtons;
     public GameObject menuContainer; 
 
-    [Header("TileBoxes")]
-
-    public GameObject tileBox1;
-    public GameObject tileBox2;
-    public GameObject tileBox3;
-    public GameObject tileBox4;
-    public GameObject tileBox5;
-    public GameObject tileBox6;
-    public GameObject tileBox7;
-    //public GameObject tileBox8;
-    //public GameObject tileBox9;
-    //public GameObject tileBox10; 
-
-    public GameObject currentTileBox; 
-
-
     [Header("Bools")]
 
     public bool gameEndedWin = false;
@@ -264,7 +248,7 @@ public class GlobalController : MonoBehaviour
             yield return null;
         }
         yield return null;
-    } */
+    } 
 
     
     public void TextBoxForwards()
@@ -309,20 +293,7 @@ public class GlobalController : MonoBehaviour
         {
             opinionStat -= 25;
         }
-        currentTileBox.SetActive(false);
-    }
-
-    public void LeaveBuilding()
-    {
-        currentTileBox.SetActive(false);
-    }
-
-    public void TileClicked()
-    {
-        Destroy(gameObject);
-       // StartCoroutine(TileBot());
-    }
-
+    } */
 
     //Doesn't feelsmart, but easiest way to do for multiple unity buttons 
     public void ActivateTilebox1()
@@ -337,60 +308,60 @@ public class GlobalController : MonoBehaviour
 
     public void ActivateTilebox2()
     {
-        mapContainer.SetActive(false);
+        menuContainer.SetActive(true);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(true);
-        tileBox2.SetActive(true);
+        characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        characterFile2.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
     public void ActivateTilebox3()
     {
-        mapContainer.SetActive(false);
+        menuContainer.SetActive(true);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(true);
-        tileBox3.SetActive(true);
+        characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        characterFile3.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
     public void ActivateTilebox4()
     {
-        mapContainer.SetActive(false);
+        menuContainer.SetActive(true);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(true);
-        tileBox4.SetActive(true);
+        characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        characterFile4.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
     public void ActivateTilebox5()
     {
-        mapContainer.SetActive(false);
+        menuContainer.SetActive(true);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(true);
-        tileBox5.SetActive(true);
+        characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        characterFile5.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
     public void ActivateTilebox6()
     {
-        mapContainer.SetActive(false);
+        menuContainer.SetActive(true);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(true);
-        tileBox6.SetActive(true);
+        characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        characterFile6.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
     public void ActivateTilebox7()
     {
-        mapContainer.SetActive(false);
+        menuContainer.SetActive(true);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(true);
-        tileBox7.SetActive(true);
+        characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
-        characterFile7.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
