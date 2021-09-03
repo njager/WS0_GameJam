@@ -10,7 +10,7 @@ A game jam repo for workshop 0
 Fonts used - Work Sans by Wei Huang
 Link: https://fontlibrary.org/en/font/work-sans
 
-Icons Used - The Noun Project
+Icons Used - The Noun Project, Dam
 Link: https://thenounproject.com/
 
 City Map Used - Gallet City pack by Adam Saltsman
