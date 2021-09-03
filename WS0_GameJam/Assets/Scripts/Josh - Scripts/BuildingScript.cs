@@ -178,50 +178,57 @@ public class BuildingScript : MonoBehaviour
         }
     }
 
-    public void ChangeburnStatus1()
+    public void ChangeburnStatus1() // Bad
     {
+        global.opinionStat -= 0.2f;
         global.building1Burned = true;
         global.DeactivateTilebox1();
         global.bookBurningSound.Play();
     }
 
-    public void ChangeburnStatus2()
+    public void ChangeburnStatus2() // Good
     {
+        global.opinionStat += 0.2f;
         global.building2Burned = true;
         global.DeactivateTilebox2();
         global.bookBurningSound.Play();
     }
 
-    public void ChangeburnStatus3()
+    public void ChangeburnStatus3() // Good
     {
+        global.opinionStat += 0.2f;
         global.building3Burned = true;
         global.DeactivateTilebox3();
         global.bookBurningSound.Play();
     }
 
-    public void ChangeburnStatus4()
+    public void ChangeburnStatus4() // Bad
     {
+        global.opinionStat -= 0.2f;
         global.building4Burned = true;
         global.DeactivateTilebox4();
         global.bookBurningSound.Play();
     }
 
-    public void ChangeburnStatus5()
+    public void ChangeburnStatus5() // Good
     {
+        global.opinionStat += 0.2f;
         global.building5Burned = true;
         global.DeactivateTilebox5();
         global.bookBurningSound.Play();
     }
 
-    public void ChangeburnStatus6()
+    public void ChangeburnStatus6() // Bad
     {
+        global.opinionStat -= 0.2f;
         global.building6Burned = true;
         global.DeactivateTilebox6();
         global.bookBurningSound.Play();
     }
 
-    public void ChangeburnStatus7()
+    public void ChangeburnStatus7() // Bad
     {
+        global.opinionStat -= 0.2f;
         global.building7Burned = true;
         global.DeactivateTilebox7();
         global.bookBurningSound.Play();
