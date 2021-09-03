@@ -10,6 +10,14 @@ public class BuildingScript : MonoBehaviour
     void Start()
     {
         global = GlobalController.instance;
+
+        global.buildingNewIcon1.SetActive(false);
+        global.buildingNewIcon2.SetActive(false);
+        global.buildingNewIcon3.SetActive(false);
+        global.buildingNewIcon4.SetActive(false);
+        global.buildingNewIcon5.SetActive(false);
+        global.buildingNewIcon6.SetActive(false);
+        global.buildingNewIcon7.SetActive(false);
     }
 
     
