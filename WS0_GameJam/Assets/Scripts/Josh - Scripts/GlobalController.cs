@@ -321,9 +321,8 @@ public class GlobalController : MonoBehaviour
     { 
         mapContainer.SetActive(false);
         transparentCanvas.SetActive(true);
-        tileBox1.SetActive(true);
-        freeTileUI.SetActive(true);
         characterFile1.SetActive(true);
+        freeTileUI.SetActive(true);
         dialogueCanvas.SetActive(true);
     }
 
