@@ -168,15 +168,15 @@ public class GlobalController : MonoBehaviour
     public GameObject buildingButton6;
     public GameObject buildingButton7;
 
-    [Header("Building Clean Icons")]
+    [Header("Building Sprites")]
 
-    public GameObject buildingOldIcon1;
-    public GameObject buildingOldIcon2;
-    public GameObject buildingOldIcon3;
-    public GameObject buildingOldIcon4;
-    public GameObject buildingOldIcon5;
-    public GameObject buildingOldIcon6;
-    public GameObject buildingOldIcon7;
+    public GameObject buildingSprite1;
+    public GameObject buildingSprite2;
+    public GameObject buildingSprite3;
+    public GameObject buildingSprite4;
+    public GameObject buildingSprite5;
+    public GameObject buildingSprite6;
+    public GameObject buildingSprite7;
 
     [Header("Building Burned Icons")]
 

@@ -6,17 +6,10 @@ using UnityEngine.UI;
 public class BuildingScript : MonoBehaviour
 {
     private GlobalController global;
-    private Renderer selfRenderer;
-    public Material originalColor; 
-    public Material differentColor;
-    public GameObject self; 
 
     void Start()
     {
         global = GlobalController.instance;
-
-        //Grabbing Renderer to change color
-        selfRenderer = self.GetComponent<Renderer>();
     }
 
     
@@ -35,12 +28,14 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building1Burned == true)
         {
-            selfRenderer.material = differentColor;
+            global.buildingSprite1.SetActive(false);
+            global.buildingNewIcon1.SetActive(true);
         }
 
         if (global.building1Burned == false)
         {
-            selfRenderer.material = originalColor;
+            global.buildingSprite1.SetActive(true);
+            global.buildingNewIcon1.SetActive(false);
         }
 
         if (global.opinionStat == 15)
@@ -53,12 +48,14 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building2Burned == true)
         {
-            selfRenderer.material = differentColor;
+            global.buildingSprite2.SetActive(false);
+            global.buildingNewIcon2.SetActive(true);
         }
 
         if (global.building2Burned == false)
         {
-            selfRenderer.material = originalColor;
+            global.buildingSprite2.SetActive(true);
+            global.buildingNewIcon2.SetActive(false);
         }
 
         if (global.opinionStat == 15)
@@ -71,12 +68,14 @@ public class BuildingScript : MonoBehaviour
     {
         if (global.building3Burned == true)
         {
-            selfRenderer.material = differentColor;
+            global.buildingSprite3.SetActive(false);
+            global.buildingNewIcon3.SetActive(true);
         }
 
         if (global.building3Burned == false)
-        { 
-            selfRenderer.material = originalColor;
+        {
+            global.buildingSprite3.SetActive(true);
+            global.buildingNewIcon3.SetActive(false);
         }
 
         if (global.opinionStat == 15)
@@ -89,12 +88,14 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building4Burned == true)
         {
-            selfRenderer.material = differentColor;
+            global.buildingSprite4.SetActive(false);
+            global.buildingNewIcon4.SetActive(true);
         }
 
         if (global.building4Burned == false)
         {
-            selfRenderer.material = originalColor;
+            global.buildingSprite4.SetActive(true);
+            global.buildingNewIcon4.SetActive(false);
         }
 
         if (global.opinionStat == 15)
@@ -107,12 +108,14 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building5Burned == true)
         {
-            selfRenderer.material = differentColor;
+            global.buildingSprite5.SetActive(false);
+            global.buildingNewIcon5.SetActive(true);
         }
 
         if (global.building5Burned == false)
         {
-            selfRenderer.material = originalColor;
+            global.buildingSprite5.SetActive(true);
+            global.buildingNewIcon5.SetActive(false);
         }
 
         if (global.opinionStat == 15)
@@ -125,12 +128,14 @@ public class BuildingScript : MonoBehaviour
     {
         if(global.building6Burned == true)
         {
-            selfRenderer.material = differentColor;
+            global.buildingSprite6.SetActive(false);
+            global.buildingNewIcon6.SetActive(true);
         }
 
         if (global.building6Burned == false)
         {
-            selfRenderer.material = originalColor;
+            global.buildingSprite6.SetActive(true);
+            global.buildingNewIcon6.SetActive(false);
         }
 
         if (global.opinionStat == 15)
@@ -142,12 +147,14 @@ public class BuildingScript : MonoBehaviour
     {
         if (global.building7Burned == true)
         {
-            selfRenderer.material = differentColor;
+            global.buildingSprite7.SetActive(false);
+            global.buildingNewIcon7.SetActive(true);
         }
 
         if (global.building7Burned == false)
         {
-            selfRenderer.material = originalColor;
+            global.buildingSprite7.SetActive(true);
+            global.buildingNewIcon7.SetActive(false);
         }
 
         if (global.opinionStat == 15)
