@@ -117,12 +117,7 @@ public class GlobalController : MonoBehaviour
     public int freeTiles6 = 3;
     public int freeTiles7 = 3;
 
-    [Header("TextBoxes")]
-
-    public GameObject textBox1;
-    public GameObject textBox2;
-    public int textCounter;
-
+    
     [Header("Character")]
 
     public GameObject characterUI;
@@ -162,9 +157,6 @@ public class GlobalController : MonoBehaviour
         DeactivateTilebox5();
         DeactivateTilebox6();
         DeactivateTilebox7();
-       // DeactivateTilebox8();
-       // DeactivateTilebox9();
-       // DeactivateTilebox10();
 
         gameEndedWin = false; // In case of restart or other shenaningans, stating base values.
         gameEndedLoss = false;
@@ -173,14 +165,12 @@ public class GlobalController : MonoBehaviour
         opinionStat = 50;
         intelligenceStat = 0f;
         freeTiles1 = 3;
-
         freeTiles2 = 3;
         freeTiles3 = 3;
         freeTiles4 = 3;
         freeTiles5 = 3;
         freeTiles6 = 3;
         freeTiles7 = 3;
-        textCounter = 0;
 
         UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
