@@ -239,7 +239,6 @@ public class GlobalController : MonoBehaviour
         freeTiles6 = 3;
         freeTiles7 = 3;
 
-        UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
         winCanvas.SetActive(false);
         menuCanvas.SetActive(false);
