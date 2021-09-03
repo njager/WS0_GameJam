@@ -59,6 +59,7 @@ public class GlobalController : MonoBehaviour
     [Header("Map")]
 
     public GameObject mapContainer;
+    public GameObject mapIcons;
     public GameObject menuContainer; 
 
     [Header("TileBoxes")]
@@ -94,9 +95,16 @@ public class GlobalController : MonoBehaviour
     public bool building5Burned = false;
     public bool building6Burned = false;
     public bool building7Burned = false;
-    public bool building8Burned = false;
-    public bool building9Burned = false;
-    public bool building10Burned = false;
+
+    [Header("BurnNLeaveUIs")]
+    public GameObject burnNLeave1;
+    public GameObject burnNLeave2;
+    public GameObject burnNLeave3;
+    public GameObject burnNLeave4;
+    public GameObject burnNLeave5;
+    public GameObject burnNLeave6;
+    public GameObject burnNLeave7;
+
 
     [Header("FreeTiles")]
 
@@ -114,9 +122,6 @@ public class GlobalController : MonoBehaviour
     public int freeTiles5 = 3;
     public int freeTiles6 = 3;
     public int freeTiles7 = 3;
-    public int freeTiles8 = 3;
-    public int freeTiles9 = 3;
-    public int freeTiles10 = 3;
 
     [Header("TextBoxes")]
 
@@ -181,9 +186,6 @@ public class GlobalController : MonoBehaviour
         freeTiles5 = 3;
         freeTiles6 = 3;
         freeTiles7 = 3;
-        freeTiles8 = 3;
-        freeTiles9 = 3;
-        freeTiles10 = 3;
         textCounter = 0;
 
         UICanvas.SetActive(false); // True starting conditons 

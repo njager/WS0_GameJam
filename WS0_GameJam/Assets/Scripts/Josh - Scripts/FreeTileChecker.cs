@@ -153,68 +153,6 @@ public class FreeTileChecker : MonoBehaviour
             global.freeTile2.SetActive(false);
             global.freeTile3.SetActive(true);
         }
-        // Tile Box 8
-
-        if (global.freeTiles8 == 3)
-        {
-            global.freeTile1.SetActive(true);
-            global.freeTile2.SetActive(true);
-            global.freeTile3.SetActive(true);
-        }
-        if (global.freeTiles8 == 2)
-        {
-            global.freeTile1.SetActive(false);
-            global.freeTile2.SetActive(true);
-            global.freeTile3.SetActive(true);
-        }
-        if (global.freeTiles8 == 1)
-        {
-            global.freeTile1.SetActive(false);
-            global.freeTile2.SetActive(false);
-            global.freeTile3.SetActive(true);
-        }
-
-        // Tile Box 9
-        if (global.freeTiles9 == 3)
-        {
-            global.freeTile1.SetActive(true);
-            global.freeTile2.SetActive(true);
-            global.freeTile3.SetActive(true);
-        }
-
-
-        if (global.freeTiles9 == 2)
-        {
-            global.freeTile1.SetActive(false);
-            global.freeTile2.SetActive(true);
-            global.freeTile3.SetActive(true);
-        }
-        if (global.freeTiles9 == 1)
-        {
-            global.freeTile1.SetActive(false);
-            global.freeTile2.SetActive(false);
-            global.freeTile3.SetActive(true);
-        }
-
-        // Tile Box 10
-        if (global.freeTiles10 == 3)
-        {
-            global.freeTile1.SetActive(true);
-            global.freeTile2.SetActive(true);
-            global.freeTile3.SetActive(true);
-        }
-        if (global.freeTiles10 == 2)
-        {
-            global.freeTile1.SetActive(false);
-            global.freeTile2.SetActive(true);
-            global.freeTile3.SetActive(true);
-}
-        if (global.freeTiles10 == 1)
-        {
-            global.freeTile1.SetActive(false);
-            global.freeTile2.SetActive(false);
-            global.freeTile3.SetActive(true);
-        }
     }
 
     public void CheckFreeTile1()

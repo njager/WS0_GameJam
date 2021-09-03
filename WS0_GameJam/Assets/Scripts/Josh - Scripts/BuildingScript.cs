@@ -29,9 +29,6 @@ public class BuildingScript : MonoBehaviour
         Building5BurnedStatus();
         Building6BurnedStatus();
         Building7BurnedStatus();
-        Building8BurnedStatus();
-        Building9BurnedStatus();
-        Building10BurnedStatus();
     }
 
     public void Building1BurnedStatus()
@@ -159,61 +156,6 @@ public class BuildingScript : MonoBehaviour
         }
     }
 
-    public void Building8BurnedStatus()
-    {
-        if (global.building8Burned == true)
-        {
-             selfRenderer.material = differentColor;
-        }
-
-        if (global.building8Burned == false)
-        {
-             selfRenderer.material = originalColor;
-        }
-
-        if (global.opinionStat == 15)
-        {
-             return;
-        }
-        
-    }
-
-    public void Building9BurnedStatus()
-    {
-        if(global.building9Burned == true)
-        {
-            selfRenderer.material = differentColor;
-        }
-
-        if (global.building9Burned == false)
-        {
-            selfRenderer.material = originalColor;
-        }
-
-        if (global.opinionStat == 15)
-        {
-            return;
-        }
-    }
-
-    public void Building10BurnedStatus()
-    {
-        if(global.building10Burned == true)
-        {
-            selfRenderer.material = differentColor;
-        }
-     
-        if (global.building10Burned == false)
-        {
-            selfRenderer.material = originalColor;
-        }
-
-        if (global.opinionStat == 15)
-        {
-            return;
-        }
-    }
-
     public void ChangeburnStatus1()
     {
         global.building1Burned = true;
@@ -247,20 +189,5 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus7()
     {
         global.building7Burned = true;
-    }
-
-    public void ChangeburnStatus8()
-    {
-        global.building8Burned = true;
-    }
-
-    public void ChangeburnStatus9()
-    {
-        global.building9Burned = true;
-    }
-
-    public void ChangeburnStatus10()
-    {
-        global.building10Burned = true;
     }
 }
