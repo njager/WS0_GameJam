@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 13995468}
   - component: {fileID: 13995467}
   m_Layer: 0
-  m_Name: Button
+  m_Name: Button - 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2659,7 +2659,7 @@ GameObject:
   - component: {fileID: 68234661}
   - component: {fileID: 68234660}
   m_Layer: 0
-  m_Name: Button (1)
+  m_Name: Button - 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6600,7 +6600,7 @@ GameObject:
   - component: {fileID: 227179874}
   - component: {fileID: 227179873}
   m_Layer: 0
-  m_Name: Button - 4
+  m_Name: Button - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6618,12 +6618,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 256807523}
-  m_Father: {fileID: 332163985}
+  m_Father: {fileID: 1892641827}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1273441, y: 0}
+  m_AnchoredPosition: {x: 0.02734375, y: 0}
   m_SizeDelta: {x: 17.06621, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &227179873
@@ -6672,7 +6672,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129402215216}
         m_TargetAssemblyTypeName: CharacterFileScript5, Assembly-CSharp
-        m_MethodName: tileFlip4
+        m_MethodName: tileFlip6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7310,7 +7310,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1785493426}
+  - {fileID: 1523327095}
   - {fileID: 1822061713}
   m_Father: {fileID: 8863865241770572411}
   m_RootOrder: 4
@@ -9290,7 +9290,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1144651395}
+  - {fileID: 1515694964}
   - {fileID: 586092052}
   m_Father: {fileID: 8863865243107344548}
   m_RootOrder: 4
@@ -9393,7 +9393,7 @@ GameObject:
   - component: {fileID: 312069630}
   - component: {fileID: 312069629}
   m_Layer: 0
-  m_Name: Button (3)
+  m_Name: Button - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9411,12 +9411,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 2117495525}
-  m_Father: {fileID: 1933104315676137590}
-  m_RootOrder: 1
+  m_Father: {fileID: 1933104317351446629}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1273441, y: -0.000000026077036}
+  m_AnchoredPosition: {x: 0.02734375, y: 0}
   m_SizeDelta: {x: 17.06621, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312069629
@@ -10367,7 +10367,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 227179872}
+  - {fileID: 899110771}
   - {fileID: 2115864848}
   m_Father: {fileID: 8863865243238679000}
   m_RootOrder: 4
@@ -12994,7 +12994,7 @@ GameObject:
   - component: {fileID: 422378302}
   - component: {fileID: 422378301}
   m_Layer: 0
-  m_Name: Button (7)
+  m_Name: Button - 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13276,7 +13276,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1076556207}
+  - {fileID: 1360170584}
   - {fileID: 629831791}
   m_Father: {fileID: 1501944246}
   m_RootOrder: 4
@@ -17057,7 +17057,7 @@ Transform:
   m_LocalScale: {x: 0.5500001, y: 0.5500001, z: 1}
   m_Children: []
   m_Father: {fileID: 1892641827}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &574417995
 SpriteRenderer:
@@ -17458,7 +17458,7 @@ GameObject:
   - component: {fileID: 590528516}
   - component: {fileID: 590528515}
   m_Layer: 0
-  m_Name: Button (2)
+  m_Name: Button - 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17591,7 +17591,7 @@ GameObject:
   - component: {fileID: 590973481}
   - component: {fileID: 590973480}
   m_Layer: 0
-  m_Name: Button (4)
+  m_Name: Button - 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18641,7 +18641,7 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1523327095}
+  - {fileID: 1785493426}
   - {fileID: 1447599902}
   m_Father: {fileID: 8863865241770572411}
   m_RootOrder: 6
@@ -25283,7 +25283,7 @@ GameObject:
   - component: {fileID: 899110773}
   - component: {fileID: 899110772}
   m_Layer: 0
-  m_Name: Button - 6
+  m_Name: Button - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25301,12 +25301,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 1031544459}
-  m_Father: {fileID: 1892641827}
-  m_RootOrder: 1
+  m_Father: {fileID: 332163985}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1016383, y: 0}
+  m_AnchoredPosition: {x: -0.001638174, y: 0}
   m_SizeDelta: {x: 17.2063, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899110772
@@ -25355,7 +25355,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129402215216}
         m_TargetAssemblyTypeName: CharacterFileScript5, Assembly-CSharp
-        m_MethodName: tileFlip6
+        m_MethodName: tileFlip4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -26720,7 +26720,7 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1360170584}
+  - {fileID: 1076556207}
   - {fileID: 1149913235}
   m_Father: {fileID: 1501944246}
   m_RootOrder: 6
@@ -27256,7 +27256,7 @@ GameObject:
   - component: {fileID: 981326287}
   - component: {fileID: 981326286}
   m_Layer: 0
-  m_Name: Button (5)
+  m_Name: Button - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27274,12 +27274,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 451278773}
-  m_Father: {fileID: 1933104317351446629}
+  m_Father: {fileID: 1933104315676137590}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1016383, y: 0}
+  m_AnchoredPosition: {x: -0.001638174, y: 0}
   m_SizeDelta: {x: 17.2063, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &981326286
@@ -28598,7 +28598,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1355430286}
+  - {fileID: 1848377590}
   - {fileID: 258773954}
   m_Father: {fileID: 470528398}
   m_RootOrder: 4
@@ -30813,7 +30813,7 @@ GameObject:
   - component: {fileID: 1076556209}
   - component: {fileID: 1076556208}
   m_Layer: 0
-  m_Name: Button - 4
+  m_Name: Button - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30831,12 +30831,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 888477}
-  m_Father: {fileID: 430853592}
+  m_Father: {fileID: 943584692}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1273441, y: 0}
+  m_AnchoredPosition: {x: 0.02734375, y: 0}
   m_SizeDelta: {x: 17.06621, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1076556208
@@ -30885,7 +30885,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129025342752}
         m_TargetAssemblyTypeName: CharacterFileScript3, Assembly-CSharp
-        m_MethodName: tileFlip4
+        m_MethodName: tileFlip6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33450,7 +33450,7 @@ GameObject:
   - component: {fileID: 1144651397}
   - component: {fileID: 1144651396}
   m_Layer: 0
-  m_Name: Button - 4
+  m_Name: Button - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33468,12 +33468,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 688992501}
-  m_Father: {fileID: 298787473}
+  m_Father: {fileID: 1812913125}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1273441, y: 0}
+  m_AnchoredPosition: {x: 0.02734375, y: 0}
   m_SizeDelta: {x: 17.06621, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1144651396
@@ -33522,7 +33522,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129273502292}
         m_TargetAssemblyTypeName: CharacterFileScript6, Assembly-CSharp
-        m_MethodName: tileFlip4
+        m_MethodName: tileFlip6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -39791,7 +39791,7 @@ GameObject:
   - component: {fileID: 1355430288}
   - component: {fileID: 1355430287}
   m_Layer: 0
-  m_Name: Button4
+  m_Name: Button - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39809,12 +39809,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 1423317688}
-  m_Father: {fileID: 1023705043}
+  m_Father: {fileID: 1419741322}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1273441, y: 0}
+  m_AnchoredPosition: {x: 0.02734375, y: 0}
   m_SizeDelta: {x: 17.06621, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355430287
@@ -39863,7 +39863,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129556203307}
         m_TargetAssemblyTypeName: CharacterFileScript2, Assembly-CSharp
-        m_MethodName: tileFlip4
+        m_MethodName: tileFlip6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40366,7 +40366,7 @@ GameObject:
   - component: {fileID: 1360170586}
   - component: {fileID: 1360170585}
   m_Layer: 0
-  m_Name: Button - 6
+  m_Name: Button - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40384,12 +40384,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 1673488363}
-  m_Father: {fileID: 943584692}
+  m_Father: {fileID: 430853592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1016383, y: 0}
+  m_AnchoredPosition: {x: -0.001638174, y: 0}
   m_SizeDelta: {x: 17.2063, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1360170585
@@ -40438,7 +40438,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129025342752}
         m_TargetAssemblyTypeName: CharacterFileScript3, Assembly-CSharp
-        m_MethodName: tileFlip6
+        m_MethodName: tileFlip4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -40815,7 +40815,7 @@ GameObject:
   - component: {fileID: 1370183894}
   - component: {fileID: 1370183893}
   m_Layer: 0
-  m_Name: Button (8)
+  m_Name: Button - 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42035,7 +42035,7 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1848377590}
+  - {fileID: 1355430286}
   - {fileID: 411439932}
   m_Father: {fileID: 470528398}
   m_RootOrder: 6
@@ -44673,7 +44673,7 @@ GameObject:
   - component: {fileID: 1515694966}
   - component: {fileID: 1515694965}
   m_Layer: 0
-  m_Name: Button - 6
+  m_Name: Button - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44691,12 +44691,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 190234073}
-  m_Father: {fileID: 1812913125}
+  m_Father: {fileID: 298787473}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1016383, y: 0}
+  m_AnchoredPosition: {x: -0.001638174, y: 0}
   m_SizeDelta: {x: 17.2063, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1515694965
@@ -44745,7 +44745,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129273502292}
         m_TargetAssemblyTypeName: CharacterFileScript6, Assembly-CSharp
-        m_MethodName: tileFlip6
+        m_MethodName: tileFlip4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -45239,7 +45239,7 @@ GameObject:
   - component: {fileID: 1523327097}
   - component: {fileID: 1523327096}
   m_Layer: 0
-  m_Name: Button - 6
+  m_Name: Button - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45257,12 +45257,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 1129146500}
-  m_Father: {fileID: 633881878}
+  m_Father: {fileID: 251864273}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1016383, y: 0}
+  m_AnchoredPosition: {x: -0.001638174, y: 0}
   m_SizeDelta: {x: 17.2063, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523327096
@@ -45311,7 +45311,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212130064998542}
         m_TargetAssemblyTypeName: CharacterFileScript4, Assembly-CSharp
-        m_MethodName: tileFlip6
+        m_MethodName: tileFlip4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -52600,7 +52600,7 @@ GameObject:
   - component: {fileID: 1785493428}
   - component: {fileID: 1785493427}
   m_Layer: 0
-  m_Name: Button - 4
+  m_Name: Button - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52618,12 +52618,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 314208660}
-  m_Father: {fileID: 251864273}
+  m_Father: {fileID: 633881878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1273441, y: 0}
+  m_AnchoredPosition: {x: 0.02734375, y: 0}
   m_SizeDelta: {x: 17.06621, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785493427
@@ -52672,7 +52672,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212130064998542}
         m_TargetAssemblyTypeName: CharacterFileScript4, Assembly-CSharp
-        m_MethodName: tileFlip4
+        m_MethodName: tileFlip6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -53397,7 +53397,7 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1515694964}
+  - {fileID: 1144651395}
   - {fileID: 947943348}
   m_Father: {fileID: 8863865243107344548}
   m_RootOrder: 6
@@ -54634,7 +54634,7 @@ GameObject:
   - component: {fileID: 1848377592}
   - component: {fileID: 1848377591}
   m_Layer: 0
-  m_Name: Button6
+  m_Name: Button - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54652,12 +54652,12 @@ RectTransform:
   m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
   m_Children:
   - {fileID: 861386411}
-  m_Father: {fileID: 1419741322}
+  m_Father: {fileID: 1023705043}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1016383, y: 0}
+  m_AnchoredPosition: {x: -0.001638174, y: 0}
   m_SizeDelta: {x: 17.2063, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1848377591
@@ -54706,7 +54706,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129556203307}
         m_TargetAssemblyTypeName: CharacterFileScript2, Assembly-CSharp
-        m_MethodName: tileFlip6
+        m_MethodName: tileFlip4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -55986,8 +55986,8 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
+  - {fileID: 227179872}
   - {fileID: 574417994}
-  - {fileID: 899110771}
   m_Father: {fileID: 8863865243238679000}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -62458,7 +62458,7 @@ GameObject:
   - component: {fileID: 2098409537}
   - component: {fileID: 2098409536}
   m_Layer: 0
-  m_Name: Button (6)
+  m_Name: Button - 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63740,7 +63740,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8927212129273502292}
         m_TargetAssemblyTypeName: CharacterFileScript6, Assembly-CSharp
-        m_MethodName: tileFlip8
+        m_MethodName: tileFlip9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -68406,8 +68406,8 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
+  - {fileID: 981326285}
   - {fileID: 1933104316715184245}
-  - {fileID: 312069628}
   m_Father: {fileID: 8863865243285279562}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -68881,7 +68881,7 @@ Transform:
   m_LocalScale: {x: 0.55, y: 0.55, z: 1}
   m_Children: []
   m_Father: {fileID: 1933104315676137590}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1933104316846502152
 GameObject:
@@ -69278,7 +69278,7 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 981326285}
+  - {fileID: 312069628}
   - {fileID: 1933104316113117286}
   m_Father: {fileID: 8863865243285279562}
   m_RootOrder: 6
@@ -74231,15 +74231,15 @@ MonoBehaviour:
   tileCover7: {fileID: 383643044}
   tileCover8: {fileID: 2104596546}
   tileCover9: {fileID: 370316921}
-  tileButton1: {fileID: 0}
-  tileButton2: {fileID: 0}
-  tileButton3: {fileID: 0}
-  tileButton4: {fileID: 0}
-  tileButton5: {fileID: 0}
-  tileButton6: {fileID: 0}
-  tileButton7: {fileID: 0}
-  tileButton8: {fileID: 0}
-  tileButton9: {fileID: 0}
+  tileButton1: {fileID: 1685533136}
+  tileButton2: {fileID: 320286147}
+  tileButton3: {fileID: 1191424389}
+  tileButton4: {fileID: 1360170583}
+  tileButton5: {fileID: 1557111007}
+  tileButton6: {fileID: 1076556206}
+  tileButton7: {fileID: 1993453104}
+  tileButton8: {fileID: 1613001256}
+  tileButton9: {fileID: 162841623}
 --- !u!1 &8927212129201718824
 GameObject:
   m_ObjectHideFlags: 0
@@ -74346,15 +74346,15 @@ MonoBehaviour:
   tileCover7: {fileID: 79730097}
   tileCover8: {fileID: 954282999}
   tileCover9: {fileID: 954773391}
-  tileButton1: {fileID: 0}
-  tileButton2: {fileID: 0}
-  tileButton3: {fileID: 0}
-  tileButton4: {fileID: 0}
-  tileButton5: {fileID: 0}
-  tileButton6: {fileID: 0}
-  tileButton7: {fileID: 0}
-  tileButton8: {fileID: 0}
-  tileButton9: {fileID: 0}
+  tileButton1: {fileID: 1965129265}
+  tileButton2: {fileID: 15795249}
+  tileButton3: {fileID: 682807113}
+  tileButton4: {fileID: 1743597202}
+  tileButton5: {fileID: 573695572}
+  tileButton6: {fileID: 1932455380}
+  tileButton7: {fileID: 1151211557}
+  tileButton8: {fileID: 108706183}
+  tileButton9: {fileID: 1561323208}
 --- !u!4 &8927212129273502288
 Transform:
   m_ObjectHideFlags: 0
@@ -74461,15 +74461,15 @@ MonoBehaviour:
   tileCover7: {fileID: 1783237824}
   tileCover8: {fileID: 314426421}
   tileCover9: {fileID: 350320491}
-  tileButton1: {fileID: 0}
-  tileButton2: {fileID: 0}
-  tileButton3: {fileID: 0}
-  tileButton4: {fileID: 0}
-  tileButton5: {fileID: 0}
-  tileButton6: {fileID: 0}
-  tileButton7: {fileID: 0}
-  tileButton8: {fileID: 0}
-  tileButton9: {fileID: 0}
+  tileButton1: {fileID: 349543357}
+  tileButton2: {fileID: 1521703902}
+  tileButton3: {fileID: 1224839584}
+  tileButton4: {fileID: 1515694963}
+  tileButton5: {fileID: 1471079674}
+  tileButton6: {fileID: 1144651394}
+  tileButton7: {fileID: 1257913612}
+  tileButton8: {fileID: 1106915730}
+  tileButton9: {fileID: 2126174306}
 --- !u!1 &8927212129364003260
 GameObject:
   m_ObjectHideFlags: 0
@@ -74576,15 +74576,15 @@ MonoBehaviour:
   tileCover7: {fileID: 1933104316865411657}
   tileCover8: {fileID: 1933104316177729259}
   tileCover9: {fileID: 1933104316654467101}
-  tileButton1: {fileID: 0}
-  tileButton2: {fileID: 0}
-  tileButton3: {fileID: 0}
-  tileButton4: {fileID: 0}
-  tileButton5: {fileID: 0}
-  tileButton6: {fileID: 0}
-  tileButton7: {fileID: 0}
-  tileButton8: {fileID: 0}
-  tileButton9: {fileID: 0}
+  tileButton1: {fileID: 13995465}
+  tileButton2: {fileID: 68234658}
+  tileButton3: {fileID: 590528513}
+  tileButton4: {fileID: 981326284}
+  tileButton5: {fileID: 590973478}
+  tileButton6: {fileID: 312069627}
+  tileButton7: {fileID: 2098409534}
+  tileButton8: {fileID: 422378299}
+  tileButton9: {fileID: 1370183891}
 --- !u!4 &8927212129402215212
 Transform:
   m_ObjectHideFlags: 0
@@ -74691,15 +74691,15 @@ MonoBehaviour:
   tileCover7: {fileID: 692875740}
   tileCover8: {fileID: 1398511395}
   tileCover9: {fileID: 940635762}
-  tileButton1: {fileID: 0}
-  tileButton2: {fileID: 0}
-  tileButton3: {fileID: 0}
-  tileButton4: {fileID: 0}
-  tileButton5: {fileID: 0}
-  tileButton6: {fileID: 0}
-  tileButton7: {fileID: 0}
-  tileButton8: {fileID: 0}
-  tileButton9: {fileID: 0}
+  tileButton1: {fileID: 1824521438}
+  tileButton2: {fileID: 1763812510}
+  tileButton3: {fileID: 1556049136}
+  tileButton4: {fileID: 899110770}
+  tileButton5: {fileID: 157251184}
+  tileButton6: {fileID: 227179871}
+  tileButton7: {fileID: 1938025079}
+  tileButton8: {fileID: 1344853490}
+  tileButton9: {fileID: 1898906848}
 --- !u!1 &8927212129556203304
 GameObject:
   m_ObjectHideFlags: 0
@@ -74806,15 +74806,15 @@ MonoBehaviour:
   tileCover7: {fileID: 1036639719}
   tileCover8: {fileID: 606439217}
   tileCover9: {fileID: 1843426267}
-  tileButton1: {fileID: 0}
-  tileButton2: {fileID: 0}
-  tileButton3: {fileID: 0}
-  tileButton4: {fileID: 0}
-  tileButton5: {fileID: 0}
-  tileButton6: {fileID: 0}
-  tileButton7: {fileID: 0}
-  tileButton8: {fileID: 0}
-  tileButton9: {fileID: 0}
+  tileButton1: {fileID: 865273539}
+  tileButton2: {fileID: 1124811147}
+  tileButton3: {fileID: 2132501791}
+  tileButton4: {fileID: 1848377589}
+  tileButton5: {fileID: 242508009}
+  tileButton6: {fileID: 1355430285}
+  tileButton7: {fileID: 356916301}
+  tileButton8: {fileID: 1291037657}
+  tileButton9: {fileID: 1182657187}
 --- !u!212 &8927212130064998540
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74905,15 +74905,15 @@ MonoBehaviour:
   tileCover7: {fileID: 939272297}
   tileCover8: {fileID: 1889955999}
   tileCover9: {fileID: 2009147044}
-  tileButton1: {fileID: 0}
-  tileButton2: {fileID: 0}
-  tileButton3: {fileID: 0}
-  tileButton4: {fileID: 0}
-  tileButton5: {fileID: 0}
-  tileButton6: {fileID: 0}
-  tileButton7: {fileID: 0}
-  tileButton8: {fileID: 0}
-  tileButton9: {fileID: 0}
+  tileButton1: {fileID: 724325231}
+  tileButton2: {fileID: 1532326788}
+  tileButton3: {fileID: 165520270}
+  tileButton4: {fileID: 1523327094}
+  tileButton5: {fileID: 458562047}
+  tileButton6: {fileID: 1785493425}
+  tileButton7: {fileID: 707049276}
+  tileButton8: {fileID: 1613015889}
+  tileButton9: {fileID: 856907170}
 --- !u!4 &8927212130064998543
 Transform:
   m_ObjectHideFlags: 0
