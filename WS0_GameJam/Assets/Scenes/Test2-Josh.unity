@@ -3164,7 +3164,6 @@ GameObject:
   - component: {fileID: 546003195}
   - component: {fileID: 546003194}
   - component: {fileID: 546003197}
-  - component: {fileID: 546003198}
   m_Layer: 0
   m_Name: MapCamera
   m_TagString: Untagged
@@ -3246,23 +3245,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 546003193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4eb9c0005f53b743ab388201dbfa3ea, type: 3}
+  m_Script: {fileID: 11500000, guid: e7f6cde94a36dcb4d8ed5a2f186bb438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &546003198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 546003193}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b4561f02c4e0548babe90cce0f0ffa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DefaultWidth: 0
-  DefaultHeight: 100
 --- !u!1 &550839757
 GameObject:
   m_ObjectHideFlags: 0
@@ -5414,7 +5399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 917680348}
   m_Layer: 0
-  m_Name: TileBox
+  m_Name: TileBoxHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11120,8 +11105,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000025809, y: 0.000021935}
-  m_SizeDelta: {x: 99.774, y: 100.39}
+  m_AnchoredPosition: {x: 0.0447, y: 0.9142}
+  m_SizeDelta: {x: 280, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1713923919
 MonoBehaviour:
