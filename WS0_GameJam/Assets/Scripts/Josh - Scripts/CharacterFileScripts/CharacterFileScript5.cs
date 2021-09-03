@@ -73,11 +73,12 @@ public class CharacterFileScript5 : MonoBehaviour
         tileButton4.SetActive(false);
         global.cardFlip.Play();
     }
-    public void tileFlip5()
+    public void tileFlip5() //has book
     {
         global.freeTiles5--;
         tileCover5.SetActive(false);
         tileButton5.SetActive(false);
+        global.bookUncovered.Play();
         global.cardFlip.Play();
     }
     public void tileFlip6()
