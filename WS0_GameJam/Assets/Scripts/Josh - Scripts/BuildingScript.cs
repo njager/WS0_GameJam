@@ -101,7 +101,7 @@ public class BuildingScript : MonoBehaviour
         {
             global.buildingSprite4.SetActive(false);
             global.buildingNewIcon4.SetActive(true);
-            global.buildingNewIcon4.SetActive(false);
+            global.buildingButton4.SetActive(false);
         }
 
         if (global.building4Burned == false)
@@ -122,7 +122,7 @@ public class BuildingScript : MonoBehaviour
         {
             global.buildingSprite5.SetActive(false);
             global.buildingNewIcon5.SetActive(true);
-            global.buildingNewIcon5.SetActive(false);
+            global.buildingButton5.SetActive(false);
         }
 
         if (global.building5Burned == false)
@@ -143,7 +143,7 @@ public class BuildingScript : MonoBehaviour
         {
             global.buildingSprite6.SetActive(false);
             global.buildingNewIcon6.SetActive(true);
-            global.buildingNewIcon6.SetActive(false);
+            global.buildingButton6.SetActive(false);
         }
 
         if (global.building6Burned == false)
@@ -163,7 +163,7 @@ public class BuildingScript : MonoBehaviour
         {
             global.buildingSprite7.SetActive(false);
             global.buildingNewIcon7.SetActive(true);
-            global.buildingNewIcon7.SetActive(false);
+            global.buildingButton7.SetActive(false);
         }
 
         if (global.building7Burned == false)
