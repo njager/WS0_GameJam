@@ -116,7 +116,7 @@ public class FreeTileChecker : MonoBehaviour
         }
         // Tile Box 5
         if (global.freeTiles5 == 3)
-        {
+        { 
             global.tile5FreeTile1.SetActive(true);
             global.tile5FreeTile2.SetActive(true);
             global.tile5FreeTile3.SetActive(true);
@@ -189,40 +189,5 @@ public class FreeTileChecker : MonoBehaviour
             global.tile7FreeTile2.SetActive(false);
             global.tile7FreeTile3.SetActive(false);
         }
-    }
-
-    public void CheckFreeTile1()
-    {
-        global.freeTiles1--;
-    }
-
-    public void CheckFreeTile2()
-    {
-        global.freeTiles2--;
-    }
-
-    public void CheckFreeTile3()
-    {
-        global.freeTiles3--;
-    }
-
-    public void CheckFreeTile4()
-    {
-        global.freeTiles4--;
-    }
-
-    public void CheckFreeTile5()
-    {
-        global.freeTiles5--;
-    }
-
-    public void CheckFreeTile6()
-    {
-        global.freeTiles6--;
-    }
-
-    public void CheckFreeTile7()
-    {
-        global.freeTiles7--;
     }
 }

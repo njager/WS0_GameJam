@@ -239,7 +239,6 @@ public class GlobalController : MonoBehaviour
         freeTiles6 = 3;
         freeTiles7 = 3;
 
-        UICanvas.SetActive(false); // True starting conditons 
         loseCanvas.SetActive(false);
         winCanvas.SetActive(false);
         menuCanvas.SetActive(false);
@@ -362,6 +361,7 @@ public class GlobalController : MonoBehaviour
         freeTileSet1.SetActive(true);
         burnNLeave1.SetActive(true);
         dialogueFrame1.SetActive(true);
+        buttonPress.Play();
     }
 
     public void ActivateTilebox2()
@@ -369,10 +369,11 @@ public class GlobalController : MonoBehaviour
         menuContainer.SetActive(true);
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
-        characterFile1.SetActive(true);
+        characterFile2.SetActive(true);
         freeTileSet2.SetActive(true);
         burnNLeave2.SetActive(true);
         dialogueFrame2.SetActive(true);
+        buttonPress.Play();
     }
 
     public void ActivateTilebox3()
@@ -380,10 +381,11 @@ public class GlobalController : MonoBehaviour
         menuContainer.SetActive(true);
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
-        characterFile1.SetActive(true);
+        characterFile3.SetActive(true);
         freeTileSet3.SetActive(true);
         burnNLeave3.SetActive(true);
         dialogueFrame3.SetActive(true);
+        buttonPress.Play();
     }
 
     public void ActivateTilebox4()
@@ -391,10 +393,11 @@ public class GlobalController : MonoBehaviour
         menuContainer.SetActive(true);
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
-        characterFile1.SetActive(true);
+        characterFile4.SetActive(true);
         freeTileSet4.SetActive(true);
         burnNLeave4.SetActive(true);
         dialogueFrame4.SetActive(true);
+        buttonPress.Play();
     }
 
     public void ActivateTilebox5()
@@ -402,20 +405,22 @@ public class GlobalController : MonoBehaviour
         menuContainer.SetActive(true);
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
-        characterFile1.SetActive(true);
+        characterFile5.SetActive(true);
         freeTileSet5.SetActive(true);
         burnNLeave5.SetActive(true);
         dialogueFrame5.SetActive(true);
+        buttonPress.Play();
     }
     public void ActivateTilebox6()
     {
         menuContainer.SetActive(true);
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
-        characterFile1.SetActive(true);
+        characterFile6.SetActive(true);
         freeTileSet6.SetActive(true);
         burnNLeave6.SetActive(true);
         dialogueFrame6.SetActive(true);
+        buttonPress.Play();
     }
 
     public void ActivateTilebox7()
@@ -423,10 +428,11 @@ public class GlobalController : MonoBehaviour
         menuContainer.SetActive(true);
         mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
-        characterFile1.SetActive(true);
+        characterFile7.SetActive(true);
         freeTileSet7.SetActive(true);
         burnNLeave7.SetActive(true);
         dialogueFrame7.SetActive(true);
+        buttonPress.Play();
     }
 
     //Same for deactivation 
