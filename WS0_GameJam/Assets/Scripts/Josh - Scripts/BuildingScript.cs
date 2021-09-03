@@ -159,35 +159,49 @@ public class BuildingScript : MonoBehaviour
     public void ChangeburnStatus1()
     {
         global.building1Burned = true;
+        global.DeactivateTilebox1();
+        global.bookBurningSound.Play();
     }
 
     public void ChangeburnStatus2()
     {
         global.building2Burned = true;
+        global.DeactivateTilebox2();
+        global.bookBurningSound.Play();
     }
 
     public void ChangeburnStatus3()
     {
         global.building3Burned = true;
+        global.DeactivateTilebox3();
+        global.bookBurningSound.Play();
     }
 
     public void ChangeburnStatus4()
     {
         global.building4Burned = true;
+        global.DeactivateTilebox4();
+        global.bookBurningSound.Play();
     }
 
     public void ChangeburnStatus5()
     {
         global.building5Burned = true;
+        global.DeactivateTilebox5();
+        global.bookBurningSound.Play();
     }
 
     public void ChangeburnStatus6()
     {
         global.building6Burned = true;
+        global.DeactivateTilebox6();
+        global.bookBurningSound.Play();
     }
 
     public void ChangeburnStatus7()
     {
         global.building7Burned = true;
+        global.DeactivateTilebox7();
+        global.bookBurningSound.Play();
     }
 }
