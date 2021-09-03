@@ -97,6 +97,7 @@ public class GlobalController : MonoBehaviour
     public bool building7Burned = false;
 
     [Header("BurnNLeaveUIs")]
+
     public GameObject burnNLeave1;
     public GameObject burnNLeave2;
     public GameObject burnNLeave3;
@@ -105,6 +106,15 @@ public class GlobalController : MonoBehaviour
     public GameObject burnNLeave6;
     public GameObject burnNLeave7;
 
+    [Header("Dialogue Frames")]
+
+    public GameObject dialogueFrame1;
+    public GameObject dialogueFrame2;
+    public GameObject dialogueFrame3;
+    public GameObject dialogueFrame4;
+    public GameObject dialogueFrame5;
+    public GameObject dialogueFrame6;
+    public GameObject dialogueFrame7;
 
     [Header("FreeTiles")]
 
