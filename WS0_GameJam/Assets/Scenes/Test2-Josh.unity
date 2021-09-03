@@ -5230,7 +5230,7 @@ RectTransform:
   m_Children:
   - {fileID: 1976603770}
   m_Father: {fileID: 1933104316846502159}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8515,12 +8515,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1044941469}
   m_Layer: 0
-  m_Name: Menu
+  m_Name: CharacterMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1044941469
 Transform:
   m_ObjectHideFlags: 0
@@ -9338,7 +9338,7 @@ MonoBehaviour:
   bookUncovered: {fileID: 1052119082}
   bookBurningSound: {fileID: 572107603}
   winSound: {fileID: 1125457236}
-  loseSound: {fileID: 0}
+  loseSound: {fileID: 92829819}
   UICanvas: {fileID: 2578905085017112894}
   loseCanvas: {fileID: 2010744942}
   winCanvas: {fileID: 1962105378}
@@ -9349,7 +9349,7 @@ MonoBehaviour:
   intelligenceMeter: {fileID: 2578905083579201804}
   publicOpinionMeter: {fileID: 2578905084721602342}
   mapContainer: {fileID: 1037087136}
-  menuContainer: {fileID: 0}
+  menuContainer: {fileID: 1044941468}
   tileBox1: {fileID: 97668777}
   tileBox2: {fileID: 126982858}
   tileBox3: {fileID: 589720803}
@@ -18504,7 +18504,7 @@ Transform:
   m_LocalScale: {x: 0.55, y: 0.55, z: 1}
   m_Children: []
   m_Father: {fileID: 1933104316846502159}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1933104315536988429
 GameObject:
@@ -18517,7 +18517,7 @@ GameObject:
   - component: {fileID: 1933104315536988428}
   - component: {fileID: 1933104315536988435}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18599,7 +18599,7 @@ GameObject:
   - component: {fileID: 1933104315544223204}
   - component: {fileID: 1933104315544223227}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18799,7 +18799,7 @@ GameObject:
   - component: {fileID: 1933104316113117286}
   - component: {fileID: 1933104316113117305}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18881,7 +18881,7 @@ GameObject:
   - component: {fileID: 1933104316177729258}
   - component: {fileID: 1933104316177729269}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19073,7 +19073,7 @@ GameObject:
   - component: {fileID: 1933104316654467100}
   - component: {fileID: 1933104316654467075}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19141,7 +19141,7 @@ GameObject:
   - component: {fileID: 1933104316715184245}
   - component: {fileID: 1933104316715184234}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19215,8 +19215,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 1933104315536988428}
   - {fileID: 590973479}
+  - {fileID: 1933104315536988428}
   m_Father: {fileID: 8863865243285279562}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19304,7 +19304,7 @@ GameObject:
   - component: {fileID: 1933104316865411656}
   - component: {fileID: 1933104316865411671}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19437,7 +19437,7 @@ GameObject:
   - component: {fileID: 1933104317147291930}
   - component: {fileID: 1933104317147291909}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20540,7 +20540,7 @@ GameObject:
   - component: {fileID: 8863865242678548974}
   - component: {fileID: 8863865242678548977}
   m_Layer: 0
-  m_Name: TileGraphic
+  m_Name: TileGraphic1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20847,13 +20847,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tileCover1: {fileID: 8863865242678548975}
   tileCover2: {fileID: 1933104317147291931}
-  tileCover3: {fileID: 1933104316715184244}
-  tileCover4: {fileID: 1933104316113117287}
-  tileCover5: {fileID: 0}
-  tileCover6: {fileID: 0}
-  tileCover7: {fileID: 0}
-  tileCover8: {fileID: 0}
-  tileCover9: {fileID: 0}
+  tileCover3: {fileID: 1933104315544223205}
+  tileCover4: {fileID: 1933104316715184244}
+  tileCover5: {fileID: 1933104315536988429}
+  tileCover6: {fileID: 1933104316113117287}
+  tileCover7: {fileID: 1933104316865411657}
+  tileCover8: {fileID: 1933104316177729259}
+  tileCover9: {fileID: 1933104316654467101}
 --- !u!1 &8927212130375138876
 GameObject:
   m_ObjectHideFlags: 0
