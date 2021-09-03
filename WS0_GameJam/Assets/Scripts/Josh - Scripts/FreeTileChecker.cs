@@ -21,21 +21,18 @@ public class FreeTileChecker : MonoBehaviour
         }
         if (global.freeTiles1 == 2)
         {
-            global.buttonPress.Play();
             global.tile1FreeTile1.SetActive(false);
             global.tile1FreeTile2.SetActive(true);
             global.tile1FreeTile3.SetActive(true);
         }
         if (global.freeTiles1 == 1)
         {
-            global.buttonPress.Play();
             global.tile1FreeTile1.SetActive(false);
             global.tile1FreeTile2.SetActive(false);
             global.tile1FreeTile3.SetActive(true);
         }
         if (global.freeTiles1 == 0)
         {
-            global.buttonPress.Play();
             global.tile1FreeTile1.SetActive(false);
             global.tile1FreeTile2.SetActive(false);
             global.tile1FreeTile3.SetActive(false);
@@ -50,21 +47,18 @@ public class FreeTileChecker : MonoBehaviour
         }
         if (global.freeTiles2 == 2)
         {
-            global.buttonPress.Play();
             global.tile2FreeTile1.SetActive(false);
             global.tile2FreeTile2.SetActive(true);
             global.tile2FreeTile3.SetActive(true);
         }
         if (global.freeTiles2 == 1)
         {
-            global.buttonPress.Play();
             global.tile2FreeTile1.SetActive(false);
             global.tile2FreeTile2.SetActive(false);
             global.tile2FreeTile3.SetActive(true);
         }
         if (global.freeTiles2 == 0)
         {
-            global.buttonPress.Play();
             global.tile2FreeTile1.SetActive(false);
             global.tile2FreeTile2.SetActive(false);
             global.tile2FreeTile3.SetActive(false);
@@ -79,21 +73,18 @@ public class FreeTileChecker : MonoBehaviour
         }
         if (global.freeTiles3 == 2)
         {
-            global.buttonPress.Play();
             global.tile3FreeTile1.SetActive(false);
             global.tile3FreeTile2.SetActive(true);
             global.tile3FreeTile3.SetActive(true);
         }
         if (global.freeTiles3 == 1)
         {
-            global.buttonPress.Play();
             global.tile3FreeTile1.SetActive(false);
             global.tile3FreeTile2.SetActive(false);
             global.tile3FreeTile3.SetActive(true);
         }
         if (global.freeTiles3 == 0)
         {
-            global.buttonPress.Play();
             global.tile3FreeTile1.SetActive(false);
             global.tile3FreeTile2.SetActive(false);
             global.tile3FreeTile3.SetActive(false);
@@ -107,21 +98,18 @@ public class FreeTileChecker : MonoBehaviour
         }
         if (global.freeTiles4 == 2)
         {
-            global.buttonPress.Play();
             global.tile4FreeTile1.SetActive(false);
             global.tile4FreeTile2.SetActive(true);
             global.tile4FreeTile3.SetActive(true);
         }
         if (global.freeTiles4 == 1)
         {
-            global.buttonPress.Play();
             global.tile4FreeTile1.SetActive(false);
             global.tile4FreeTile2.SetActive(false);
             global.tile4FreeTile3.SetActive(true);
         }
         if (global.freeTiles4 == 0)
         {
-            global.buttonPress.Play();
             global.tile4FreeTile1.SetActive(false);
             global.tile4FreeTile2.SetActive(false);
             global.tile4FreeTile3.SetActive(false);
@@ -135,21 +123,18 @@ public class FreeTileChecker : MonoBehaviour
         }
         if (global.freeTiles5 == 2)
         {
-            global.buttonPress.Play();
             global.tile5FreeTile1.SetActive(false);
             global.tile5FreeTile2.SetActive(true);
             global.tile5FreeTile3.SetActive(true);
         }
         if (global.freeTiles5 == 1)
         {
-            global.buttonPress.Play();
             global.tile5FreeTile1.SetActive(false);
             global.tile5FreeTile2.SetActive(false);
             global.tile5FreeTile3.SetActive(true);
         }
         if (global.freeTiles5 == 0)
         {
-            global.buttonPress.Play();
             global.tile5FreeTile1.SetActive(false);
             global.tile5FreeTile2.SetActive(false);
             global.tile5FreeTile3.SetActive(false);
@@ -163,21 +148,18 @@ public class FreeTileChecker : MonoBehaviour
         }
         if (global.freeTiles6 == 2)
         {
-            global.buttonPress.Play();
             global.tile6FreeTile1.SetActive(false);
             global.tile6FreeTile2.SetActive(true);
             global.tile6FreeTile3.SetActive(true);
         }
         if (global.freeTiles6 == 1)
         {
-            global.buttonPress.Play();
             global.tile6FreeTile1.SetActive(false);
             global.tile6FreeTile2.SetActive(false);
             global.tile6FreeTile3.SetActive(true);
         }
         if (global.freeTiles6 == 0)
         {
-            global.buttonPress.Play();
             global.tile6FreeTile1.SetActive(false);
             global.tile6FreeTile2.SetActive(false);
             global.tile6FreeTile3.SetActive(false);
@@ -191,21 +173,18 @@ public class FreeTileChecker : MonoBehaviour
         }
         if (global.freeTiles7 == 2)
         {
-            global.buttonPress.Play();
             global.tile7FreeTile1.SetActive(false);
             global.tile7FreeTile2.SetActive(true);
             global.tile7FreeTile3.SetActive(true);
         }
         if (global.freeTiles7 == 1)
         {
-            global.buttonPress.Play();
             global.tile7FreeTile1.SetActive(false);
             global.tile7FreeTile2.SetActive(false);
             global.tile7FreeTile3.SetActive(true);
         }
         if (global.freeTiles7 == 0)
         {
-            global.buttonPress.Play();
             global.tile7FreeTile1.SetActive(false);
             global.tile7FreeTile2.SetActive(false);
             global.tile7FreeTile3.SetActive(false);

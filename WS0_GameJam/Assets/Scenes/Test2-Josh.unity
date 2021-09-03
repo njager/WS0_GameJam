@@ -3571,7 +3571,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a160d9074d7d3ff49a1fec47be972ad8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c77ca2e45b9bc2f45ba0f002f428545e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -9770,7 +9770,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 856e3ee5a859ace4da9c3554ef14780c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -16750,7 +16750,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b24b23ddc5ebb134ead59860ed2a0e74, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -17052,12 +17052,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574417993}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.55, y: 0.55, z: 1}
+  m_LocalScale: {x: 0.5500001, y: 0.5500001, z: 1}
   m_Children: []
   m_Father: {fileID: 1892641827}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &574417995
 SpriteRenderer:
@@ -17834,7 +17834,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: e3314842888ee7f43a4412506d2a35ef, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -23676,7 +23676,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de5f4052ac3984045909e6f0c3b7f8bb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -25302,7 +25302,7 @@ RectTransform:
   m_Children:
   - {fileID: 1031544459}
   m_Father: {fileID: 1892641827}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -29852,7 +29852,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cffad2daf54a9364889f3c59af2d1cc6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -34466,7 +34466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1180671975
 Transform:
   m_ObjectHideFlags: 0
@@ -46754,8 +46754,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8927212129201718827}
-        m_TargetAssemblyTypeName: CharacterFileScript6, Assembly-CSharp
-        m_MethodName: tileFlip8
+        m_TargetAssemblyTypeName: CharacterFileScript7, Assembly-CSharp
+        m_MethodName: tileFlip9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -50548,7 +50548,7 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.2857142, y: 0.2857142, z: 0.28571}
   m_Children:
-  - {fileID: 1743597203}
+  - {fileID: 1932455381}
   - {fileID: 1205103424}
   m_Father: {fileID: 8863865243170708702}
   m_RootOrder: 6
@@ -51309,7 +51309,7 @@ GameObject:
   - component: {fileID: 1743597205}
   - component: {fileID: 1743597204}
   m_Layer: 0
-  m_Name: Button - 6
+  m_Name: Button - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51324,15 +51324,15 @@ RectTransform:
   m_GameObject: {fileID: 1743597202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
+  m_LocalScale: {x: 0.054687534, y: 0.054687534, z: 3.5000014}
   m_Children:
   - {fileID: 149040750}
-  m_Father: {fileID: 1716407116}
+  m_Father: {fileID: 1787980377}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.1016383, y: 0}
+  m_AnchoredPosition: {x: -0.0016376972, y: 0}
   m_SizeDelta: {x: 17.2063, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1743597204
@@ -51380,8 +51380,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8927212129201718827}
-        m_TargetAssemblyTypeName: CharacterFileScript6, Assembly-CSharp
-        m_MethodName: tileFlip6
+        m_TargetAssemblyTypeName: CharacterFileScript7, Assembly-CSharp
+        m_MethodName: tileFlip4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -52748,7 +52748,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.2857142, y: 0.2857142, z: 0.28571}
   m_Children:
-  - {fileID: 1932455381}
+  - {fileID: 1743597203}
   - {fileID: 1863988051}
   m_Father: {fileID: 8863865243170708702}
   m_RootOrder: 4
@@ -55986,8 +55986,8 @@ Transform:
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
   m_LocalScale: {x: 0.28571427, y: 0.28571427, z: 0.28571427}
   m_Children:
-  - {fileID: 899110771}
   - {fileID: 574417994}
+  - {fileID: 899110771}
   m_Father: {fileID: 8863865243238679000}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -57046,7 +57046,7 @@ GameObject:
   - component: {fileID: 1932455383}
   - component: {fileID: 1932455382}
   m_Layer: 0
-  m_Name: Button - 4
+  m_Name: Button - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57061,15 +57061,15 @@ RectTransform:
   m_GameObject: {fileID: 1932455380}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.054687526, y: 0.054687526, z: 3.5000017}
+  m_LocalScale: {x: 0.054687534, y: 0.054687534, z: 3.5000014}
   m_Children:
   - {fileID: 741693642}
-  m_Father: {fileID: 1787980377}
+  m_Father: {fileID: 1716407116}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.1273441, y: 0}
+  m_AnchoredPosition: {x: 0.027343273, y: 0}
   m_SizeDelta: {x: 17.06621, y: 17.19936}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932455382
@@ -57117,8 +57117,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8927212129201718827}
-        m_TargetAssemblyTypeName: CharacterFileScript6, Assembly-CSharp
-        m_MethodName: tileFlip4
+        m_TargetAssemblyTypeName: CharacterFileScript7, Assembly-CSharp
+        m_MethodName: tileFlip6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -74231,6 +74231,15 @@ MonoBehaviour:
   tileCover7: {fileID: 383643044}
   tileCover8: {fileID: 2104596546}
   tileCover9: {fileID: 370316921}
+  tileButton1: {fileID: 0}
+  tileButton2: {fileID: 0}
+  tileButton3: {fileID: 0}
+  tileButton4: {fileID: 0}
+  tileButton5: {fileID: 0}
+  tileButton6: {fileID: 0}
+  tileButton7: {fileID: 0}
+  tileButton8: {fileID: 0}
+  tileButton9: {fileID: 0}
 --- !u!1 &8927212129201718824
 GameObject:
   m_ObjectHideFlags: 0
@@ -74337,6 +74346,15 @@ MonoBehaviour:
   tileCover7: {fileID: 79730097}
   tileCover8: {fileID: 954282999}
   tileCover9: {fileID: 954773391}
+  tileButton1: {fileID: 0}
+  tileButton2: {fileID: 0}
+  tileButton3: {fileID: 0}
+  tileButton4: {fileID: 0}
+  tileButton5: {fileID: 0}
+  tileButton6: {fileID: 0}
+  tileButton7: {fileID: 0}
+  tileButton8: {fileID: 0}
+  tileButton9: {fileID: 0}
 --- !u!4 &8927212129273502288
 Transform:
   m_ObjectHideFlags: 0
@@ -74443,6 +74461,15 @@ MonoBehaviour:
   tileCover7: {fileID: 1783237824}
   tileCover8: {fileID: 314426421}
   tileCover9: {fileID: 350320491}
+  tileButton1: {fileID: 0}
+  tileButton2: {fileID: 0}
+  tileButton3: {fileID: 0}
+  tileButton4: {fileID: 0}
+  tileButton5: {fileID: 0}
+  tileButton6: {fileID: 0}
+  tileButton7: {fileID: 0}
+  tileButton8: {fileID: 0}
+  tileButton9: {fileID: 0}
 --- !u!1 &8927212129364003260
 GameObject:
   m_ObjectHideFlags: 0
@@ -74549,6 +74576,15 @@ MonoBehaviour:
   tileCover7: {fileID: 1933104316865411657}
   tileCover8: {fileID: 1933104316177729259}
   tileCover9: {fileID: 1933104316654467101}
+  tileButton1: {fileID: 0}
+  tileButton2: {fileID: 0}
+  tileButton3: {fileID: 0}
+  tileButton4: {fileID: 0}
+  tileButton5: {fileID: 0}
+  tileButton6: {fileID: 0}
+  tileButton7: {fileID: 0}
+  tileButton8: {fileID: 0}
+  tileButton9: {fileID: 0}
 --- !u!4 &8927212129402215212
 Transform:
   m_ObjectHideFlags: 0
@@ -74651,10 +74687,19 @@ MonoBehaviour:
   tileCover3: {fileID: 1008469301}
   tileCover4: {fileID: 2115864847}
   tileCover5: {fileID: 1785284330}
-  tileCover6: {fileID: 574417993}
+  tileCover6: {fileID: 2034077179}
   tileCover7: {fileID: 692875740}
   tileCover8: {fileID: 1398511395}
   tileCover9: {fileID: 940635762}
+  tileButton1: {fileID: 0}
+  tileButton2: {fileID: 0}
+  tileButton3: {fileID: 0}
+  tileButton4: {fileID: 0}
+  tileButton5: {fileID: 0}
+  tileButton6: {fileID: 0}
+  tileButton7: {fileID: 0}
+  tileButton8: {fileID: 0}
+  tileButton9: {fileID: 0}
 --- !u!1 &8927212129556203304
 GameObject:
   m_ObjectHideFlags: 0
@@ -74761,6 +74806,15 @@ MonoBehaviour:
   tileCover7: {fileID: 1036639719}
   tileCover8: {fileID: 606439217}
   tileCover9: {fileID: 1843426267}
+  tileButton1: {fileID: 0}
+  tileButton2: {fileID: 0}
+  tileButton3: {fileID: 0}
+  tileButton4: {fileID: 0}
+  tileButton5: {fileID: 0}
+  tileButton6: {fileID: 0}
+  tileButton7: {fileID: 0}
+  tileButton8: {fileID: 0}
+  tileButton9: {fileID: 0}
 --- !u!212 &8927212130064998540
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74851,6 +74905,15 @@ MonoBehaviour:
   tileCover7: {fileID: 939272297}
   tileCover8: {fileID: 1889955999}
   tileCover9: {fileID: 2009147044}
+  tileButton1: {fileID: 0}
+  tileButton2: {fileID: 0}
+  tileButton3: {fileID: 0}
+  tileButton4: {fileID: 0}
+  tileButton5: {fileID: 0}
+  tileButton6: {fileID: 0}
+  tileButton7: {fileID: 0}
+  tileButton8: {fileID: 0}
+  tileButton9: {fileID: 0}
 --- !u!4 &8927212130064998543
 Transform:
   m_ObjectHideFlags: 0
