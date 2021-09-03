@@ -100,12 +100,49 @@ public class GlobalController : MonoBehaviour
     public GameObject dialogueFrame6;
     public GameObject dialogueFrame7;
 
-    [Header("FreeTiles")]
+    [Header("Tile Box 1 FreeTiles")]
 
     public GameObject freeTileUI;
-    public GameObject freeTile1;
-    public GameObject freeTile2;
-    public GameObject freeTile3;
+    public GameObject tile1FreeTile1;
+    public GameObject tile1FreeTile2;
+    public GameObject tile1FreeTile3;
+
+    [Header("Tile Box 2 FreeTiles")]
+
+    public GameObject tile2FreeTile1;
+    public GameObject tile2FreeTile2;
+    public GameObject tile2FreeTile3;
+
+    [Header("Tile Box 3 FreeTiles")]
+
+    public GameObject tile3FreeTile1;
+    public GameObject tile3FreeTile2;
+    public GameObject tile3FreeTile3;
+
+    [Header("Tile Box 4 FreeTiles")]
+
+    public GameObject tile4FreeTile1;
+    public GameObject tile4FreeTile2;
+    public GameObject tile4FreeTile3;
+
+    [Header("Tile Box 5 FreeTiles")]
+
+    public GameObject tile5FreeTile1;
+    public GameObject tile5FreeTile2;
+    public GameObject tile5FreeTile3;
+
+    [Header("Tile Box 6 FreeTiles")]
+
+    public GameObject tile6FreeTile1;
+    public GameObject tile6FreeTile2;
+    public GameObject tile6FreeTile3;
+
+    [Header("Tile Box 7 FreeTiles")]
+
+    public GameObject tile7FreeTile1;
+    public GameObject tile7FreeTile2;
+    public GameObject tile7FreeTile3;
+
 
     [Header("Building Freetiles")]
 
@@ -289,7 +326,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox1()
     {
         menuContainer.SetActive(true);
-        mapButtons.SetActive(true);
+        mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
@@ -300,7 +337,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox2()
     {
         menuContainer.SetActive(true);
-        mapButtons.SetActive(true);
+        mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
@@ -311,7 +348,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox3()
     {
         menuContainer.SetActive(true);
-        mapButtons.SetActive(true);
+        mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
@@ -322,7 +359,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox4()
     {
         menuContainer.SetActive(true);
-        mapButtons.SetActive(true);
+        mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
@@ -333,7 +370,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox5()
     {
         menuContainer.SetActive(true);
-        mapButtons.SetActive(true);
+        mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
@@ -343,7 +380,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox6()
     {
         menuContainer.SetActive(true);
-        mapButtons.SetActive(true);
+        mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
@@ -354,7 +391,7 @@ public class GlobalController : MonoBehaviour
     public void ActivateTilebox7()
     {
         menuContainer.SetActive(true);
-        mapButtons.SetActive(true);
+        mapButtons.SetActive(false);
         transparentCanvas.SetActive(true);
         characterFile1.SetActive(true);
         freeTileUI.SetActive(true);
@@ -366,6 +403,7 @@ public class GlobalController : MonoBehaviour
     public void DeactivateTilebox1()
     {
         menuContainer.SetActive(false);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile1.SetActive(false);
         freeTileUI.SetActive(false);
@@ -376,6 +414,7 @@ public class GlobalController : MonoBehaviour
     public void DeactivateTilebox2()
     {
         menuContainer.SetActive(false);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile2.SetActive(false);
         freeTileUI.SetActive(false);
@@ -386,6 +425,7 @@ public class GlobalController : MonoBehaviour
     public void DeactivateTilebox3()
     {
         menuContainer.SetActive(false);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile3.SetActive(false);
         freeTileUI.SetActive(false);
@@ -396,6 +436,7 @@ public class GlobalController : MonoBehaviour
     public void DeactivateTilebox4()
     {
         menuContainer.SetActive(false);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile4.SetActive(false);
         freeTileUI.SetActive(false);
@@ -406,6 +447,7 @@ public class GlobalController : MonoBehaviour
     public void DeactivateTilebox5()
     {
         menuContainer.SetActive(false);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile5.SetActive(false);
         freeTileUI.SetActive(false);
@@ -416,6 +458,7 @@ public class GlobalController : MonoBehaviour
     public void DeactivateTilebox6()
     {
         menuContainer.SetActive(false);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile6.SetActive(false);
         freeTileUI.SetActive(false);
@@ -426,6 +469,7 @@ public class GlobalController : MonoBehaviour
     public void DeactivateTilebox7()
     {
         menuContainer.SetActive(false);
+        mapButtons.SetActive(true);
         transparentCanvas.SetActive(false);
         characterFile7.SetActive(false);
         freeTileUI.SetActive(false);
