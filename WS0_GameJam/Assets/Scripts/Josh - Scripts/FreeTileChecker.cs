@@ -251,19 +251,4 @@ public class FreeTileChecker : MonoBehaviour
     {
         global.freeTiles7--;
     }
-
-    public void CheckFreeTile8()
-    {
-        global.freeTiles8--;
-    }
-
-    public void CheckFreeTile9()
-    {
-        global.freeTiles9--;
-    }
-
-    public void CheckFreeTile10()
-    {
-        global.freeTiles10--;
-    }
 }

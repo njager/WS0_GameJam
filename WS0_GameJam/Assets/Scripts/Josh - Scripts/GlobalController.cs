@@ -70,9 +70,9 @@ public class GlobalController : MonoBehaviour
     public GameObject tileBox5;
     public GameObject tileBox6;
     public GameObject tileBox7;
-    public GameObject tileBox8;
-    public GameObject tileBox9;
-    public GameObject tileBox10; 
+    //public GameObject tileBox8;
+    //public GameObject tileBox9;
+    //public GameObject tileBox10; 
 
     public GameObject currentTileBox; 
 
@@ -134,9 +134,9 @@ public class GlobalController : MonoBehaviour
     public GameObject characterFile5;
     public GameObject characterFile6;
     public GameObject characterFile7;
-    public GameObject characterFile8;
-    public GameObject characterFile9;
-    public GameObject characterFile10;
+    //  public GameObject characterFile8;
+    //  public GameObject characterFile9;
+    //  public GameObject characterFile10;
 
     [Header("Script References")]
 
@@ -165,9 +165,9 @@ public class GlobalController : MonoBehaviour
         DeactivateTilebox5();
         DeactivateTilebox6();
         DeactivateTilebox7();
-        DeactivateTilebox8();
-        DeactivateTilebox9();
-        DeactivateTilebox10();
+       // DeactivateTilebox8();
+       // DeactivateTilebox9();
+       // DeactivateTilebox10();
 
         gameEndedWin = false; // In case of restart or other shenaningans, stating base values.
         gameEndedLoss = false;
